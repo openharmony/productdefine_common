@@ -33,7 +33,7 @@
     "communication:bluetooth_native_js":{},
     "distributedschedule:samgr_L2":{},
     "distributedschedule:safwk":{},
-    "distributedschedule:dmsfwk_L2":{},
+    "distributedschedule:dmsfwk_standard":{},
     "hdf:hdf":{},
     "updater:updater":{},
     "developtools:bytrace_standard":{},
