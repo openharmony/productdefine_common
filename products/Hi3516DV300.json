@@ -16,6 +16,8 @@
     "startup:startup_l2":{},
     "startup:init":{},
     "hiviewdfx:hiviewdfx_hilog_native":{},
+    "hiviewdfx:hilog_native":{},
+    "hiviewdfx:hilog_service":{},
     "hiviewdfx:hisysevent_native":{},
     "hiviewdfx:hiappevent_js":{},
     "hiviewdfx:hiview_L2":{},
