@@ -26,6 +26,7 @@
     "appexecfwk:appexecfwk_standard":{},
     "aafwk:aafwk_standard":{},
     "notification:ces_standard":{},
+    "notification:ans_standard":{},
     "communication:ipc":{},
     "communication:net_manager":{},
     "communication:dsoftbus_standard":{},
