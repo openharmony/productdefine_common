@@ -1,4 +1,7 @@
 {
+    "device_name": "hi3516dv300",
+    "device_company": "hisilicon",
     "target_os": "ohos",
-    "target_cpu": "arm"
+    "target_cpu": "arm",
+    "kernel_version": ""
 }
