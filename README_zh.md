@@ -36,6 +36,7 @@ productdefine/common
 {
   "version": "2.0",                  # 配置文件格式版本
   "product_name": "Hi3516DV300",     # 产品名
+  "product_company": "hisilicon",    # 产品厂商名
   "product_device": "hi3516dv300",   # 产品对应的device名，会读取device下的同名配置
   "type": "standard",                # 系统类型，读取base下对应的系统配置
   "inherit": [],                     # 继承的部件列表配置, 可以继承通用的部件列表
@@ -54,8 +55,11 @@ productdefine/common
 
 ```
 {           
-  "target_os": "ohos",     
-  "target_cpu": "arm"
+  "device_name": "hi3516dv300",   # device名
+  "device_company": "hisilicon",  # device厂商名
+  "target_os": "ohos",            # 在设备上部署的操作系统名
+  "target_cpu": "arm",            # 设备的cpu类型
+  "kernel_version": ""
 }
 ```
 
