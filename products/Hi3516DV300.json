@@ -22,7 +22,7 @@
     "hiviewdfx:hilog_service":{},
     "hiviewdfx:hisysevent_native":{},
     "hiviewdfx:hiappevent_js":{},
-    "hiviewdfx:hiview_L2":{},
+    "hiviewdfx:hiview":{},
     "hiviewdfx:faultloggerd":{},
     "utils:utils_base":{},
     "subsystem_examples:subsystem_examples":{},
