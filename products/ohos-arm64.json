@@ -1,0 +1,11 @@
+{
+  "product_name": "ohos-arm64",
+  "product_company": "openharmony",
+  "product_device": "arm64",
+  "version": "2.0",
+  "type": "standard",
+  "inherit": [
+    "_ohos_common_parts.json"
+  ],
+  "parts":{}
+}
