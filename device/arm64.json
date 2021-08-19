@@ -3,5 +3,6 @@
     "device_company": "openharmony",
     "target_os": "ohos",
     "target_cpu": "arm64",
-    "kernel_version": ""
+    "kernel_version": "",
+    "device_build_path": ""
 }
