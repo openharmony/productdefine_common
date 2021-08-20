@@ -30,7 +30,7 @@ productdefine/common
 
 ## 配置示例<a name="section178021418115315"></a>
 
-**产品配置示例：**Hi3516DV300.json
+**产品配置示例：** Hi3516DV300.json
 
 ```
 {
@@ -40,6 +40,7 @@ productdefine/common
   "product_device": "hi3516dv300",   # 产品对应的device名，会读取device下的同名配置
   "type": "standard",                # 系统类型，读取base下对应的系统配置
   "inherit": [],                     # 继承的部件列表配置, 可以继承通用的部件列表
+  "product_build_path": "",          # product对应的子系统路径
   "parts":{                          # 产品的部件列表
     "common:common":{},
     ......
@@ -49,7 +50,9 @@ productdefine/common
 
 每个产品都要配置对应的系统类型，当前仅支持配置："standard",，产品会继承对应的系统类型的基础部件列表，从productdefine/common/base/ 目录下读取。
 
-**device配置示例：**hi3516dv300.json
+product_build_path是product对应子系统路径，编译时会扫描对应目录下的部件配置。
+
+**device配置示例：** hi3516dv300.json
 
 需要提供一个产品配置中product\_device同名的配置文件，配置device信息和board信息。
 
@@ -59,9 +62,12 @@ productdefine/common
   "device_company": "hisilicon",  # device厂商名
   "target_os": "ohos",            # 在设备上部署的操作系统名
   "target_cpu": "arm",            # 设备的cpu类型
-  "kernel_version": ""
+  "kernel_version": "",
+  "device_build_path": ""         # device对应的子系统路径
 }
 ```
+
+device_build_path是device对应子系统路径，编译时会扫描对应目录下的部件配置。
 
 **产品部件类表的生成：**
 
