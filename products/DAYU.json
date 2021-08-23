@@ -25,6 +25,8 @@
     "hiviewdfx:hiappevent_js":{},
     "hiviewdfx:hiview":{},
     "hiviewdfx:faultloggerd":{},
+    "hiviewdfx:hitrace":{},
+    "hiviewdfx:hicollie":{},
     "utils:utils_base":{},
     "subsystem_examples:subsystem_examples":{},
     "hihope_products:hihope_products":{},
