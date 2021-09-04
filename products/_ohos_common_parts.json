@@ -76,6 +76,9 @@
     "ccruntime:jsapi_sys":{},
     "ccruntime:jsapi_api":{},
     "ccruntime:jsapi_util":{},
-    "ccruntime:jsapi_worker":{}
+    "ccruntime:jsapi_worker":{},
+    "ark:ark":{},
+    "ark:ark_js_runtime":{},
+    "ark:ark_ts2abc":{}
   }
 }
