@@ -35,6 +35,7 @@
     "notification:ces_standard":{},
     "notification:ans_standard":{},
     "communication:ipc":{},
+    "communication:ipc_js":{},
     "communication:net_manager":{},
     "communication:dsoftbus_standard":{},
     "communication:wifi_standard":{},
