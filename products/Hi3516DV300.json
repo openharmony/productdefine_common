@@ -13,6 +13,7 @@
     "distributeddatamgr:distributeddatamgr":{},
     "distributeddatamgr:appdatamgr_jskits":{},
     "distributeddatamgr:distributedfilejs":{},
+    "distributeddatamgr:storage_standard":{},
     "distributeddatamgr:e2fsprogs":{},
     "common:common":{},
     "security:permission_standard":{},
