@@ -50,6 +50,7 @@
     "security:dataclassification":{},
     "sensors:sensors_sensor":{},
     "miscservices:time_native":{},
+    "miscservices:inputmethod_native":{},
     "multimedia:multimedia_histreamer":{},
     "multimedia:multimedia_media_standard":{},
     "multimedia:multimedia_audio_standard":{},
