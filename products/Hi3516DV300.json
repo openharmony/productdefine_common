@@ -56,6 +56,7 @@
     "security:huks_standard":{},
     "security:deviceauth_standard":{},
     "security:dataclassification":{},
+    "security:selinux":{},
     "sensors:sensor":{},
     "sensors:start":{},
     "miscservices:time_native":{},
