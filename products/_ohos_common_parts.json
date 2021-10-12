@@ -22,7 +22,7 @@
     "hiviewdfx:hitrace_native":{},
     "hiviewdfx:hicollie_native":{},
     "utils:utils_base":{},
-    "subsystem_examples:subsystem_examples":{},
+    "developertest:developertest":{},
     "appexecfwk:appexecfwk_standard":{},
     "aafwk:aafwk_standard":{},
     "notification:ces_standard":{},
