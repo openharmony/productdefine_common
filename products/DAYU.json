@@ -28,7 +28,7 @@
     "hiviewdfx:hitrace_native":{},
     "hiviewdfx:hicollie_native":{},
     "utils:utils_base":{},
-    "subsystem_examples:subsystem_examples":{},
+    "developertest:developertest":{},
     "hihope_products:hihope_products":{},
     "appexecfwk:appexecfwk_standard":{},
     "aafwk:aafwk_standard":{},
