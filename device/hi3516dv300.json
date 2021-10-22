@@ -4,5 +4,6 @@
     "target_os": "ohos",
     "target_cpu": "arm",
     "kernel_version": "",
-    "device_build_path": "device/hisilicon/build"
+    "device_build_path": "device/hisilicon/build",
+    "enable_ramdisk": true
 }
