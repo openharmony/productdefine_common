@@ -40,7 +40,6 @@
     "communication:wifi_standard":{},
     "communication:wifi_native_js":{},
     "communication:bluetooth_native_js":{},
-    "distributedschedule:samgr_L2":{},
     "distributedschedule:samgr_standard":{},
     "distributedschedule:safwk":{},
     "distributedschedule:dmsfwk_standard":{},
