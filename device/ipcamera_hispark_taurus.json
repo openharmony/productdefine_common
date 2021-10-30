@@ -1,0 +1,8 @@
+{
+  "device_name": "ipcamera_hispark_taurus",
+  "device_company": "hisilicon",
+  "target_os": "ohos",
+  "target_cpu": "arm",
+  "kernel_version": "",
+  "device_build_path": ""
+}
