@@ -91,6 +91,7 @@
     "ccruntime:jsapi_worker":{},
     "ark:ark":{},
     "ark:ark_js_runtime":{},
-    "ark:ark_ts2abc":{}
+    "ark:ark_ts2abc":{},
+    "musl:libc-test":{}
   }
 }
