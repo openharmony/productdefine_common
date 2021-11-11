@@ -2,6 +2,7 @@
   "parts":{
     "ace:ace_engine_standard":{},
     "ace:napi":{},
+    "account:app_account_standard":{},
     "account:os_account_standard":{},
     "distributeddatamgr:native_appdatamgr":{},
     "distributeddatamgr:distributeddatamgr":{},
