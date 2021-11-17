@@ -16,7 +16,7 @@
     "distributeddatamgr:distributedfilejs":{},
     "distributeddatamgr:storage_standard":{},
     "distributeddatamgr:e2fsprogs":{},
-    "common:common":{},
+    "common:common":{"features": {"common_feature_verify": true}},
     "security:permission_standard":{},
     "startup:startup_l2":{},
     "startup:init":{},
