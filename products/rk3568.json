@@ -1,10 +1,10 @@
 {
   "product_name": "rk3568",
-  "product_company": "rockchip",
+  "product_company": "hihope",
   "product_device": "rk3568",
   "version": "2.0",
   "type": "standard",
-  "product_build_path": "device/rockchip/build",
+  "product_build_path": "device/hihope/build",
   "parts":{
     "ace:ace_engine_standard":{},
     "ace:napi":{},

@@ -1,8 +1,8 @@
 {
     "device_name": "rk3568",
-    "device_company": "rockchip",
+    "device_company": "hihope",
     "target_os": "ohos",
     "target_cpu": "arm",
     "kernel_version": "",
-    "device_build_path": "device/rockchip/build"
+    "device_build_path": "device/hihope/build"
 }
