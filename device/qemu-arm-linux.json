@@ -1,0 +1,9 @@
+{
+    "device_name": "qemu-arm-linux",
+    "device_company": "qemu",
+    "target_os": "ohos",
+    "target_cpu": "arm",
+    "kernel_version": "",
+    "device_build_path": "device/qemu/arm-linux",
+    "enable_ramdisk": true
+}

@@ -1,0 +1,29 @@
+{
+  "product_name": "qemu-arm-linux-min",
+  "product_company": "qemu",
+  "product_device": "qemu-arm-linux",
+  "version": "2.0",
+  "type": "standard",
+  "product_build_path": "device/qemu/arm-linux",
+  "parts":{
+    "common:common":{"features": {"common_feature_verify": true}},
+    "startup:startup_l2":{},
+    "startup:init":{},
+    "hiviewdfx:hiviewdfx_hilog_native":{},
+    "hiviewdfx:hilog_native":{},
+    "hiviewdfx:hilog_service":{},
+    "hiviewdfx:hisysevent_native":{},
+    "hiviewdfx:hiview":{},
+    "hiviewdfx:faultloggerd":{},
+    "hiviewdfx:hitrace_native":{},
+    "hiviewdfx:hicollie_native":{},
+    "utils:utils_base":{},
+    "communication:ipc":{},
+    "communication:net_manager":{},
+    "communication:dsoftbus_standard":{},
+    "distributedschedule:samgr_standard":{},
+    "distributedschedule:safwk":{},
+    "updater:updater":{},
+    "qemu_arm_linux_chipset:qemu_arm_linux_chipset":{}
+  }
+}
