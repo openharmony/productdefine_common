@@ -31,6 +31,7 @@
     "communication:ipc":{},
     "communication:ipc_js":{},
     "communication:net_manager":{},
+    "communication:netmanager_standard":{},
     "communication:netstack":{},
     "communication:dsoftbus_standard":{},
     "communication:wifi_standard":{},
