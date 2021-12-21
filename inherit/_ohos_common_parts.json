@@ -17,6 +17,7 @@
     "hiviewdfx:hilog_native":{},
     "hiviewdfx:hilog_service":{},
     "hiviewdfx:hisysevent_native":{},
+    "hiviewdfx:hiappevent_native":{},
     "hiviewdfx:hiappevent_js":{},
     "hiviewdfx:hiview":{},
     "hiviewdfx:faultloggerd":{},
