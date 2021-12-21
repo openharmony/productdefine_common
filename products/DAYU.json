@@ -86,6 +86,7 @@
     "ccruntime:jsapi_sys":{},
     "ccruntime:jsapi_api":{},
     "ccruntime:jsapi_util":{},
-    "ccruntime:jsapi_worker":{}
+    "ccruntime:jsapi_worker":{},
+    "deviceprofile:device_profile_core":{}
   }
 }
