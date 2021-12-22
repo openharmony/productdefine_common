@@ -82,6 +82,7 @@
     "telephony:call_manager":{},
     "global:i18n_standard":{},
     "global:resmgr_standard":{},
+    "global:cust_lite":{},
     "powermgr:power_manager_native":{},
     "powermgr:battery_manager_native":{},
     "powermgr:display_manager_native":{},
