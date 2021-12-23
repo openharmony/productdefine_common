@@ -6,5 +6,7 @@
   "type": "standard",
   "product_build_path": "",
   "inherit": ["productdefine/common/inherit/_ohos_common_parts.json"],
-  "parts": {}
+  "parts": {
+    "global:cust_lite":{}
+  }
 }
