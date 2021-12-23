@@ -11,6 +11,8 @@
     "startup:init":{"features": {"param_feature_watcher": false}},
     "hiviewdfx:hiviewdfx_hilog_native":{},
     "hiviewdfx:hilog_native":{},
+    "hiviewdfx:hilog_service":{},
+    "hiviewdfx:faultloggerd":{},
     "hiviewdfx:hitrace_native":{},
     "utils:utils_base":{},
     "qemu_arm_linux_chipset:qemu_arm_linux_chipset":{}
