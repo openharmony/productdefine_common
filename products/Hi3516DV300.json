@@ -19,6 +19,7 @@
     "common:common":{"features": {"common_feature_verify": true}},
     "security:permission_standard":{},
     "startup:startup_l2":{},
+    "startup:appspawn":{},
     "startup:init":{},
     "hiviewdfx:hiviewdfx_hilog_native":{},
     "hiviewdfx:hilog_native":{},
