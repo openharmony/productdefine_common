@@ -54,6 +54,7 @@
     "developtools:bytrace_standard":{},
     "developtools:hdc_standard":{},
     "developtools:profiler":{},
+    "developtools:hiperf":{},
     "sensors:miscdevice":{},
     "graphic:graphic_standard":{},
     "security:appverify":{},
