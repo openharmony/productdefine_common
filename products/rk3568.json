@@ -55,7 +55,7 @@
     "sensors:miscdevice":{},
     "graphic:graphic_standard":{},
     "security:appverify":{},
-    "security:huks_standard":{},
+    "security:huks":{},
     "security:deviceauth_standard":{},
     "security:dataclassification":{},
     "sensors:sensor":{},
