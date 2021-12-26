@@ -32,6 +32,7 @@
     "utils:utils_base":{},
     "developertest:developertest":{},
     "hihope_products:hihope_products":{},
+    "appexecfwk:eventhandler":{},
     "appexecfwk:appexecfwk_standard":{},
     "aafwk:aafwk_standard":{},
     "notification:ces_standard":{},

@@ -33,6 +33,7 @@
     "utils:utils_base":{},
     "developertest:developertest":{},
     "hisilicon_products:hisilicon_products":{},
+    "appexecfwk:eventhandler":{},
     "appexecfwk:appexecfwk_standard":{},
     "aafwk:aafwk_standard":{},
     "notification:ces_standard":{},
