@@ -4,17 +4,29 @@
   "product_device": "qemu-arm-linux",
   "version": "2.0",
   "type": "standard",
+  "support_jsapi": false,
   "product_build_path": "device/qemu/arm_virt/linux",
   "parts":{
     "common:common":{"features": {"common_feature_verify": true}},
-    "startup:startup_l2":{"features": {"paramapi_feature_watcher": false, "appspawn_feature_enabled": false, "startup_jsapi_enabled": false}},
-    "startup:init":{"features": {"param_feature_watcher": false}},
+    "startup:startup_l2":{},
+    "startup:init":{},
     "hiviewdfx:hiviewdfx_hilog_native":{},
     "hiviewdfx:hilog_native":{},
     "hiviewdfx:hilog_service":{},
-    "hiviewdfx:faultloggerd":{},
     "hiviewdfx:hitrace_native":{},
+    "hiviewdfx:faultloggerd":{},
     "utils:utils_base":{},
-    "qemu_arm_linux_chipset:qemu_arm_linux_chipset":{}
+    "security:huks":{},
+    "security:deviceauth_standard":{},
+    "communication:ipc":{},
+    "communication:dsoftbus_standard":{},
+    "appexecfwk:eventhandler":{},
+    "distributedschedule:samgr_standard":{},
+    "distributedschedule:safwk":{},
+    "developtools:bytrace_standard":{},
+    "developtools:hdc_standard":{},
+    "procrank:procrank":{},
+    "strace:strace":{},
+    "device_arm_virt:qemu_arm_linux_chipset":{}
   }
 }
