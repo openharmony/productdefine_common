@@ -100,6 +100,7 @@
     "ark:ark":{},
     "ark:ark_js_runtime":{},
     "ark:ark_ts2abc":{},
-    "deviceprofile:device_profile_core":{}
+    "deviceprofile:device_profile_core":{},
+    "storage_manager:storage_standard":{}
   }
 }
