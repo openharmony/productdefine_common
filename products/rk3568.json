@@ -61,6 +61,7 @@
     "security:deviceauth_standard":{},
     "security:dataclassification":{},
     "sensors:sensor":{},
+    "sensors:start":{},
     "miscservices:time_native":{},
     "miscservices:inputmethod_native":{},
     "multimedia:multimedia_histreamer":{},
