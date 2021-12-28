@@ -26,6 +26,7 @@
     "hiviewdfx:hicollie_native":{},
     "utils:utils_base":{},
     "developertest:developertest":{},
+    "appexecfwk:eventhandler":{},
     "appexecfwk:appexecfwk_standard":{},
     "aafwk:aafwk_standard":{},
     "notification:ces_standard":{},
