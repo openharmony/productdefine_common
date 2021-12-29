@@ -4,6 +4,6 @@
     "target_os": "ohos",
     "target_cpu": "arm",
     "kernel_version": "",
-    "device_build_path": "device/board/hisilicon/hispark_taurus",
+    "device_build_path": "device/board/hisilicon/hispark_taurus/linux",
     "enable_ramdisk": true
 }

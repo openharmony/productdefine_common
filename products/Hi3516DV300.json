@@ -4,7 +4,7 @@
   "product_device": "hi3516dv300",
   "version": "2.0",
   "type": "standard",
-  "product_build_path": "device/board/hisilicon/hispark_taurus",
+  "product_build_path": "device/board/hisilicon/hispark_taurus/linux",
   "parts":{
     "ace:ace_engine_standard":{},
     "ace:napi":{},
