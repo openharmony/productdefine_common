@@ -38,6 +38,7 @@
     "aafwk:aafwk_standard":{},
     "notification:ces_standard":{},
     "notification:ans_standard":{},
+    "communication:bluetooth_standard":{},
     "communication:ipc":{},
     "communication:ipc_js":{},
     "communication:net_manager":{},
