@@ -92,6 +92,7 @@
     "powermgr:display_manager_native":{},
     "usb:usb_manager_native":{},
     "applications:prebuilt_hap":{},
+    "settingsnapi:settings_standard":{},
     "wpa_supplicant-2.9:wpa_supplicant-2.9":{},
     "xts:phone_tests":{},
     "distributedhardware:device_manager_base":{},
