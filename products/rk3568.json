@@ -59,6 +59,7 @@
     "graphic:graphic_standard":{},
     "window:window_manager":{},
     "security:appverify":{},
+    "security:selinux":{},
     "security:huks":{},
     "security:deviceauth_standard":{},
     "security:dataclassification":{},
