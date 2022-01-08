@@ -4,5 +4,6 @@
     "target_os": "ohos",
     "target_cpu": "arm",
     "kernel_version": "",
-    "device_build_path": "device/hihope/build"
+    "device_build_path": "device/hihope/build",
+    "build_selinux": true
 }
