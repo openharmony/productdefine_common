@@ -65,6 +65,7 @@
     "security:deviceauth_standard":{},
     "security:dataclassification":{},
     "security:selinux":{},
+    "security:access_token":{},
     "sensors:sensor":{},
     "sensors:start":{},
     "miscservices:time_native":{},
