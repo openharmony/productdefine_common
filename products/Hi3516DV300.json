@@ -18,6 +18,7 @@
     "distributeddatamgr:e2fsprogs":{},
     "common:common":{"features": {"common_feature_verify": true}},
     "security:permission_standard":{},
+    "useriam:faceauth":{},
     "startup:startup_l2":{},
     "startup:appspawn":{},
     "startup:init":{},
