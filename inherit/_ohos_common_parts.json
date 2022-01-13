@@ -28,6 +28,8 @@
     "developertest:developertest":{},
     "appexecfwk:eventhandler":{},
     "appexecfwk:appexecfwk_standard":{},
+    "appexecfwk:bundle_framework":{},
+    "appexecfwk:bundle_tool":{},
     "aafwk:aafwk_standard":{},
     "notification:ces_standard":{},
     "notification:ans_standard":{},
