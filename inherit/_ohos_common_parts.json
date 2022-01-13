@@ -53,6 +53,7 @@
     "developtools:hiperf":{},
     "sensors:miscdevice":{},
     "graphic:graphic_standard":{},
+    "window:window_manager":{},
     "security:appverify":{},
     "security:huks":{},
     "security:deviceauth_standard":{},
