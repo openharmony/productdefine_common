@@ -12,7 +12,6 @@
     "account:os_account_standard":{},
     "distributeddatamgr:native_appdatamgr":{},
     "distributeddatamgr:distributeddatamgr":{},
-    "distributeddatamgr:appdatamgr_jskits":{},
     "distributeddatamgr:distributedfilejs":{},
     "distributeddatamgr:e2fsprogs":{},
     "common:common":{},
