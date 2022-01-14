@@ -65,6 +65,7 @@
     "security:selinux":{},
     "security:huks":{},
     "security:deviceauth_standard":{},
+    "security:access_token":{},
     "security:dataclassification":{},
     "sensors:sensor":{},
     "sensors:start":{},
