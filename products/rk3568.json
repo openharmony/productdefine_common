@@ -64,6 +64,7 @@
     "security:huks":{},
     "security:deviceauth_standard":{},
     "security:dataclassification":{},
+    "useriam:faceauth":{},
     "sensors:sensor":{},
     "sensors:start":{},
     "miscservices:time_native":{},
