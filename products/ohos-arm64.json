@@ -7,6 +7,17 @@
   "product_build_path": "",
   "inherit": ["productdefine/common/inherit/_ohos_common_parts.json"],
   "parts": {
-    "global:cust_lite":{}
+    "global:cust_lite":{},
+    "hdf:device_driver_framework":{},
+    "hdf:bluetooth_device_driver":{},
+    "hdf:input_device_driver":{},
+    "hdf:display_device_driver":{},
+    "hdf:wlan_device_driver":{},
+    "hdf:sensor_device_driver":{},
+    "hdf:audio_device_driver":{},
+    "hdf:usb_device_driver":{},
+    "hdf:camera_device_driver":{},
+    "hdf:vibrator_device_driver":{},
+    "hdf:codec_device_driver":{}
   }
 }
