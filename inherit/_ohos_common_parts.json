@@ -54,6 +54,7 @@
     "graphic:graphic_standard":{},
     "window:window_manager":{},
     "security:appverify":{},
+    "security:access_token":{},
     "security:huks":{},
     "security:deviceauth_standard":{},
     "security:dataclassification":{},
