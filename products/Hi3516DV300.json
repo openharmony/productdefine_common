@@ -104,6 +104,7 @@
     "global:cust_lite":{},
     "powermgr:power_manager_native":{},
     "powermgr:battery_manager_native":{},
+    "powermgr:battery_statistics_native":{},
     "powermgr:display_manager_native":{},
     "usb:usb_manager":{},
     "applications:prebuilt_hap":{},
