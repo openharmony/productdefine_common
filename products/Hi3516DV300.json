@@ -65,6 +65,7 @@
     "hdf:camera_device_driver":{},
     "hdf:vibrator_device_driver":{},
     "hdf:codec_device_driver":{},
+    "kernel:linux":{},
     "updater:updater":{},
     "developtools:bytrace_standard":{},
     "developtools:hdc_standard":{},
