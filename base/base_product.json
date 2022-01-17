@@ -34,10 +34,6 @@
         {
           "component": "os_account_standard",
           "features": []
-        },
-        {
-          "component": "app_account_standard",
-          "features": []
         }
       ]
     },
