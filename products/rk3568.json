@@ -116,6 +116,8 @@
     "ark:ark_ts2abc":{},
     "deviceprofile:device_profile_core":{},
     "filemanagement:storage_standard":{},
-    "resourceschedule:resource_schedule_service":{}
+    "resourceschedule:resource_schedule_service":{},
+	"resourceschedule:background_task_mgr":{},
+    "resourceschedule:work_scheduler":{}
   }
 }
