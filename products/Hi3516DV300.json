@@ -11,6 +11,7 @@
     "account:os_account_standard":{},
     "distributeddatamgr:native_appdatamgr":{},
     "distributeddatamgr:distributeddatamgr":{},
+    "distributeddatamgr:distributeddataobject":{},
     "distributeddatamgr:distributedfilejs":{},
     "distributeddatamgr:storage_standard":{},
     "distributeddatamgr:e2fsprogs":{},
