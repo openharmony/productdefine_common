@@ -120,6 +120,7 @@
     "resourceschedule:resource_schedule_service":{},
     "resourceschedule:soc_perf":{},
     "resourceschedule:background_task_mgr":{},
-    "resourceschedule:work_scheduler":{}
+    "resourceschedule:work_scheduler":{},
+    "usb:usb_manager":{}
   }
 }
