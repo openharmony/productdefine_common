@@ -39,6 +39,7 @@
     "appexecfwk:appexecfwk_standard":{},
     "appexecfwk:bundle_framework":{},
     "appexecfwk:bundle_tool":{},
+    "appexecfwk:distributed_bundle_framework":{},
     "aafwk:aafwk_standard":{},
     "notification:ces_standard":{},
     "notification:ans_standard":{},
