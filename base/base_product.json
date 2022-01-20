@@ -90,6 +90,10 @@
           "features": []
         },
         {
+          "component": "device_security_level",
+          "features": []
+        },
+        {
           "component": "selinux",
           "features": []
         },

@@ -62,6 +62,7 @@
     "security:huks":{},
     "security:deviceauth_standard":{},
     "security:dataclassification":{},
+    "security:device_security_level":{},
     "sensors:sensor":{},
     "miscservices:time_native":{},
     "miscservices:inputmethod_native":{},
