@@ -13,6 +13,7 @@
     "distributeddatamgr:distributeddatamgr":{},
     "distributeddatamgr:distributedfilejs":{},
     "distributeddatamgr:e2fsprogs":{},
+    "filemanagement:user_file_service":{},
     "common:common":{},
     "security:permission_standard":{},
     "startup:startup_l2":{},

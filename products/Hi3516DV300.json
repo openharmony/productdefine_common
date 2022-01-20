@@ -15,6 +15,7 @@
     "distributeddatamgr:distributedfilejs":{},
     "distributeddatamgr:storage_standard":{},
     "distributeddatamgr:e2fsprogs":{},
+    "filemanagement:user_file_service":{},
     "common:common":{"features": {"common_feature_verify": true}},
     "security:permission_standard":{},
     "useriam:faceauth":{},
