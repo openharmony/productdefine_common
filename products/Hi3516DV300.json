@@ -72,6 +72,7 @@
     "hdf:vibrator_device_driver":{},
     "hdf:light_device_driver":{},
     "hdf:codec_device_driver":{},
+    "hdf:power_device_driver":{},
     "kernel:linux":{},
     "updater:updater":{},
     "developtools:bytrace_standard":{},
