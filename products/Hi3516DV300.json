@@ -85,6 +85,7 @@
     "security:huks":{},
     "security:deviceauth_standard":{},
     "security:dataclassification":{},
+    "security:device_security_level":{},
     "security:selinux":{},
     "security:access_token":{},
     "sensors:sensor":{},

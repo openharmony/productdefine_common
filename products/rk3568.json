@@ -81,6 +81,7 @@
     "security:huks":{},
     "security:deviceauth_standard":{},
     "security:access_token":{},
+    "security:device_security_level":{},
     "security:dataclassification":{},
     "useriam:auth_executor_mgr":{},
     "useriam:pin_auth":{},
