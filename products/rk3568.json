@@ -87,6 +87,7 @@
     "useriam:pin_auth":{},
     "useriam:user_auth":{},
     "useriam:faceauth":{},
+    "useriam:useriam_common":{},
     "useriam:user_idm":{},
     "sensors:sensor":{},
     "sensors:start":{},
