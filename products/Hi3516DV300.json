@@ -136,6 +136,6 @@
     "ark:ark_ts2abc":{},
     "deviceprofile:device_profile_core":{},
     "filemanagement:storage_standard":{},
-    "filemanagement:filemanagement_dfs_service":{}
+    "filemanagement:dfs_service":{}
   }
 }
