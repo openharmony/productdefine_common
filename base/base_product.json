@@ -579,7 +579,7 @@
       ]
     },
     {
-      "subsystem": "ccruntime",
+      "subsystem": "compileruntime",
       "components": [
         {
           "component": "js_worker_module",
