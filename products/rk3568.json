@@ -71,6 +71,8 @@
     "hdf:camera_device_driver":{},
     "hdf:vibrator_device_driver":{},
     "hdf:codec_device_driver":{},
+    "hdf:power_device_driver":{},
+    "hdf:battery_device_driver":{},
     "updater:updater":{},
     "developtools:bytrace_standard":{},
     "developtools:hdc_standard":{},
