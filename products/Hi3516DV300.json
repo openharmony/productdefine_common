@@ -138,7 +138,7 @@
     "ark:ark_js_runtime":{},
     "ark:ark_ts2abc":{},
     "deviceprofile:device_profile_core":{},
-    "filemanagement:storage_standard":{},
+    "filemanagement:storage_service":{},
     "filemanagement:dfs_service":{}
   }
 }
