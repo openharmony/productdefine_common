@@ -25,7 +25,6 @@
     "utils:utils_base":{},
     "developertest:developertest":{},
     "appexecfwk:eventhandler":{},
-    "appexecfwk:appexecfwk_standard":{},
     "appexecfwk:bundle_framework":{},
     "appexecfwk:bundle_tool":{},
     "appexecfwk:distributed_bundle_framework":{},
