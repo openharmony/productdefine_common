@@ -33,7 +33,6 @@
     "developertest:developertest":{},
     "hihope_products:hihope_products":{},
     "appexecfwk:eventhandler":{},
-    "appexecfwk:appexecfwk_standard":{},
     "appexecfwk:bundle_framework":{},
     "appexecfwk:bundle_tool":{},
     "appexecfwk:distributed_bundle_framework":{},
