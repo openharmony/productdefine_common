@@ -26,6 +26,7 @@
     "hiviewdfx:hisysevent_native":{},
     "hiviewdfx:hiappevent_native":{},
     "hiviewdfx:hiappevent_js":{},
+    "hiviewdfx:hichecker_native":{},
     "hiviewdfx:hiview":{},
     "hiviewdfx:faultloggerd":{},
     "hiviewdfx:hitrace_native":{},
