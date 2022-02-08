@@ -535,19 +535,11 @@
       "subsystem": "xts",
       "components": [
         {
-          "component": "ivi_tests",
+          "component": "xts_acts",
           "features": []
         },
         {
-          "component": "wearable_tests",
-          "features": []
-        },
-        {
-          "component": "intellitv_tests",
-          "features": []
-        },
-        {
-          "component": "phone_tests",
+          "component": "xts_hats",
           "features": []
         }
       ]
