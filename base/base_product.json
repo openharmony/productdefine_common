@@ -495,7 +495,7 @@
           "features": []
         },
         {
-          "component": "thermal_manager_native",
+          "component": "thermal_manager",
           "features": []
         }
       ]
