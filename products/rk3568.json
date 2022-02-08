@@ -139,6 +139,7 @@
     "resourceschedule:soc_perf":{},
     "resourceschedule:background_task_mgr":{},
     "resourceschedule:work_scheduler":{},
+    "resourceschedule:memmgr":{},
     "usb:usb_manager":{}
   }
 }
