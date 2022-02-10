@@ -27,6 +27,6 @@
     "powermgr:battery_statistics_native":{},
     "powermgr:display_manager_native":{},
     "powermgr:thermal_manager":{},
-	"distributeddatamgr:distributeddataobject":{},
+    "distributeddatamgr:distributeddataobject":{},
   }
 }
