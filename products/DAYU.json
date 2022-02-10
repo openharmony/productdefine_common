@@ -69,6 +69,7 @@
     "hdf:power_device_driver":{},
     "hdf:battery_device_driver":{},
     "updater:updater":{},
+    "updater:update_service":{},
     "developtools:bytrace_standard":{},
     "developtools:hdc_standard":{},
     "developtools:profiler":{},

@@ -81,6 +81,7 @@
     "hdf:battery_device_driver":{},
     "kernel:linux":{},
     "updater:updater":{},
+    "updater:update_service":{},
     "developtools:bytrace_standard":{},
     "developtools:hdc_standard":{},
     "developtools:profiler":{},
