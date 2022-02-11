@@ -33,6 +33,7 @@
     "aafwk:ability_tools":{},
     "aafwk:zidl":{},
     "aafwk:form_runtime":{},
+    "aafwk:ability_base":{},
     "notification:ces_standard":{},
     "notification:ans_standard":{},
     "communication:ipc":{},
