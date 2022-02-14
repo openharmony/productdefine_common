@@ -141,6 +141,7 @@
     "ark:ark_ts2abc":{},
     "deviceprofile:device_profile_core":{},
     "filemanagement:storage_service":{},
-    "filemanagement:dfs_service":{}
+    "filemanagement:dfs_service":{},
+    "filemanagement:app_file_service":{}
   }
 }
