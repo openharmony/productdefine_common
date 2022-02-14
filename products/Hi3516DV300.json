@@ -39,7 +39,6 @@
     "hiviewdfx:hitrace_native":{},
     "hiviewdfx:hicollie_native":{},
     "utils:utils_base":{},
-    "utils:utils_memory":{},
     "developertest:developertest":{},
     "hisilicon_products:hisilicon_products":{},
     "appexecfwk:eventhandler":{},

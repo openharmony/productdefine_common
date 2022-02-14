@@ -32,7 +32,6 @@
     "hiviewdfx:hitrace_native":{},
     "hiviewdfx:hicollie_native":{},
     "utils:utils_base":{},
-    "utils:utils_memory":{},
     "developertest:developertest":{},
     "rockchip_products:rockchip_products":{},
     "appexecfwk:eventhandler":{},
@@ -143,6 +142,7 @@
     "resourceschedule:background_task_mgr":{},
     "resourceschedule:work_scheduler":{},
     "resourceschedule:memmgr":{},
+    "resourceschedule:dmabufheap":{},
     "usb:usb_manager":{}
   }
 }
