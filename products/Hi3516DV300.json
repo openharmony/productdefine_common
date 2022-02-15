@@ -142,6 +142,7 @@
     "deviceprofile:device_profile_core":{},
     "filemanagement:storage_service":{},
     "filemanagement:dfs_service":{},
-    "filemanagement:app_file_service":{}
+    "filemanagement:app_file_service":{},
+    "resourceschedule:background_task_mgr":{}
   }
 }
