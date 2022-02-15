@@ -716,6 +716,22 @@
         {
           "component": "utils_memory",
           "features": []
+        },
+        {
+          "component": "jsapi_api",
+          "features": []
+        },
+        {
+          "component": "jsapi_sys",
+          "features": []
+        },
+        {
+          "component": "jsapi_util",
+          "features": []
+        },
+        {
+          "component": "jsapi_worker",
+          "features": []
         }
       ]
     },
