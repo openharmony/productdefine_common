@@ -9,6 +9,7 @@
     "ace:ace_engine_standard":{},
     "ace:napi":{},
     "account:os_account_standard":{},
+    "barrierfree:accessibility":{},
     "distributeddatamgr:native_appdatamgr":{},
     "distributeddatamgr:distributeddatamgr":{},
     "distributeddatamgr:distributeddataobject":{},
