@@ -146,6 +146,7 @@
     "resourceschedule:background_task_mgr":{},
     "resourceschedule:work_scheduler":{},
     "resourceschedule:memmgr":{},
+    "resourceschedule:frame_aware_sched":{},
     "resourceschedule:dmabufheap":{},
     "usb:usb_manager":{}
   }
