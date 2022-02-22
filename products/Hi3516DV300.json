@@ -127,6 +127,7 @@
     "powermgr:thermal_manager":{},
     "usb:usb_manager":{},
     "applications:prebuilt_hap":{},
+    "contactsdata:contactsdata_hap":{},
     "settingsnapi:settings_standard":{},
     "wpa_supplicant-2.9:wpa_supplicant-2.9":{},
     "xts:xts_acts":{},
