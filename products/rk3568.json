@@ -126,6 +126,7 @@
     "powermgr:display_manager_native":{},
     "powermgr:thermal_manager":{},
     "applications:prebuilt_hap":{},
+    "contactsdata:contactsdata_hap":{},
     "settingsnapi:settings_standard":{},
     "xts:xts_acts":{},
     "xts:xts_hats":{},
