@@ -117,6 +117,7 @@
     "utils:jsapi_api":{},
     "utils:jsapi_util":{},
     "utils:jsapi_worker":{},
-    "deviceprofile:device_profile_core":{}
+    "deviceprofile:device_profile_core":{},
+    "securec:thirdparty_bounds_checking_function":{}
   }
 }

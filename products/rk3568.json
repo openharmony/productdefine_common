@@ -148,6 +148,7 @@
     "resourceschedule:memmgr":{},
     "resourceschedule:frame_aware_sched":{},
     "resourceschedule:dmabufheap":{},
-    "usb:usb_manager":{}
+    "usb:usb_manager":{},
+    "securec:thirdparty_bounds_checking_function":{}
   }
 }
