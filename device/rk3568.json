@@ -5,5 +5,6 @@
     "target_cpu": "arm",
     "kernel_version": "",
     "device_build_path": "device/hihope/build",
+    "enable_ramdisk": true,
     "build_selinux": true
 }
