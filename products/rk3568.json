@@ -135,6 +135,7 @@
     "utils:jsapi_api":{},
     "utils:jsapi_util":{},
     "utils:jsapi_worker":{},
+    "utils:utils_memory":{},
     "ark:ark":{},
     "ark:ark_js_runtime":{},
     "ark:ark_ts2abc":{},
@@ -148,7 +149,6 @@
     "resourceschedule:work_scheduler":{},
     "resourceschedule:memmgr":{},
     "resourceschedule:frame_aware_sched":{},
-    "resourceschedule:dmabufheap":{},
     "resourceschedule:device_usage_statistics":{},
     "usb:usb_manager":{},
     "securec:thirdparty_bounds_checking_function":{}
