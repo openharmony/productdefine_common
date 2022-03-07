@@ -4,7 +4,7 @@
   "product_device": "rk3568",
   "version": "2.0",
   "type": "standard",
-  "product_build_path": "device/hihope/build",
+  "product_build_path": "device/board/hihope/rk3568",
   "parts":{
     "ace:ace_engine_standard":{},
     "ace:napi":{},
