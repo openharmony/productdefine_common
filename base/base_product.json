@@ -29,6 +29,10 @@
         {
           "component": "zidl",
           "features": []
+        },
+        {
+          "component": "ability_base",
+          "features": []
         }
       ]
     },
