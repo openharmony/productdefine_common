@@ -151,6 +151,7 @@
     "resourceschedule:dmabufheap":{},
     "resourceschedule:device_usage_statistics":{},
     "usb:usb_manager":{},
-    "securec:thirdparty_bounds_checking_function":{}
+    "securec:thirdparty_bounds_checking_function":{},
+	"msdp:device_status":{}
   }
 }
