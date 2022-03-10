@@ -146,6 +146,6 @@
     "filemanagement:app_file_service":{},
     "resourceschedule:background_task_mgr":{},
     "securec:thirdparty_bounds_checking_function":{},
-	"msdp:device_status":{}
+    "msdp:device_status":{}
   }
 }
