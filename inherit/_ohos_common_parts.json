@@ -20,6 +20,7 @@
     "hiviewdfx:hiappevent_js":{},
     "hiviewdfx:hichecker_native":{},
     "hiviewdfx:hichecker_js":{},
+    "hiviewdfx:hidumper":{},
     "hiviewdfx:hiview":{},
     "hiviewdfx:faultloggerd":{},
     "hiviewdfx:hitrace_native":{},
