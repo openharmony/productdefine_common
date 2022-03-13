@@ -132,6 +132,7 @@
     "settingsnapi:settings_standard":{},
     "xts:xts_acts":{},
     "xts:xts_hats":{},
+    "xts:xts_dcts":{},
     "distributedhardware:device_manager_base":{},
     "distributedhardware:distributed_hardware_fwk":{},
     "distributedhardware:distributed_camera":{},
