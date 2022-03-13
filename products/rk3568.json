@@ -55,7 +55,14 @@
     "communication:netmanager_base":{},
     "communication:netmanager_ext":{},
     "communication:netstack":{},
-    "communication:dsoftbus_standard":{},
+    "communication:dsoftbus_standard":{
+      "feature": {
+        "dsoftbus_standard_feature_conn_p2p": true,
+        "dsoftbus_standard_feature_conn_br": true,
+        "dsoftbus_standard_feature_conn_ble": true,
+        "dsoftbus_standard_feature_trans_udp_stream":true
+      }
+    },
     "communication:wifi_standard":{},
     "communication:bluetooth_native_js":{},
     "distributedschedule:samgr_standard":{},
