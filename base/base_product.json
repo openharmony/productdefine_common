@@ -252,10 +252,6 @@
       "subsystem": "global",
       "components": [
         {
-          "component": "cust_lite",
-          "features": []
-        },
-        {
           "component": "i18n_standard",
           "features": []
         },
