@@ -58,6 +58,7 @@
     "communication:dsoftbus_standard":{},
     "communication:wifi_standard":{},
     "communication:bluetooth_native_js":{},
+    "customization:enterprise_device_management":{},
     "distributedschedule:samgr_standard":{},
     "distributedschedule:safwk":{},
     "distributedschedule:dmsfwk_standard":{},
