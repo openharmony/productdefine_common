@@ -99,6 +99,7 @@
     "security:access_token":{},
     "sensors:sensor":{},
     "sensors:start":{},
+    "msdp:device_status":{},
     "miscservices:time_native":{},
     "miscservices:inputmethod_native":{},
     "multimedia:multimedia_histreamer":{},
@@ -145,7 +146,6 @@
     "filemanagement:dfs_service":{},
     "filemanagement:app_file_service":{},
     "resourceschedule:background_task_mgr":{},
-    "securec:thirdparty_bounds_checking_function":{},
-    "msdp:device_status":{}
+    "securec:thirdparty_bounds_checking_function":{}
   }
 }

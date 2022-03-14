@@ -99,6 +99,7 @@
     "useriam:user_idm":{},
     "sensors:sensor":{},
     "sensors:start":{},
+    "msdp:device_status":{},
     "miscservices:time_native":{},
     "miscservices:inputmethod_native":{},
     "multimedia:multimedia_histreamer":{},
@@ -151,7 +152,6 @@
     "resourceschedule:dmabufheap":{},
     "resourceschedule:device_usage_statistics":{},
     "usb:usb_manager":{},
-    "securec:thirdparty_bounds_checking_function":{},
-    "msdp:device_status":{}
+    "securec:thirdparty_bounds_checking_function":{}
   }
 }
