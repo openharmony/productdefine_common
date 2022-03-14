@@ -108,6 +108,7 @@
     "useriam:user_idm":{},
     "sensors:sensor":{},
     "sensors:start":{},
+    "msdp:device_status":{},
     "miscservices:time_native":{},
     "miscservices:inputmethod_native":{},
     "multimedia:multimedia_histreamer":{},
