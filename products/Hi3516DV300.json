@@ -99,6 +99,7 @@
     "security:selinux":{},
     "security:access_token":{},
     "sensors:sensor":{},
+    "sensors:medical_sensor":{},
     "sensors:start":{},
     "miscservices:time_native":{},
     "miscservices:inputmethod_native":{},
