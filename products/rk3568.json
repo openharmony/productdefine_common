@@ -56,8 +56,9 @@
     "communication:netmanager_ext":{},
     "communication:netstack":{},
     "communication:dsoftbus_standard":{
-      "feature": {
+      "features": {
         "dsoftbus_standard_feature_conn_p2p": true,
+        "dsoftbus_standard_feature_disc_ble": true,
         "dsoftbus_standard_feature_conn_br": true,
         "dsoftbus_standard_feature_conn_ble": true,
         "dsoftbus_standard_feature_trans_udp_stream":true
