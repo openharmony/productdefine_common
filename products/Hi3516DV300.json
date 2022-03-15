@@ -103,6 +103,7 @@
     "msdp:device_status":{},
     "miscservices:time_native":{},
     "miscservices:inputmethod_native":{},
+    "miscservices:screenlock":{},
     "multimedia:multimedia_histreamer":{},
     "multimedia:multimedia_media_standard":{},
     "multimedia:multimedia_audio_standard":{},
