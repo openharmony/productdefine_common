@@ -7,8 +7,8 @@
   "product_build_path": "",
   "inherit": ["productdefine/common/inherit/_ohos_common_parts.json"],
   "parts": {
+    "customization:config_policy":{},
     "customization:enterprise_device_management":{},
-    "global:cust_lite":{},
     "hdf:device_driver_framework":{},
     "hdf:bluetooth_device_driver":{},
     "hdf:input_device_driver":{},

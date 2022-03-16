@@ -56,8 +56,9 @@
     "communication:netmanager_ext":{},
     "communication:netstack":{},
     "communication:dsoftbus_standard":{
-      "feature": {
+      "features": {
         "dsoftbus_standard_feature_conn_p2p": true,
+        "dsoftbus_standard_feature_disc_ble": true,
         "dsoftbus_standard_feature_conn_br": true,
         "dsoftbus_standard_feature_conn_ble": true,
         "dsoftbus_standard_feature_trans_udp_stream":true
@@ -72,6 +73,7 @@
     "location:location_gnss":{},
     "location:location_passive":{},
     "location:location_geocode":{},
+    "customization:config_policy":{},
     "customization:enterprise_device_management":{},
     "distributedschedule:samgr_standard":{},
     "distributedschedule:safwk":{},
@@ -118,6 +120,10 @@
     "msdp:device_status":{},
     "miscservices:time_native":{},
     "miscservices:inputmethod_native":{},
+    "miscservices:pasteboard_native":{},
+    "miscservices:screenlock":{},
+    "miscservices:wallpaper_native":{},
+    "miscservices:request":{},
     "multimedia:multimedia_histreamer":{},
     "multimedia:multimedia_media_standard":{},
     "multimedia:multimedia_audio_standard":{},
@@ -136,7 +142,6 @@
     "global:i18n_standard":{},
     "global:resmgr_standard":{},
     "global:systemres":{},
-    "global:cust_lite":{},
     "powermgr:power_manager_native":{},
     "powermgr:battery_manager_native":{},
     "powermgr:battery_statistics_native":{},
@@ -145,6 +150,7 @@
     "applications:prebuilt_hap":{},
     "contactsdata:contactsdata_hap":{},
     "settingsnapi:settings_standard":{},
+    "wpa_supplicant-2.9:wpa_supplicant-2.9":{},
     "xts:xts_acts":{},
     "xts:xts_hats":{},
     "distributedhardware:device_manager_base":{},
