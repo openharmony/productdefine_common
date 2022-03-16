@@ -673,7 +673,7 @@
           "features": []
         },
         {
-          "component": "faceauth",
+          "component": "face_auth",
           "features": []
         },
         {
