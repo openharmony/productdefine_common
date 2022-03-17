@@ -455,7 +455,7 @@
       "subsystem": "multimodalinput",
       "components": [
         {
-          "component": "multimodalinput_base",
+          "component": "input",
           "features": []
         }
       ]

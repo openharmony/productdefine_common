@@ -129,7 +129,7 @@
     "multimedia:multimedia_camera_standard":{},
     "multimedia:multimedia_image_standard":{},
     "multimedia:multimedia_media_library_standard":{},
-    "multimodalinput:multimodalinput_base":{},
+    "multimodalinput:input":{},
     "telephony:core_service":{},
     "telephony:ril_adapter":{},
     "telephony:data_storage":{},
