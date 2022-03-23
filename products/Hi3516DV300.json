@@ -147,6 +147,7 @@
     "utils:jsapi_api":{},
     "utils:jsapi_util":{},
     "utils:jsapi_worker":{},
+    "utils:utils_memory":{},
     "ark:ark":{},
     "ark:ark_js_runtime":{},
     "ark:ark_ts2abc":{},
