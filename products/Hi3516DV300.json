@@ -124,6 +124,7 @@
     "telephony:sms_mms":{},
     "telephony:call_manager":{},
     "global:i18n_standard":{},
+    "global:timezone":{},
     "global:resmgr_standard":{},
     "global:systemres":{},
     "powermgr:power_manager_native":{},
