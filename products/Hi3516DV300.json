@@ -90,7 +90,11 @@
     "developtools:profiler":{},
     "developtools:hiperf":{},
     "sensors:miscdevice":{},
-    "graphic:graphic_standard":{},
+    "graphic:graphic_standard":{
+      "features": {
+        "graphic_standard_feature_ace_enable_gpu": false
+      }
+    },
     "window:window_manager":{},
     "security:appverify":{},
     "security:huks":{},
