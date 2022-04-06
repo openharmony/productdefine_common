@@ -157,6 +157,7 @@
     "filemanagement:dfs_service":{},
     "filemanagement:app_file_service":{},
     "resourceschedule:background_task_mgr":{},
+    "resourceschedule:device_usage_statistics":{},
     "securec:thirdparty_bounds_checking_function":{},
     "msdp:device_status":{}
   }
