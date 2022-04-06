@@ -48,7 +48,6 @@
     "location:location_network":{},
     "location:location_passive":{},
     "miscservices:pasteboard_native":{},
-    "miscservices:request":{},
     "miscservices:screenlock":{},
     "miscservices:wallpaper_native":{},
     "msdp:device_status":{},
