@@ -123,7 +123,7 @@
     "telephony:cellular_data":{},
     "telephony:sms_mms":{},
     "telephony:call_manager":{},
-    "global:i18n_standard":{},
+    "global:i18n":{},
     "global:timezone":{},
     "global:resmgr_standard":{},
     "global:systemres":{},
