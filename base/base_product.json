@@ -252,7 +252,7 @@
       "subsystem": "global",
       "components": [
         {
-          "component": "i18n_standard",
+          "component": "i18n",
           "features": []
         },
         {

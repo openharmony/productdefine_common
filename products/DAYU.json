@@ -105,7 +105,7 @@
     "telephony:cellular_data":{},
     "telephony:sms_mms":{},
     "telephony:call_manager":{},
-    "global:i18n_standard":{},
+    "global:i18n":{},
     "global:resmgr_standard":{},
     "powermgr:power_manager_native":{},
     "powermgr:battery_manager_native":{},
