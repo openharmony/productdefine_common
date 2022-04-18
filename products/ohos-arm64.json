@@ -33,6 +33,8 @@
     "distributeddatamgr:distributeddataobject":{},
     "barrierfree:accessibility":{},
     "communication:bluetooth_standard":{},
+    "developtools:bytrace_standard":{},
+    "developtools:hiperf":{},
     "distributedhardware:distributed_camera":{},
     "distributedhardware:distributed_hardware_fwk":{},
     "distributedhardware:distributed_screen":{},
