@@ -50,6 +50,7 @@
     "miscservices:pasteboard_native":{},
     "miscservices:screenlock":{},
     "miscservices:wallpaper_native":{},
+    "miscservices:request":{},
     "msdp:device_status":{},
     "resourceschedule:background_task_mgr":{},
     "resourceschedule:device_usage_statistics":{},
