@@ -142,6 +142,11 @@
     "global:timezone":{},
     "global:resmgr_standard":{},
     "global:systemres":{},
+    "graphic:graphic_standard":{
+      "features": {
+        "graphic_standard_feature_ace_enable_gpu": true
+      }
+    },
     "powermgr:power_manager_native":{},
     "powermgr:battery_manager_native":{},
     "powermgr:battery_statistics_native":{},

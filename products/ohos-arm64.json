@@ -40,6 +40,11 @@
     "filemanagement:user_file_service":{},
     "global:systemres":{},
     "global:timezone":{},
+    "graphic:graphic_standard":{
+      "features": {
+        "graphic_standard_feature_ace_enable_gpu": true
+      }
+    },
     "location:location":{},
     "location:location_common":{},
     "location:location_geocode":{},
