@@ -99,6 +99,7 @@
     "developtools:hdc_standard":{},
     "developtools:profiler":{},
     "developtools:hiperf":{},
+    "developtools:syscap_codec":{},
     "sensors:miscdevice":{},
     "graphic:graphic_standard":{
       "features": {
