@@ -34,6 +34,7 @@
     "barrierfree:accessibility":{},
     "communication:bluetooth_standard":{},
     "developtools:bytrace_standard":{},
+    "developtools:hdc_standard":{},
     "developtools:hiperf":{},
     "distributedhardware:distributed_camera":{},
     "distributedhardware:distributed_hardware_fwk":{},
