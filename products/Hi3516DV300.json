@@ -18,7 +18,6 @@
     "filemanagement:user_file_service":{},
     "common:common":{"features": {"common_feature_verify": true}},
     "security:permission_standard":{},
-    "useriam:auth_executor_mgr":{},
     "useriam:pin_auth":{},
     "useriam:user_auth":{},
     "useriam:face_auth":{},

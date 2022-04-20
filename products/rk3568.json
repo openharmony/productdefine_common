@@ -114,7 +114,6 @@
     "security:access_token":{},
     "security:device_security_level":{},
     "security:dataclassification":{},
-    "useriam:auth_executor_mgr":{},
     "useriam:pin_auth":{},
     "useriam:user_auth":{},
     "useriam:face_auth":{},

@@ -74,7 +74,6 @@
     "sensors:start":{},
     "updater:update_service":{},
     "usb:usb_manager":{},
-    "useriam:auth_executor_mgr":{},
     "useriam:face_auth":{},
     "useriam:pin_auth":{},
     "useriam:user_auth":{},
