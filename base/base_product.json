@@ -468,7 +468,7 @@
           "features": []
         },
         {
-          "component": "ces_standard",
+          "component": "common_event_service",
           "features": []
         }
       ]
