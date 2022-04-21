@@ -6,8 +6,8 @@
   "type": "standard",
   "product_build_path": "device/board/hisilicon/hispark_phoenix/linux",
   "parts":{
-    "ace:ace_engine_standard":{},
-    "ace:napi":{},
+    "arkui:ace_engine_standard":{},
+    "arkui:napi":{},
     "account:os_account_standard":{},
     "distributeddatamgr:native_appdatamgr":{},
     "distributeddatamgr:distributeddatamgr":{},
