@@ -77,7 +77,6 @@
     "useriam:face_auth":{},
     "useriam:pin_auth":{},
     "useriam:user_auth":{},
-    "useriam:useriam_common":{},
     "useriam:user_idm":{},
     "utils:utils_memory":{},
     "ark:ark":{},

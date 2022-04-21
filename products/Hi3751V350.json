@@ -21,7 +21,6 @@
     "useriam:pin_auth":{},
     "useriam:user_auth":{},
     "useriam:face_auth":{},
-    "useriam:useriam_common":{},
     "useriam:user_idm":{},
     "startup:startup_l2":{},
     "startup:appspawn":{},

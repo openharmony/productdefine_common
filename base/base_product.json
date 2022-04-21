@@ -679,10 +679,6 @@
         {
           "component": "user_idm",
           "features": []
-        },
-        {
-          "component": "useriam_common",
-          "features": []
         }
       ]
     },
