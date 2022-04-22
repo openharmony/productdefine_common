@@ -665,10 +665,6 @@
       "subsystem": "useriam",
       "components": [
         {
-          "component": "auth_executor_mgr",
-          "features": []
-        },
-        {
           "component": "face_auth",
           "features": []
         },
@@ -682,10 +678,6 @@
         },
         {
           "component": "user_idm",
-          "features": []
-        },
-        {
-          "component": "useriam_common",
           "features": []
         }
       ]
