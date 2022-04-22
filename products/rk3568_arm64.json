@@ -64,7 +64,8 @@
         "dsoftbus_standard_feature_trans_udp_stream":true
       }
     },
-    "communication:wifi_standard":{},
+    "communication:wifi":{},
+    "communication:dhcp":{},
     "communication:bluetooth_native_js":{},
     "location:location":{},
     "location:location_common":{},
