@@ -89,6 +89,7 @@
     "web:webview":{},
     "wukong:wukong":{},
     "arkXtest:arkXtest":{},
-    "contactsdata:contactsdata_hap":{}
+    "contactsdata:contactsdata_hap":{},
+    "deviceprofile:device_profile_core":{}
   }
 }
