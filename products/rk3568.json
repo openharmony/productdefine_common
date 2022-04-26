@@ -118,7 +118,6 @@
     "useriam:pin_auth":{},
     "useriam:user_auth":{},
     "useriam:face_auth":{},
-    "useriam:user_idm":{},
     "sensors:sensor":{},
     "sensors:start":{},
     "miscservices:time_native":{},

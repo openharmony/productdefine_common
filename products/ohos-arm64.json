@@ -77,7 +77,6 @@
     "useriam:face_auth":{},
     "useriam:pin_auth":{},
     "useriam:user_auth":{},
-    "useriam:user_idm":{},
     "utils:jsapi_api":{},
     "utils:jsapi_sys":{},
     "utils:jsapi_util":{},
