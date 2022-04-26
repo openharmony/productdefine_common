@@ -75,7 +75,7 @@
     "updater:updater":{},
     "updater:update_service":{},
     "developtools:bytrace_standard":{},
-    "developtools:hdc_standard":{},
+    "developtools:hdc":{},
     "developtools:profiler":{},
     "developtools:hiperf":{},
     "sensors:miscdevice":{},
