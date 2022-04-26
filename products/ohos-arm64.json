@@ -18,7 +18,6 @@
     "hdf:wlan_device_driver":{},
     "hdf:sensor_device_driver":{},
     "hdf:audio_device_driver":{},
-    "hdf:usb_device_driver":{},
     "hdf:camera_device_driver":{},
     "hdf:vibrator_device_driver":{},
     "hdf:codec_device_driver":{},
