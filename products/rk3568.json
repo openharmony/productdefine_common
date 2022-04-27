@@ -6,8 +6,8 @@
   "type": "standard",
   "product_build_path": "device/board/hihope/rk3568",
   "parts":{
-    "ace:ace_engine_standard":{},
-    "ace:napi":{},
+    "arkui:ace_engine_standard":{},
+    "arkui:napi":{},
     "account:os_account_standard":{},
     "barrierfree:accessibility":{},
     "distributeddatamgr:native_appdatamgr":{},
