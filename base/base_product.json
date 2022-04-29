@@ -679,10 +679,6 @@
         {
           "component": "user_auth",
           "features": []
-        },
-        {
-          "component": "user_idm",
-          "features": []
         }
       ]
     },
