@@ -260,7 +260,7 @@
           "features": []
         },
         {
-          "component": "resmgr_standard",
+          "component": "resource_management",
           "features": []
         }
       ]
