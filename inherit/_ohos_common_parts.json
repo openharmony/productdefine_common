@@ -53,7 +53,7 @@
     "distributedschedule:dmsfwk_standard":{},
     "hdf:hdf":{},
     "updater:updater":{},
-    "developtools:bytrace_standard":{},
+    "developtools:bytrace":{},
     "developtools:hdc":{},
     "developtools:profiler":{},
     "developtools:hiperf":{},

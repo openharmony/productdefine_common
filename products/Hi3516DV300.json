@@ -83,7 +83,7 @@
     "kernel:linux":{},
     "updater:updater":{},
     "updater:update_service":{},
-    "developtools:bytrace_standard":{},
+    "developtools:bytrace":{},
     "developtools:hdc":{},
     "developtools:profiler":{},
     "developtools:hiperf":{},

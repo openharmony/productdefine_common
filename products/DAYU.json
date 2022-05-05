@@ -74,7 +74,7 @@
     "hdf:battery_device_driver":{},
     "updater:updater":{},
     "updater:update_service":{},
-    "developtools:bytrace_standard":{},
+    "developtools:bytrace":{},
     "developtools:hdc":{},
     "developtools:profiler":{},
     "developtools:hiperf":{},

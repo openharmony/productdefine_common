@@ -158,7 +158,7 @@
       "subsystem": "developtools",
       "components": [
         {
-          "component": "bytrace_standard",
+          "component": "bytrace",
           "features": []
         },
         {
