@@ -107,7 +107,7 @@
     "telephony:sms_mms":{},
     "telephony:call_manager":{},
     "global:i18n":{},
-    "global:resmgr_standard":{},
+    "global:resource_management":{},
     "powermgr:power_manager_native":{},
     "powermgr:battery_manager_native":{},
     "powermgr:battery_statistics_native":{},

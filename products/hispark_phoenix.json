@@ -127,7 +127,7 @@
     "telephony:call_manager":{},
     "global:i18n":{},
     "global:timezone":{},
-    "global:resmgr_standard":{},
+    "global:resource_management":{},
     "global:systemres":{},
     "powermgr:power_manager_native":{},
     "powermgr:battery_manager_native":{},
