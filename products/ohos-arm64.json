@@ -32,7 +32,7 @@
     "distributeddatamgr:distributeddataobject":{},
     "barrierfree:accessibility":{},
     "communication:bluetooth_standard":{},
-    "developtools:bytrace_standard":{},
+    "developtools:bytrace":{},
     "developtools:hdc":{},
     "developtools:hiperf":{},
     "distributedhardware:distributed_camera":{},
