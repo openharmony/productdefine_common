@@ -113,7 +113,7 @@
       "subsystem": "communication",
       "components": [
         {
-          "component": "bluetooth_standard",
+          "component": "bluetooth",
           "features": []
         },
         {
