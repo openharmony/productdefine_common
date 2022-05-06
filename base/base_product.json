@@ -40,7 +40,7 @@
       "subsystem": "account",
       "components": [
         {
-          "component": "os_account_standard",
+          "component": "os_account",
           "features": []
         }
       ]
