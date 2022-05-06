@@ -72,7 +72,6 @@
     "security:selinux":{},
     "sensors:start":{},
     "updater:update_service":{},
-    "usb:usb_manager":{},
     "useriam:face_auth":{},
     "useriam:pin_auth":{},
     "useriam:user_auth":{},
