@@ -93,6 +93,7 @@
         "graphic_standard_feature_ace_enable_gpu": false
       }
     },
+    "graphic:graphic_chipsetsdk":{},
     "window:window_manager":{},
     "security:appverify":{},
     "security:huks":{},
