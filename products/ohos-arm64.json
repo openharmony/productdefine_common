@@ -31,7 +31,7 @@
     "powermgr:thermal_manager":{},
     "distributeddatamgr:distributeddataobject":{},
     "barrierfree:accessibility":{},
-    "communication:bluetooth_standard":{},
+    "communication:bluetooth":{},
     "developtools:bytrace":{},
     "developtools:hdc":{},
     "developtools:hiperf":{},
