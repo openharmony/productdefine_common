@@ -40,13 +40,13 @@
       "subsystem": "account",
       "components": [
         {
-          "component": "os_account_standard",
+          "component": "os_account",
           "features": []
         }
       ]
     },
     {
-      "subsystem": "ace",
+      "subsystem": "arkui",
       "components": [
         {
           "component": "ace_engine_standard",
@@ -113,7 +113,7 @@
       "subsystem": "communication",
       "components": [
         {
-          "component": "bluetooth_standard",
+          "component": "bluetooth",
           "features": []
         },
         {
@@ -158,11 +158,11 @@
       "subsystem": "developtools",
       "components": [
         {
-          "component": "bytrace_standard",
+          "component": "bytrace",
           "features": []
         },
         {
-          "component": "hdc_standard",
+          "component": "hdc",
           "features": []
         },
         {
@@ -260,7 +260,7 @@
           "features": []
         },
         {
-          "component": "resmgr_standard",
+          "component": "resource_management",
           "features": []
         }
       ]
@@ -270,6 +270,15 @@
       "components": [
         {
           "component": "graphic_standard",
+          "features": []
+        }
+      ]
+    },
+    {
+      "subsystem": "graphic",
+      "components": [
+        {
+          "component": "graphic_chipsetsdk",
           "features": []
         }
       ]
@@ -472,7 +481,7 @@
           "features": []
         },
         {
-          "component": "ces_standard",
+          "component": "common_event_service",
           "features": []
         }
       ]
@@ -678,10 +687,6 @@
         },
         {
           "component": "user_auth",
-          "features": []
-        },
-        {
-          "component": "user_idm",
           "features": []
         }
       ]

@@ -18,7 +18,6 @@
     "hdf:wlan_device_driver":{},
     "hdf:sensor_device_driver":{},
     "hdf:audio_device_driver":{},
-    "hdf:usb_device_driver":{},
     "hdf:camera_device_driver":{},
     "hdf:vibrator_device_driver":{},
     "hdf:codec_device_driver":{},
@@ -32,9 +31,9 @@
     "powermgr:thermal_manager":{},
     "distributeddatamgr:distributeddataobject":{},
     "barrierfree:accessibility":{},
-    "communication:bluetooth_standard":{},
-    "developtools:bytrace_standard":{},
-    "developtools:hdc_standard":{},
+    "communication:bluetooth":{},
+    "developtools:bytrace":{},
+    "developtools:hdc":{},
     "developtools:hiperf":{},
     "distributedhardware:distributed_camera":{},
     "distributedhardware:distributed_hardware_fwk":{},
@@ -49,6 +48,7 @@
         "graphic_standard_feature_ace_enable_gpu": true
       }
     },
+    "graphic:graphic_chipsetsdk":{},
     "location:location":{},
     "location:location_common":{},
     "location:location_geocode":{},
@@ -73,11 +73,13 @@
     "security:selinux":{},
     "sensors:start":{},
     "updater:update_service":{},
-    "usb:usb_manager":{},
     "useriam:face_auth":{},
     "useriam:pin_auth":{},
     "useriam:user_auth":{},
-    "useriam:user_idm":{},
+    "utils:jsapi_api":{},
+    "utils:jsapi_sys":{},
+    "utils:jsapi_util":{},
+    "utils:jsapi_worker":{},
     "utils:utils_memory":{},
     "ark:ark":{},
     "ark:ark_js_runtime":{},
@@ -85,6 +87,7 @@
     "web:webview":{},
     "wukong:wukong":{},
     "arkXtest:arkXtest":{},
-    "contactsdata:contactsdata_hap":{}
+    "contactsdata:contactsdata_hap":{},
+    "deviceprofile:device_profile_core":{}
   }
 }
