@@ -94,6 +94,8 @@
     "hdf:codec_device_driver":{},
     "hdf:power_device_driver":{},
     "hdf:battery_device_driver":{},
+    "hdf:faceauth_device_driver":{},
+    "hdf:faceauth_device_driver_interface":{},
     "updater:updater":{},
     "updater:update_service":{},
     "developtools:bytrace":{},
