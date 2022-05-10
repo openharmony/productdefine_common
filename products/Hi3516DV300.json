@@ -80,6 +80,7 @@
     "hdf:codec_device_driver":{},
     "hdf:power_device_driver":{},
     "hdf:battery_device_driver":{},
+    "hdf:pinauth_device_driver":{},
     "hdf:faceauth_device_driver":{},
     "hdf:faceauth_device_driver_interface":{},
     "kernel:linux":{},
