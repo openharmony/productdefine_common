@@ -63,7 +63,7 @@
       "components": []
     },
     {
-      "subsystem": "appexecfwk",
+      "subsystem": "bundlemanager",
       "components": [
         {
           "component": "bundle_framework",
