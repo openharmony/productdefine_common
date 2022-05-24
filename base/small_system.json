@@ -1,1 +1,71 @@
-{}
+{
+  "subsystems": [  
+    {
+      "subsystem": "kernel",
+      "components": [
+        { "component": "liteos_a" }
+      ]
+    },
+    {
+      "subsystem": "hdf",
+      "components": [
+        { "component": "device_driver_framework" }
+      ]
+    },
+    {
+      "subsystem": "hiviewdfx",
+      "components": [
+        { "component": "hilog_lite" },
+        { "component": "hiview_lite" }
+      ]
+    },
+    {
+      "subsystem": "startup",
+      "components": [
+        { "component": "init_lite" },  
+        { "component": "bootstrap_lite" },
+        { "component": "syspara_lite" }
+      ]
+    },
+    {
+      "subsystem": "communication",
+      "components": [
+        { "component": "dsoftbus" },
+        { "component": "ipc_lite" }
+      ]
+    },
+    {
+      "subsystem": "distributedschedule",
+      "components": [
+        { "component": "samgr_lite" },
+        { "component": "safwk_lite" }
+      ]
+    },
+    {
+      "subsystem": "security",
+      "components": [
+        { "component": "deviceauth_standard" },
+        { "component": "huks" }
+      ]
+    },
+    {
+      "subsystem": "utils",
+      "components": [
+        { "component": "kv_store" },
+        { "component": "kal_timer" }
+      ]
+    },
+    {
+      "subsystem": "update",
+      "components": [
+        { "component": "ota_lite" }
+      ]
+    },
+    {
+      "subsystem": "developtools",
+      "components": [
+        { "component": "syscap_codec" }
+      ]
+    }
+  ]
+}  
