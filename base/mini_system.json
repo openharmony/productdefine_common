@@ -1,1 +1,63 @@
-{}
+{
+  "subsystems": [
+    {
+      "subsystem": "kernel",
+      "components": [
+        { "component": "liteos_m" }
+      ]
+    },
+    {
+      "subsystem": "hdf",
+      "components": [
+        { "component": "device_driver_framework" }
+      ]
+    },
+    {
+      "subsystem": "hiviewdfx",
+      "components": [
+        { "component": "hilog_lite" },
+        { "component": "hievent_lite" },
+        { "component": "hiview_lite" }
+      ]
+    },
+    {
+      "subsystem": "startup",
+      "components": [
+        { "component": "bootstrap_lite" },
+        { "component": "syspara_lite" }
+      ]
+    },
+    {
+      "subsystem": "communication",
+      "components": [
+        { "component": "dsoftbus" }
+      ]
+    },
+    {
+      "subsystem": "distributedschedule",
+      "components": [
+        { "component": "samgr_lite" }
+      ]
+    },
+    {
+      "subsystem": "security",
+      "components": [
+        { "component": "deviceauth_standard" },
+        { "component": "huks" }
+      ]
+    },
+    {
+      "subsystem": "utils",
+      "components": [
+        { "component": "kv_store" },
+        { "component": "kal_timer" }
+      ]
+    },
+    {
+      "subsystem": "update",
+      "components": [
+        { "component": "ota_lite" }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,81 @@
-{}
+{
+  "subsystems": [
+    {
+      "subsystem": "kernel",
+      "components": [
+        { "component": "linux" }
+      ]
+    },
+    {
+      "subsystem": "hdf",
+      "components": [
+        { "component": "device_driver_framework" }
+      ]
+    },
+    {
+      "subsystem": "startup",
+      "components": [
+        { "component": "init" }
+      ]
+    },
+    {
+      "subsystem": "communication",
+      "components": [
+        { "component": "dsoftbus" },
+        { "component": "ipc" }
+      ]
+    },
+    {
+      "subsystem": "distributedschedule",
+      "components": [
+        { "component": "samgr_standard" },
+        { "component": "safwk" }
+      ]
+    },
+    {
+      "subsystem": "hiviewdfx",
+      "components": [
+        { "component": "hilog_native" },
+        { "component": "hilog_service" },
+        { "component": "hitrace_native" },
+        { "component": "hisysevnet_native" },
+        { "component": "hicollie_native" },
+        { "component": "faultloggerd" }
+      ]
+    },
+    {
+      "subsystem": "security",
+      "components": [
+        { "component": "deviceauth_standard" },
+        { "component": "huks" }
+      ]
+    },
+    {
+      "subsystem": "bundlemanager",
+      "components": [
+        { "component": "eventhandler" }
+      ]
+    },
+    {
+      "subsystem": "utils",
+      "components": [
+        { "component": "utils_base" }
+      ]
+    },
+    {
+      "subsystem": "update",
+      "components": [
+        { "component": "updater" },
+        { "component": "update_service" }
+      ]
+    },
+    {
+      "subsystem": "developtools",
+      "components": [
+        { "component": "syscap_codec" }
+      ]
+    }
+  ]
+}
+  
+  
