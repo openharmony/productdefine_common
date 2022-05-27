@@ -489,7 +489,7 @@
       "subsystem": "notification",
       "components": [
         {
-          "component": "ans_standard",
+          "component": "distributed_notification_service",
           "features": []
         },
         {
