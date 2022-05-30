@@ -54,7 +54,7 @@
       ]
     },
     {
-      "subsystem": "update",
+      "subsystem": "updater",
       "components": [
         { "component": "ota_lite" }
       ]
