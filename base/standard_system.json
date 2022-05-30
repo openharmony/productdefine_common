@@ -28,7 +28,7 @@
     {
       "subsystem": "distributedschedule",
       "components": [
-        { "component": "samgr_standard" },
+        { "component": "samgr" },
         { "component": "safwk" }
       ]
     },
@@ -38,7 +38,7 @@
         { "component": "hilog_native" },
         { "component": "hilog_service" },
         { "component": "hitrace_native" },
-        { "component": "hisysevnet_native" },
+        { "component": "hisysevent_native" },
         { "component": "hicollie_native" },
         { "component": "faultloggerd" }
       ]
@@ -46,7 +46,7 @@
     {
       "subsystem": "security",
       "components": [
-        { "component": "deviceauth_standard" },
+        { "component": "device_auth" },
         { "component": "huks" }
       ]
     },
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "subsystem": "update",
+      "subsystem": "updater",
       "components": [
         { "component": "updater" },
         { "component": "update_service" }
@@ -76,6 +76,4 @@
       ]
     }
   ]
-}
-  
-  
+} 
