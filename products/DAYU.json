@@ -54,7 +54,7 @@
     "communication:netmanager_base":{},
     "communication:netmanager_ext":{},
     "communication:netstack":{},
-    "communication:dsoftbus_standard":{},
+    "communication:dsoftbus":{},
     "communication:wifi":{},
     "communication:dhcp":{},
     "communication:bluetooth_native_js":{},
