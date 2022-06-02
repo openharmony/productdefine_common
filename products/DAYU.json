@@ -24,7 +24,6 @@
     "hiviewdfx:hisysevent_native":{},
     "hiviewdfx:hiappevent_js":{},
     "hiviewdfx:hiview":{},
-    "hiviewdfx:faultloggerd":{},
     "hiviewdfx:hitrace_native":{},
     "hiviewdfx:hicollie_native":{},
     "utils:utils_base":{},
