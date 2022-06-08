@@ -76,10 +76,6 @@
         {
           "component": "distributed_bundle_framework",
           "features": []
-        },
-        {
-          "component": "eventhandler",
-          "features": []
         }
       ]
     },
@@ -494,6 +490,10 @@
         },
         {
           "component": "common_event_service",
+          "features": []
+        },
+        {
+          "component": "eventhandler",
           "features": []
         }
       ]

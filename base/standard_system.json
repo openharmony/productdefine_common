@@ -52,7 +52,7 @@
       ]
     },
     {
-      "subsystem": "bundlemanager",
+      "subsystem": "notification",
       "components": [
         { "component": "eventhandler" }
       ]
