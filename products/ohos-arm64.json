@@ -81,7 +81,7 @@
     "updater:update_service":{},
     "useriam:face_auth":{},
     "useriam:pin_auth":{},
-    "useriam:user_auth":{},
+    "useriam:user_auth_framework":{},
     "utils:jsapi_api":{},
     "utils:jsapi_sys":{},
     "utils:jsapi_util":{},
