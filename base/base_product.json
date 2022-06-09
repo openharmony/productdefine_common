@@ -12,7 +12,7 @@
   "target_cpu": "arm",
   "subsystems": [
     {
-      "subsystem": "aafwk",
+      "subsystem": "ability",
       "components": [
         {
           "component": "ability_runtime",
@@ -23,11 +23,11 @@
           "features": []
         },
         {
-          "component": "form_runtime",
+          "component": "form_fwk",
           "features": []
         },
         {
-          "component": "idl",
+          "component": "idl_tool",
           "features": []
         },
         {
