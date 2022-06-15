@@ -61,7 +61,7 @@
     "distributedschedule:samgr_standard":{},
     "distributedschedule:safwk":{},
     "distributedschedule:dmsfwk_standard":{},
-    "hdf:device_driver_framework":{},
+    "hdf:hdf_core":{},
     "hdf:bluetooth_device_driver":{},
     "hdf:input_device_driver":{},
     "hdf:display_device_driver":{},

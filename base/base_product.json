@@ -315,7 +315,7 @@
           "features": []
         },
         {
-          "component": "device_driver_framework",
+          "component": "hdf_core",
           "features": []
         },
         {

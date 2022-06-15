@@ -9,7 +9,7 @@
   "parts": {
     "customization:config_policy":{},
     "customization:enterprise_device_management":{},
-    "hdf:device_driver_framework":{},
+    "hdf:hdf_core":{},
     "hdf:bluetooth_device_driver":{},
     "hdf:input_device_driver":{},
     "hdf:light_device_driver":{},
