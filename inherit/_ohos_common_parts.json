@@ -67,7 +67,7 @@
     "security:appverify":{},
     "security:access_token":{},
     "security:huks":{},
-    "security:deviceauth_standard":{},
+    "security:device_auth":{},
     "security:dataclassification":{},
     "security:device_security_level":{},
     "sensors:sensor":{},

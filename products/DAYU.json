@@ -86,7 +86,7 @@
     "graphic:graphic_chipsetsdk":{},
     "security:appverify":{},
     "security:huks":{},
-    "security:deviceauth_standard":{},
+    "security:device_auth":{},
     "security:dataclassification":{},
     "sensors:sensor":{},
     "miscservices:time_native":{},
