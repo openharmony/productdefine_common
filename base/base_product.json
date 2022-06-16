@@ -410,10 +410,6 @@
       ]
     },
     {
-      "subsystem": "iot",
-      "components": []
-    },
-    {
       "subsystem": "iot_hardware",
       "components": []
     },
