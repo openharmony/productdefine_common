@@ -576,10 +576,6 @@
           "features": []
         },
         {
-          "component": "permission_standard",
-          "features": []
-        },
-        {
           "component": "selinux",
           "features": []
         }
