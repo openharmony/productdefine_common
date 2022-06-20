@@ -11,7 +11,6 @@
     "distributeddatamgr:distributedfilejs":{},
     "distributeddatamgr:e2fsprogs":{},
     "common:common":{},
-    "security:permission_standard":{},
     "startup:startup_l2":{},
     "startup:appspawn":{},
     "startup:init":{},
