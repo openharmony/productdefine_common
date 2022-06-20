@@ -85,7 +85,7 @@ device_build_path是device对应子系统路径，编译时会扫描对应目录
 
 **如何查看一个指定产品的最终的部件列表？**
 
-在编译启动后，编译系统会解析配置文件，生成产品的全部的部件列表，输出为：out/build\_configs/\{产品名\}/preloader/parts.json。
+在编译启动后，编译系统会解析配置文件，生成产品的全部的部件列表，输出为：out/preloader/\{产品名\}/parts.json。
 
 ## 相关仓<a name="section1371113476307"></a>
 
