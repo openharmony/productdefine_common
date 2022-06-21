@@ -56,6 +56,7 @@
     "notification:ans_standard":{},
     "communication:ipc":{},
     "communication:ipc_js":{},
+    "communication:bluetooth_standard":{},
     "communication:net_manager":{},
     "communication:netmanager_base":{},
     "communication:netmanager_ext":{},
