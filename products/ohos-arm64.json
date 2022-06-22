@@ -10,7 +10,7 @@
     "customization:config_policy":{},
     "customization:enterprise_device_management":{},
     "hdf:hdf_core":{},
-    "hdf:bluetooth_device_driver":{},
+    "hdf:drivers_peripheral_bluetooth":{},
     "hdf:input_device_driver":{},
     "hdf:light_device_driver":{},
     "hdf:display_device_driver":{},
