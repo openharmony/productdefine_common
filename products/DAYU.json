@@ -60,7 +60,7 @@
     "distributedschedule:safwk":{},
     "distributedschedule:dmsfwk_standard":{},
     "hdf:hdf_core":{},
-    "hdf:bluetooth_device_driver":{},
+    "hdf:drivers_peripheral_bluetooth":{},
     "hdf:input_device_driver":{},
     "hdf:display_device_driver":{},
     "hdf:drivers_peripheral_thermal":{},
