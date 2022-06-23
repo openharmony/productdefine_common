@@ -208,11 +208,7 @@
           "features": []
         },
         {
-          "component": "dataability",
-          "features": []
-        },
-        {
-          "component": "preferences",
+          "component": "preference",
           "features": []
         },
         {
@@ -295,15 +291,15 @@
       "subsystem": "hdf",
       "components": [
         {
-          "component": "audio_device_driver",
+          "component": "drivers_peripheral_audio",
           "features": []
         },
         {
-          "component": "battery_device_driver",
+          "component": "drivers_peripheral_battery",
           "features": []
         },
         {
-          "component": "bluetooth_device_driver",
+          "component": "drivers_peripheral_bluetooth",
           "features": []
         },
         {
@@ -311,7 +307,7 @@
           "features": []
         },
         {
-          "component": "codec_device_driver",
+          "component": "drivers_peripheral_codec",
           "features": []
         },
         {
@@ -331,7 +327,7 @@
           "features": []
         },
         {
-          "component": "power_device_driver",
+          "component": "drivers_peripheral_power",
           "features": []
         },
         {
@@ -339,7 +335,7 @@
           "features": []
         },
         {
-          "component": "thermal_device_driver",
+          "component": "drivers_peripheral_thermal",
           "features": []
         },
         {
