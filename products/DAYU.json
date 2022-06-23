@@ -69,7 +69,7 @@
     "hdf:sensor_device_driver":{},
     "hdf:audio_device_driver":{},
     "hdf:drivers_peripheral_usb":{},
-    "hdf:camera_device_driver":{},
+    "hdf:driver_peripheral_camera":{},
     "hdf:vibrator_device_driver":{},
     "hdf:codec_device_driver":{},
     "hdf:power_device_driver":{},
