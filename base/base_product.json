@@ -319,11 +319,11 @@
           "features": []
         },
         {
-          "component": "input_device_driver",
+          "component": "drivers_peripheral_input",
           "features": []
         },
         {
-          "component": "light_device_driver",
+          "component": "drivers_peripheral_light",
           "features": []
         },
         {
@@ -331,7 +331,7 @@
           "features": []
         },
         {
-          "component": "sensor_device_driver",
+          "component": "drivers_peripheral_sensor",
           "features": []
         },
         {
@@ -343,7 +343,7 @@
           "features": []
         },
         {
-          "component": "vibrator_device_driver",
+          "component": "drivers_peripheral_vibrator",
           "features": []
         },
         {
