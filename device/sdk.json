@@ -4,5 +4,6 @@
     "target_os": "ohos",
     "target_cpu": "arm64",
     "kernel_version": "",
-    "device_build_path": ""
+    "device_build_path": "",
+    "build_selinux": true
 }
