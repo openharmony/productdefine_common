@@ -20,6 +20,7 @@
     "hiviewdfx:hiview":{},
     "hiviewdfx:hitrace_native":{},
     "hiviewdfx:hicollie_native":{},
+    "hiviewdfx:faultloggerd":{},
     "utils:utils_base":{},
     "subsystem_examples:subsystem_examples":{},
     "appexecfwk:appexecfwk_standard":{},
