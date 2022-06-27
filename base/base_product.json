@@ -303,7 +303,7 @@
           "features": []
         },
         {
-          "component": "driver_peripheral_camera",
+          "component": "drivers_peripheral_camera",
           "features": []
         },
         {
