@@ -62,7 +62,7 @@
     "hdf:hdf_core":{},
     "hdf:drivers_peripheral_bluetooth":{},
     "hdf:drivers_peripheral_input":{},
-    "hdf:display_device_driver":{},
+    "hdf:drivers_peripheral_display":{},
     "hdf:drivers_peripheral_thermal":{},
     "hdf:wlan_device_driver":{},
     "hdf:drivers_peripheral_sensor":{},

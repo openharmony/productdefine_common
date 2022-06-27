@@ -315,7 +315,7 @@
           "features": []
         },
         {
-          "component": "display_device_driver",
+          "component": "drivers_peripheral_display",
           "features": []
         },
         {
