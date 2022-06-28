@@ -6,7 +6,7 @@
   "type": "standard",
   "product_build_path": "device/hihope/build",
   "parts":{
-    "arkui:ace_engine_standard":{},
+    "arkui:ace_engine":{},
     "arkui:napi":{},
     "account:os_account":{},
     "distributeddatamgr:relational_store":{},
