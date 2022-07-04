@@ -103,11 +103,16 @@
           "features": []
         },
         {
-          "component": "drivers_peripheral_display",
-          "features": []
-        },
-        {
           "component": "drivers_peripheral_distributed_camera",
+          "features": []
+        }
+      ]
+    },
+    {
+      "subsystem": "telephony",
+      "components": [
+        {
+          "component": "ril_adapter",
           "features": []
         }
       ]
