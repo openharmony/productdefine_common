@@ -4,7 +4,7 @@
     "arkui:napi":{},
     "account:os_account":{},
     "distributeddatamgr:relational_store":{},
-    "distributeddatamgr:preference":{},
+    "distributeddatamgr:preferences":{},
     "distributeddatamgr:data_share":{},
     "distributeddatamgr:distributeddatamgr":{},
     "distributeddatamgr:distributedfilejs":{},
