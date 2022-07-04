@@ -582,10 +582,6 @@
           "features": []
         },
         {
-          "component": "ril_adapter",
-          "features": []
-        },
-        {
           "component": "data_storage",
           "features": []
         },
@@ -942,6 +938,10 @@
         },
         {
           "component": "drivers_interface_distributed_camera",
+          "features": []
+        },
+        {
+          "component": "drivers_interface_ril",
           "features": []
         }
       ]
