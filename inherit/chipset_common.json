@@ -101,6 +101,10 @@
         {
           "component": "drivers_peripheral_distributed_camera",
           "features": []
+        },
+        {
+          "component": "drivers_peripheral_partitionslot",
+          "features": []
         }
       ]
     },
