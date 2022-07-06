@@ -273,7 +273,7 @@
       "subsystem": "graphic",
       "components": [
         {
-          "component": "graphic_graphic_2d",
+          "component": "graphic_standard",
           "features": []
         }
       ]

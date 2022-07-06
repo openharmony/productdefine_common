@@ -59,7 +59,7 @@
     "developtools:profiler":{},
     "developtools:hiperf":{},
     "sensors:miscdevice":{},
-    "graphic:graphic_graphic_2d":{},
+    "graphic:graphic_standard":{},
     "graphic:graphic_chipsetsdk":{},
     "window:window_manager":{},
     "security:appverify":{},
