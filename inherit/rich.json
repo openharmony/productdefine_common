@@ -861,6 +861,10 @@
           "features": []
         },
         {
+          "component": "drivers_interface_camera",
+          "features": []
+        },
+        {
           "component": "drivers_interface_motion",
           "features": []
         },
