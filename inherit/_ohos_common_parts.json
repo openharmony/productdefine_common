@@ -90,7 +90,7 @@
     "global:resource_management":{},
     "powermgr:power_manager_native":{},
     "powermgr:battery_manager_native":{},
-    "powermgr:battery_statistics_native":{},
+    "powermgr:battery_statistics":{},
     "powermgr:display_manager_native":{},
     "applications:prebuilt_hap":{},
     "settingsnapi:settings_standard":{},

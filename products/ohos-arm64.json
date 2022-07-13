@@ -38,7 +38,7 @@
     "hiviewdfx:hidumper":{},
     "powermgr:power_manager_native":{},
     "powermgr:battery_manager_native":{},
-    "powermgr:battery_statistics_native":{},
+    "powermgr:battery_statistics":{},
     "powermgr:display_manager_native":{},
     "powermgr:thermal_manager":{},
     "distributeddatamgr:distributeddataobject":{},
