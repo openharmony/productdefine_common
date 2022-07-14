@@ -42,6 +42,12 @@
         ]
       },
       {
+        "subsystem": "commonlibrary",
+        "components": [
+          { "component": "c_utils", "features": [] }
+        ]
+      },
+      {
         "subsystem": "utils",
         "components": [
           { "component": "utils_base", "features":[] }
