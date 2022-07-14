@@ -72,7 +72,7 @@
     "miscservices:time_native":{},
     "miscservices:inputmethod_native":{},
     "multimedia:multimedia_histreamer":{},
-    "multimedia:multimedia_media_standard":{},
+    "multimedia:multimedia_player_framework":{},
     "multimedia:multimedia_audio_framework":{},
     "multimedia:multimedia_camera_standard":{},
     "multimedia:multimedia_image_standard":{},
