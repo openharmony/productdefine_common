@@ -91,7 +91,7 @@
     "powermgr:power_manager_native":{},
     "powermgr:battery_manager_native":{},
     "powermgr:battery_statistics":{},
-    "powermgr:display_manager_native":{},
+    "powermgr:display_manager":{},
     "applications:prebuilt_hap":{},
     "settingsnapi:settings_standard":{},
     "wpa_supplicant-2.9:wpa_supplicant-2.9":{},
