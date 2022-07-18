@@ -36,7 +36,7 @@
     "hdf:drivers_interface_battery":{},
     "hdf:drivers_interface_thermal":{},
     "hiviewdfx:hidumper":{},
-    "powermgr:power_manager_native":{},
+    "powermgr:power_manager":{},
     "powermgr:battery_manager_native":{},
     "powermgr:battery_statistics":{},
     "powermgr:display_manager":{},
