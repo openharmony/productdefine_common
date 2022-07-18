@@ -64,6 +64,13 @@
     "communication:dsoftbus_standard":{},
     "communication:wifi_standard":{},
     "communication:bluetooth_native_js":{},
+    "location:location":{},
+    "location:location_common":{},
+    "location:location_locator":{},
+    "location:location_network":{},
+    "location:location_gnss":{},
+    "location:location_passive":{},
+    "location:location_geocode":{},
     "customization:config_policy":{},
     "distributedschedule:samgr_standard":{},
     "distributedschedule:safwk":{},
@@ -157,6 +164,7 @@
     "filemanagement:dfs_service":{},
     "filemanagement:app_file_service":{},
     "resourceschedule:background_task_mgr":{},
-    "securec:thirdparty_bounds_checking_function":{}
+    "securec:thirdparty_bounds_checking_function":{},
+    "web:webview":{}
   }
 }
