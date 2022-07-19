@@ -33,6 +33,10 @@
         {
           "component": "ability_base",
           "features": []
+        },
+        {
+          "component": "dmsfwk",
+          "features": []
         }
       ]
     },
@@ -229,10 +233,6 @@
     {
       "subsystem": "distributedschedule",
       "components": [
-        {
-          "component": "dmsfwk_standard",
-          "features": []
-        },
         {
           "component": "safwk",
           "features": []
