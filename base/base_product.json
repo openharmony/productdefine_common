@@ -406,7 +406,7 @@
       ]
     },
     {
-      "subsystem": "iot_hardware",
+      "subsystem": "iothardware",
       "components": []
     },
     {
