@@ -105,7 +105,7 @@
     "utils:jsapi_worker":{},
     "ark:ark":{},
     "ark:ark_js_runtime":{},
-    "ark:ark_ts2abc":{},
+    "ark:ets_frontend":{},
     "deviceprofile:device_profile_core":{},
     "filemanagement:storage_service":{}
   }
