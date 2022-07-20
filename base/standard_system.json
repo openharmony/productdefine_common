@@ -1,9 +1,11 @@
 {
   "subsystems": [
     {
-      "subsystem": "kernel",
+      "subsystem": "common",
       "components": [
-        { "component": "linux" }
+        {
+          "component": "common"
+        }
       ]
     },
     {
@@ -28,7 +30,7 @@
     {
       "subsystem": "distributedschedule",
       "components": [
-        { "component": "samgr" },
+        { "component": "samgr_standard" },
         { "component": "safwk" }
       ]
     },
@@ -55,12 +57,6 @@
       "subsystem": "notification",
       "components": [
         { "component": "eventhandler" }
-      ]
-    },
-    {
-      "subsystem": "commonlibrary",
-      "components": [
-        { "component": "c_utils" }
       ]
     },
     {
