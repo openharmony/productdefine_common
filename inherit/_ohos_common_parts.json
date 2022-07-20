@@ -106,7 +106,7 @@
     "ark:ark":{},
     "ark:ark_js_runtime":{},
     "ark:ets_frontend":{},
-    "deviceprofile:device_profile_core":{},
+    "deviceprofile:device_info_manager":{},
     "filemanagement:storage_service":{}
   }
 }
