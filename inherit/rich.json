@@ -645,7 +645,7 @@
           "features": []
         },
         {
-          "component": "battery_manager_native",
+          "component": "battery_manager",
           "features": []
         },
         {

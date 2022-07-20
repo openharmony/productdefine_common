@@ -89,7 +89,7 @@
     "global:i18n":{},
     "global:resource_management":{},
     "powermgr:power_manager":{},
-    "powermgr:battery_manager_native":{},
+    "powermgr:battery_manager":{},
     "powermgr:battery_statistics":{},
     "powermgr:display_manager":{},
     "applications:prebuilt_hap":{},
