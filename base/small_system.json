@@ -15,8 +15,7 @@
     {
       "subsystem": "hiviewdfx",
       "components": [
-        { "component": "hilog_lite" },
-        { "component": "hiview_lite" }
+        { "component": "hilog_featured_lite" }
       ]
     },
     {
@@ -50,7 +49,6 @@
     {
       "subsystem": "utils",
       "components": [
-        { "component": "kv_store" },
         { "component": "kal_timer" }
       ]
     },
