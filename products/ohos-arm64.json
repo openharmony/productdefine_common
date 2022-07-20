@@ -70,7 +70,7 @@
     "location:location_passive":{},
     "miscservices:pasteboard_native":{},
     "miscservices:screenlock":{},
-    "miscservices:wallpaper_native":{},
+    "theme:wallpaper_mgr":{},
     "miscservices:request":{},
     "msdp:device_status":{},
     "resourceschedule:background_task_mgr":{},
