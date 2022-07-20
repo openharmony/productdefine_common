@@ -70,7 +70,7 @@
     "security:device_security_level":{},
     "sensors:sensor":{},
     "miscservices:time_native":{},
-    "miscservices:inputmethod_native":{},
+    "inputmethod:imf":{},
     "multimedia:multimedia_histreamer":{},
     "multimedia:multimedia_player_framework":{},
     "multimedia:multimedia_audio_framework":{},
