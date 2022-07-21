@@ -52,7 +52,7 @@
           "features": []
         },
         {
-          "component": "distributeddataobject",
+          "component": "data_object",
           "features": []
         },
         {
