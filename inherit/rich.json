@@ -855,7 +855,11 @@
         {
           "component": "musl",
           "features": []
-        }
+        },
+	{
+          "component": "mimallo",
+          "features": []
+	}
       ]
     },
     {
