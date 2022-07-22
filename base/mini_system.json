@@ -47,7 +47,7 @@
       ]
     },
     {
-      "subsystem": "utils",
+      "subsystem": "commonlibrary",
       "components": [
         { "component": "kv_store" },
         { "component": "kal_timer" }
