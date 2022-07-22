@@ -151,10 +151,6 @@
       ]
     },
     {
-      "subsystem": "compileruntime",
-      "components": []
-    },
-    {
       "subsystem": "developtools",
       "components": [
         {
@@ -422,11 +418,16 @@
       "subsystem": "miscservices",
       "components": [
         {
-          "component": "inputmethod_native",
-          "features": []
-        },
-        {
           "component": "time_native",
+          "features": []
+        }
+      ]
+    },
+    {
+      "subsystem": "inputmethod",
+      "components": [
+        {
+          "component": "imf",
           "features": []
         }
       ]
@@ -697,7 +698,11 @@
         {
           "component": "c_utils",
           "features": []
-        }
+        },
+	{
+          "component": "ets_utils",
+          "features": []
+        },
       ]
     },
     {
@@ -725,22 +730,6 @@
         },
         {
           "component": "utils_memory",
-          "features": []
-        },
-        {
-          "component": "jsapi_api",
-          "features": []
-        },
-        {
-          "component": "jsapi_sys",
-          "features": []
-        },
-        {
-          "component": "jsapi_util",
-          "features": []
-        },
-        {
-          "component": "jsapi_worker",
           "features": []
         }
       ]
