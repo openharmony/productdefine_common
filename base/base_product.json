@@ -231,14 +231,14 @@
       ]
     },
     {
-      "subsystem": "distributedschedule",
+      "subsystem": "systemabilitymgr",
       "components": [
         {
           "component": "safwk",
           "features": []
         },
         {
-          "component": "samgr_standard",
+          "component": "samgr",
           "features": []
         }
       ]
