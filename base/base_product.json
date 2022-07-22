@@ -418,11 +418,16 @@
       "subsystem": "miscservices",
       "components": [
         {
-          "component": "inputmethod_native",
-          "features": []
-        },
-        {
           "component": "time_native",
+          "features": []
+        }
+      ]
+    },
+    {
+      "subsystem": "inputmethod",
+      "components": [
+        {
+          "component": "imf",
           "features": []
         }
       ]
