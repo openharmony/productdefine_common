@@ -69,7 +69,7 @@
     "security:dataclassification":{},
     "security:device_security_level":{},
     "sensors:sensor":{},
-    "miscservices:time_native":{},
+    "time:time_service":{},
     "inputmethod:imf":{},
     "multimedia:multimedia_histreamer":{},
     "multimedia:multimedia_player_framework":{},

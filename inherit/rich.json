@@ -509,10 +509,10 @@
       ]
     },
     {
-      "subsystem": "miscservices",
+      "subsystem": "time",
       "components": [
         {
-          "component": "time_native",
+          "component": "time_service",
           "features": []
         }
       ]
