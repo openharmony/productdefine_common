@@ -582,7 +582,16 @@
       "components": [
         {
           "component": "input",
-          "features": []
+          "features": [
+            "input_feature_combination_key = true",
+            "input_feature_pointer_drawing = true",
+            "input_feature_interceptor = true",
+            "input_feature_monitor = true",
+            "input_feature_keyboard = true",
+            "input_feature_mouse = true",
+            "input_feature_touchscreen = true",
+            "input_feature_input_device = true"
+          ]
         }
       ]
     },
