@@ -60,6 +60,12 @@
       ]
     },
     {
+      "subsystem": "commonlibrary",
+      "components": [
+        { "component": "c_utils" }
+      ]
+    },
+    {
       "subsystem": "utils",
       "components": [
         { "component": "utils_base" }
