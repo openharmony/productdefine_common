@@ -41,7 +41,7 @@
     "powermgr:battery_statistics":{},
     "powermgr:display_manager":{},
     "powermgr:thermal_manager":{},
-    "distributeddatamgr:distributeddataobject":{},
+    "distributeddatamgr:data_object":{},
     "distributeddatamgr:pasteboard":{},
     "barrierfree:accessibility":{},
     "communication:bluetooth":{},
