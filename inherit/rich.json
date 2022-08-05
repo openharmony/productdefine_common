@@ -972,6 +972,10 @@
         {
           "component": "drivers_interface_ril",
           "features": []
+        },
+        {
+          "component": "drivers_interface_partitionslot",
+          "features": []
         }
       ]
     }
