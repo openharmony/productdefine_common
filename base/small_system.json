@@ -21,7 +21,7 @@
     {
       "subsystem": "startup",
       "components": [
-        { "component": "init" },
+        { "component": "init_lite" },
         { "component": "bootstrap_lite" },
         { "component": "syspara_lite" }
       ]
