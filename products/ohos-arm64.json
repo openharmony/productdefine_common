@@ -36,6 +36,7 @@
     "hdf:drivers_interface_power":{},
     "hdf:drivers_interface_battery":{},
     "hdf:drivers_interface_thermal":{},
+    "hdf:drivers_interface_bluetooth":{},
     "hiviewdfx:hidumper":{},
     "powermgr:power_manager":{},
     "powermgr:battery_manager":{},
