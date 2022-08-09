@@ -188,8 +188,14 @@
       "subsystem": "distributeddatamgr",
       "components": [
         {
-          "component": "distributeddatamgr",
+          "component": "datamgr_service",
           "features": []
+        },
+        {
+          "component": "kv_store",
+          "features": [
+            "kv_store_build_lite = false"
+          ]
         },
         {
           "component": "data_object",
