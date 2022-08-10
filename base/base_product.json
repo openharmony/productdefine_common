@@ -193,9 +193,7 @@
         },
         {
           "component": "kv_store",
-          "features": [
-            "kv_store_build_lite = false"
-          ]
+          "features": []
         },
         {
           "component": "data_object",

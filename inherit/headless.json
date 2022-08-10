@@ -137,7 +137,7 @@
       {
         "subsystem": "distributeddatamgr",
         "components": [
-          { "component": "kv_store", "features":["kv_store_build_lite = false"] },
+          { "component": "kv_store", "features":[] },
           { "component": "datamgr_service", "features":[] },
           { "component": "distributedfilejs", "features":[] },
           { "component": "relational_store", "features":[] },
