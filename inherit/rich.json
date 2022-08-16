@@ -78,7 +78,9 @@
         },
         {
           "component": "storage_service",
-          "features": []
+          "features": [
+            "storage_service_feature_use_librestorecon = true"
+          ]
         },
         {
           "component": "dfs_service",
