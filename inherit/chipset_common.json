@@ -105,6 +105,10 @@
         {
           "component": "drivers_peripheral_partitionslot",
           "features": []
+        },
+        {
+          "component": "drivers_peripheral_ril",
+          "features": []
         }
       ]
     },
