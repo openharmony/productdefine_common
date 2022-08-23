@@ -782,6 +782,10 @@
         {
           "component": "ets_frontend",
           "features": []
+        },
+        {
+          "component": "toolchain",
+          "features": []
         }
       ]
     },

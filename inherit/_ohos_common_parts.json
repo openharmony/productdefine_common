@@ -104,6 +104,7 @@
     "ark:ark":{},
     "ark:ark_js_runtime":{},
     "ark:ets_frontend":{},
+    "ark:toolchain":{},
     "deviceprofile:device_info_manager":{},
     "filemanagement:storage_service":{}
   }
