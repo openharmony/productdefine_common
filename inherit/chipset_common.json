@@ -30,7 +30,15 @@
         },
         {
           "component": "drivers_peripheral_sensor",
-          "features": []
+          "features": [
+            "drivers_peripheral_sensor_feature_model = true"
+          ]
+        },
+        {
+          "component": "drivers_peripheral_motion",
+          "features": [
+            "drivers_peripheral_motion_feature_model = true"
+          ]
         },
         {
           "component": "drivers_peripheral_audio",
@@ -48,11 +56,15 @@
         },
         {
           "component": "drivers_peripheral_light",
-          "features": []
+          "features": [
+            "drivers_peripheral_light_feature_model = true"
+          ]
         },
         {
           "component": "drivers_peripheral_vibrator",
-          "features": []
+          "features": [
+            "drivers_peripheral_vibrator_feature_model = true"
+          ]
         },
         {
           "component": "drivers_peripheral_codec",
