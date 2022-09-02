@@ -106,6 +106,10 @@
         {
           "component": "ark_js_runtime",
           "features": []
+        },
+        {
+          "component": "toolchain",
+          "features": []
         }
       ]
     },

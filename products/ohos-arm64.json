@@ -100,6 +100,7 @@
     "ark:ark":{},
     "ark:ark_js_runtime":{},
     "ark:ets_frontend":{},
+    "ark:toolchain":{},
     "web:webview":{},
     "wukong:wukong":{},
     "arkXtest:arkXtest":{},
