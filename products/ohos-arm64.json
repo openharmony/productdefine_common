@@ -56,11 +56,7 @@
     "filemanagement:app_file_service":{},
     "filemanagement:dfs_service":{},
     "filemanagement:user_file_service":{},
-    "filemanagement:storage_service":{
-      "features": {
-        "storage_service_feature_use_librestorecon": true
-      }
-    },
+    "filemanagement:storage_service":{},
     "global:systemres":{},
     "global:timezone":{},
     "graphic:graphic_standard":{
