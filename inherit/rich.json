@@ -451,7 +451,11 @@
         {
           "component": "syscap_codec",
           "features": []
-        }
+        },
+	{
+	  "component": "packing_tool",
+	  "features": []
+	}
       ]
     },
     {
