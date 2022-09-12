@@ -68,6 +68,7 @@
     "security:access_token":{},
     "security:huks":{},
     "security:device_auth":{},
+    "security:crypto_framework":{},
     "security:dataclassification":{},
     "security:device_security_level":{},
     "sensors:sensor":{},

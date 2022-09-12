@@ -577,6 +577,10 @@
           "features": []
         },
         {
+          "component": "crypto_framework",
+          "features": []
+        },
+        {
           "component": "huks",
           "features": []
         },
