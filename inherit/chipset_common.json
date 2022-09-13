@@ -36,9 +36,7 @@
         },
         {
           "component": "drivers_peripheral_motion",
-          "features": [
-            "drivers_peripheral_motion_feature_model = true"
-          ]
+          "features": []
         },
         {
           "component": "drivers_peripheral_audio",
