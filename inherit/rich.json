@@ -430,10 +430,6 @@
         {
           "component": "update_service",
           "features": []
-        },
-        {
-          "component": "sys_installer",
-          "features": []
         }
       ]
     },
