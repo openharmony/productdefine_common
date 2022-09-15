@@ -92,7 +92,7 @@
     "useriam:pin_auth":{},
     "useriam:user_auth_framework":{},
     "commonlibrary:ets_utils":{},
-    "utils:utils_memory":{},
+    "commonlibrary:utils_memory":{},
     "ark:ark":{},
     "ark:ark_js_runtime":{},
     "ark:ets_frontend":{},

@@ -222,6 +222,10 @@
 	{
           "component": "ets_utils",
           "features": []
+        },
+        {
+          "component": "utils_memory",
+          "features": []
         }
       ]
     },
@@ -230,10 +234,6 @@
       "components": [
         {
           "component": "utils_base",
-          "features": []
-        },
-        {
-          "component": "utils_memory",
           "features": []
         }
       ]
