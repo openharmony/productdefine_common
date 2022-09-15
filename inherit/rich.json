@@ -539,6 +539,15 @@
       ]
     },
     {
+      "subsystem": "print",
+      "components": [
+        {
+          "component": "print",
+          "features": []
+        }
+      ]
+    }, 
+    {
       "subsystem": "inputmethod",
       "components": [
         {
