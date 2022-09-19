@@ -886,6 +886,10 @@
           "features": []
         },
         {
+          "component": "drivers_interface_codec",
+          "features": []
+        },
+        {
           "component": "drivers_interface_camera",
           "features": []
         },
