@@ -585,6 +585,10 @@
           "features": []
         },
         {
+          "component": "certificate_manager",
+          "features": []
+        },
+        {
           "component": "selinux",
           "features": []
         }
