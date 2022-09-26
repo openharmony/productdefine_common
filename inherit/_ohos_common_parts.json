@@ -8,7 +8,6 @@
     "distributeddatamgr:data_share":{},
     "distributeddatamgr:datamgr_service":{},
     "distributeddatamgr:kv_store":{},
-    "distributeddatamgr:distributedfilejs":{},
     "distributeddatamgr:e2fsprogs":{},
     "common:common":{},
     "startup:startup_l2":{},
@@ -109,6 +108,7 @@
     "ark:ets_frontend":{},
     "ark:toolchain":{},
     "deviceprofile:device_info_manager":{},
-    "filemanagement:storage_service":{}
+    "filemanagement:storage_service":{},
+    "filemanagement:file_api":{}
   }
 }

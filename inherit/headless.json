@@ -139,7 +139,6 @@
         "components": [
           { "component": "kv_store", "features":[] },
           { "component": "datamgr_service", "features":[] },
-          { "component": "distributedfilejs", "features":[] },
           { "component": "relational_store", "features":[] },
           { "component": "preferences", "features":[] },
           { "component": "data_share", "features":[] },
@@ -151,6 +150,7 @@
         "subsystem": "filemanagement",
         "components": [
           { "component": "storage_service", "features":[ "storage_service_graphic=false" ] }
+          { "component": "file_api", "features":[] },
         ]
       },
       {
