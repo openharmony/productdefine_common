@@ -223,7 +223,7 @@
           "component": "c_utils",
           "features": []
         },
-	{
+        {
           "component": "ets_utils",
           "features": []
         }
@@ -232,10 +232,6 @@
     {
       "subsystem": "utils",
       "components": [
-        {
-          "component": "utils_base",
-          "features": []
-        },
         {
           "component": "utils_memory",
           "features": []

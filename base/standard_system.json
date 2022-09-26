@@ -66,12 +66,6 @@
       ]
     },
     {
-      "subsystem": "utils",
-      "components": [
-        { "component": "utils_base" }
-      ]
-    },
-    {
       "subsystem": "updater",
       "components": [
         { "component": "updater" },

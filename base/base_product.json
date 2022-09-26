@@ -729,23 +729,7 @@
       "subsystem": "utils",
       "components": [
         {
-          "component": "memory",
-          "features": []
-        },
-        {
           "component": "systemres",
-          "features": []
-        },
-        {
-          "component": "timer_task",
-          "features": []
-        },
-        {
-          "component": "utils_base",
-          "features": []
-        },
-        {
-          "component": "utils_lite",
           "features": []
         },
         {
