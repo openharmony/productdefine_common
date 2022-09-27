@@ -28,7 +28,6 @@
     "hiviewdfx:hitrace_native":{},
     "hiviewdfx:hicollie_native":{},
     "commonlibrary:c_utils":{},
-    "utils:utils_base":{},
     "developertest:developertest":{},
     "bundlemanager:bundle_framework":{},
     "bundlemanager:bundle_tool":{},
