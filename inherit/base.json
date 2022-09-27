@@ -39,19 +39,14 @@
           { "component": "device_auth", "features":[] },
           { "component": "crypto_framework", "features":[] },
           { "component": "access_token", "features":[] },
-          { "component": "huks", "features": [] }
+          { "component": "huks", "features": [] },
+          { "component": "certificate_manager", "features": [] }
         ]
       },
       {
         "subsystem": "commonlibrary",
         "components": [
           { "component": "c_utils", "features": [] }
-        ]
-      },
-      {
-        "subsystem": "utils",
-        "components": [
-          { "component": "utils_base", "features":[] }
         ]
       },
       {

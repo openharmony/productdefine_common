@@ -585,6 +585,10 @@
           "features": []
         },
         {
+          "component": "certificate_manager",
+          "features": []
+        },
+        {
           "component": "selinux",
           "features": []
         }
@@ -730,18 +734,6 @@
       "components": [
         {
           "component": "systemres",
-          "features": []
-        },
-        {
-          "component": "timer_task",
-          "features": []
-        },
-        {
-          "component": "utils_base",
-          "features": []
-        },
-        {
-          "component": "utils_lite",
           "features": []
         }
       ]
