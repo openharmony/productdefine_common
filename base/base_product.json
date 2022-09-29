@@ -722,6 +722,10 @@
 	      {
           "component": "ets_utils",
           "features": []
+        },
+        {
+          "component": "memory_utils",
+          "features": []
         }
       ]
     },
@@ -730,10 +734,6 @@
       "components": [
         {
           "component": "systemres",
-          "features": []
-        },
-        {
-          "component": "utils_memory",
           "features": []
         }
       ]
