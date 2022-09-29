@@ -878,11 +878,7 @@
         {
           "component": "musl",
           "features": []
-        },
-	{
-          "component": "mimalloc",
-          "features": []
-	}
+        }
       ]
     },
     {
