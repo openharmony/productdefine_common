@@ -78,7 +78,7 @@
     "multimedia:multimedia_player_framework":{},
     "multimedia:multimedia_audio_framework":{},
     "multimedia:multimedia_camera_framework":{},
-    "multimedia:multimedia_image_standard":{},
+    "multimedia:multimedia_image_framework":{},
     "multimedia:media_library":{},
     "multimodalinput:input":{},
     "telephony:core_service":{},
