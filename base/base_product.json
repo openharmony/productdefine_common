@@ -204,10 +204,6 @@
           "features": []
         },
         {
-          "component": "distributedfilejs",
-          "features": []
-        },
-        {
           "component": "e2fsprogs",
           "features": []
         },
@@ -252,6 +248,10 @@
       "components": [
         {
           "component": "storage_service",
+          "features": []
+        },
+        {
+          "component": "file_api",
           "features": []
         },
         {

@@ -60,10 +60,6 @@
           "features": []
         },
         {
-          "component": "distributedfilejs",
-          "features": []
-        },
-        {
           "component": "e2fsprogs",
           "features": []
         },
@@ -78,6 +74,10 @@
       "components": [
         {
           "component": "user_file_service",
+          "features": []
+        },
+        {
+          "component": "file_api",
           "features": []
         },
         {
