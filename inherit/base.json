@@ -39,8 +39,7 @@
           { "component": "device_auth", "features":[] },
           { "component": "crypto_framework", "features":[] },
           { "component": "access_token", "features":[] },
-          { "component": "huks", "features": [] },
-          { "component": "certificate_manager", "features": [] }
+          { "component": "huks", "features": [] }
         ]
       },
       {
