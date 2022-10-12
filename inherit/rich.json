@@ -329,6 +329,10 @@
           "features": []
         },
         {
+          "component": "netmanager_ext",
+          "features": []
+        },
+        {
           "component": "netstack",
           "features": []
         },
