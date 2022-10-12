@@ -132,6 +132,15 @@
           "features": []
         }
       ]
+    },
+    {
+      "subsystem": "graphic",
+      "components": [
+        {
+          "component": "graphic_chipsetsdk",
+          "features": []
+        }
+      ]
     }
   ]
 }
