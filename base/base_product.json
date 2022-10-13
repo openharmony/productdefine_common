@@ -93,18 +93,18 @@
       ]
     },
     {
-      "subsystem": "ark",
+      "subsystem": "arkcompiler",
       "components": [
         {
-          "component": "ark",
+          "component": "runtime_core",
           "features": []
         },
         {
-          "component": "ark_frontend_tool",
+          "component": "ets_runtime",
           "features": []
         },
         {
-          "component": "ark_js_runtime",
+          "component": "ets_frontend",
           "features": []
         },
         {
