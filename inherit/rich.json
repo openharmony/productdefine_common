@@ -587,6 +587,10 @@
           "features": []
         },
         {
+          "component": "multimedia_av_session",
+          "features": []
+        },
+        {
           "component": "media_library",
           "features": []
         }
