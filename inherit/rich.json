@@ -995,6 +995,10 @@
         {
           "component": "drivers_interface_partitionslot",
           "features": []
+        },
+        {
+          "component": "drivers_interface_nnrt",
+          "features": []
         }
       ]
     }
