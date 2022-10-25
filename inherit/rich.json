@@ -950,7 +950,9 @@
         },
         {
           "component": "drivers_interface_input",
-          "features": []
+          "features": [
+            "drivers_interface_input_feature_passthrough = false"
+          ]
         },
         {
           "component": "drivers_interface_memorytracker",
