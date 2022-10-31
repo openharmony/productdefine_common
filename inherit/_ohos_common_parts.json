@@ -82,7 +82,7 @@
     "multimodalinput:input":{},
     "telephony:core_service":{},
     "telephony:ril_adapter":{},
-    "telephony:data_storage":{},
+    "telephony:telephony_data":{},
     "telephony:state_registry":{},
     "telephony:cellular_call":{},
     "telephony:cellular_data":{},
