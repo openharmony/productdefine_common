@@ -1003,6 +1003,19 @@
           "features": []
         }
       ]
+    },
+    {
+      "subsystem": "ai",
+      "components": [
+        {
+          "component": "neural_network_runtime",
+          "features": []
+        },
+        {
+          "component": "mindspore",
+          "features": []
+        }
+      ]
     }
   ]
 }
