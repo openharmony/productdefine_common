@@ -432,6 +432,15 @@
       ]
     },
     {
+      "subsystem": "print",
+      "components": [
+        {
+          "component": "print_service",
+          "features": []
+        }
+      ]
+    },
+    {
       "subsystem": "inputmethod",
       "components": [
         {

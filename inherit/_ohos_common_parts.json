@@ -72,6 +72,7 @@
     "security:device_security_level":{},
     "sensors:sensor":{},
     "time:time_service":{},
+    "print:print_service":{},
     "inputmethod:imf":{},
     "multimedia:multimedia_histreamer":{},
     "multimedia:multimedia_player_framework":{},
