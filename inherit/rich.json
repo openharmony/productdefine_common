@@ -542,7 +542,7 @@
       "subsystem": "print",
       "components": [
         {
-          "component": "print",
+          "component": "print_fwk",
           "features": []
         }
       ]
