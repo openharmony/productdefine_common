@@ -752,6 +752,10 @@
         {
           "component": "xts_dcts",
           "features": []
+        },
+        {
+          "component": "device_attest",
+          "features": []
         }
       ]
     },
