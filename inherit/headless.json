@@ -145,8 +145,8 @@
       {
         "subsystem": "filemanagement",
         "components": [
-          { "component": "storage_service", "features":[ "storage_service_graphic=false" ] }
-          { "component": "file_api", "features":[] },
+          { "component": "storage_service", "features":[ "storage_service_graphic=false" ] },
+          { "component": "file_api", "features":[] }
         ]
       },
       {
