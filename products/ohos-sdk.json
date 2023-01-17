@@ -1,8 +1,9 @@
 {
   "product_name": "ohos-sdk",
-  "product_company": "openharmony",
-  "product_device": "sdk",
-  "version": "2.0",
+  "device_company": "ohos",
+  "target_cpu": "arm64",
+  "board": "arm64",
+  "version": "3.0",
   "type": "standard",
   "product_build_path": "",
   "inherit": ["productdefine/common/inherit/_ohos_common_parts.json"],
