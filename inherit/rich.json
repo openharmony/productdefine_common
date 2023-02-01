@@ -849,7 +849,9 @@
         },
         {
           "component": "memmgr",
-          "features": []
+          "features": [
+			"memmgr_purgeable_memory = true"
+		  ]
         },
         {
           "component": "frame_aware_sched",
