@@ -16,7 +16,7 @@
           "component": "drivers_peripheral_input",
           "features": [
             "drivers_peripheral_input_feature_model = true",
-            "drivers_peripheral_input_feature_passthrough = false"
+            "drivers_peripheral_input_feature_passthrough = true"
           ]
         },
         {
