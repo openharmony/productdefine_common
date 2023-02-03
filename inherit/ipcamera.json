@@ -630,10 +630,10 @@
           ]
         },
         {
-          "subsystem": "contactsdata",
+          "subsystem": "contacts_data",
           "components": [
             {
-              "component": "contactsdata_hap",
+              "component": "contacts_data_hap",
               "features": []
             }
           ]
