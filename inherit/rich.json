@@ -970,7 +970,7 @@
         {
           "component": "drivers_interface_input",
           "features": [
-            "drivers_interface_input_feature_passthrough = false"
+            "drivers_interface_input_feature_passthrough = true"
           ]
         },
         {
