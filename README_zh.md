@@ -27,7 +27,11 @@ productdefine/common
 │   ├── chipset_common.json       # 芯片组件依赖最小部件集合
 │   ├── headless.json             # 无UI系统最小部件集合
 │   ├── ipcamera.json             # IPCamera部件集合, 与base/standard_system.json配合使用
-│   └── rich.json                 # 标准系统全量部件集合
+│   ├── pc.json                   # PC必选部件集合，相比平板增加了打印框架和数据泄露保护部件
+│   ├── phone.json                # 手机必选部件集合，相比rich.json全量配置裁剪了NFC、打印框架、数据泄露保护、msdp、人脸和指纹认证部件
+│   ├── rich.json                 # 标准系统全量部件集合
+│   ├── tablet.json               # 平板必选部件集合，相比手机裁剪了电话和位置子系统的所有部件
+│   └── watch.json                # 运动表必选部件集合
 └── products                      # 系统组件形态配置文件，配置文件名称与product name保持一致
     ├── ohos-sdk.json             # SDK部件集合
     ├── system-arm-default.json   # 32位系统组件部件集合
@@ -41,7 +45,11 @@ inherit中的模版含义说明：
 | chipset_common.json | 标准系统芯片组件部件集合。                                   | 各标准系统开发板芯片组件都使用此模版。            |      |
 | headless.json       | 标准系统无头系统部件集合，支持无界面的FA安装及流转。         | 当前qemu-arm-linux-headless虚拟机平台使用此模版。 |      |
 | ipcamera.json       | IPCamera部件集合，IP摄像头解决方案。                        | 当前hispark_taurus等开发板使用此模版。      |      |
+| pc.json             | PC部件集合，个人PC解决方案。                                | 当前rk3568等开发板使用此模版。      |      |
+| phone.json          | 手机部件集合，手机解决方案。                                | 当前rk3568等开发板使用此模版。      |      |
 | rich.json           | 标准系统全量部件集合，具备全量功能。                         | 当前rk3568, hispark_phoenix等开发板使用此模版。   |      |
+| tablet.json         | 平板部件集合，平板解决方案。                                | 当前rk3568等开发板使用此模版。      |      |
+| watch.json          | 运动表部件集合，运动表解决方案。                            | 当前hispark_pegasus等开发板使用此模版。   |      |
 
 
 ## 配置示例<a name="section178021418115315"></a>
