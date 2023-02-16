@@ -45,11 +45,11 @@ inherit中的模版含义说明：
 | chipset_common.json | 标准系统芯片组件部件集合。                                   | 各标准系统开发板芯片组件都使用此模版。            |      |
 | headless.json       | 标准系统无头系统部件集合，支持无界面的FA安装及流转。         | 当前qemu-arm-linux-headless虚拟机平台使用此模版。 |      |
 | ipcamera.json       | IPCamera部件集合，IP摄像头解决方案。                        | 当前hispark_taurus等开发板使用此模版。      |      |
-| pc.json             | PC部件集合，个人PC解决方案。                                | 当前rk3568等开发板使用此模版。      |      |
-| phone.json          | 手机部件集合，手机解决方案。                                | 当前rk3568等开发板使用此模版。      |      |
+| pc.json             | PC部件集合，个人PC解决方案。                                | 适用于使用标准系统的产品。      |      |
+| phone.json          | 手机部件集合，手机解决方案。                                | 适用于使用标准系统的产品。      |      |
 | rich.json           | 标准系统全量部件集合，具备全量功能。                         | 当前rk3568, hispark_phoenix等开发板使用此模版。   |      |
-| tablet.json         | 平板部件集合，平板解决方案。                                | 当前rk3568等开发板使用此模版。      |      |
-| watch.json          | 运动表部件集合，运动表解决方案。                            | 当前hispark_pegasus等开发板使用此模版。   |      |
+| tablet.json         | 平板部件集合，平板解决方案。                                | 适用于使用标准系统的产品。。      |      |
+| watch.json          | 运动表部件集合，运动表解决方案。                            | 适用于使用轻量系统的产品。   |      |
 
 
 ## 配置示例<a name="section178021418115315"></a>
