@@ -164,7 +164,7 @@
             },
             {
               "component": "hichecker_native",
-              "features": []
+              "features": ["hichecker_support_asan=false"]
             },
             {
               "component": "hichecker_js",
