@@ -103,9 +103,7 @@
     {
       "subsystem": "developtools",
       "components": [
-        { "component": "bytrace" },
         { "component": "hdc" },
-        { "component": "profiler" },
         { "component": "hiperf" }
       ]
     },
