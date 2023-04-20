@@ -593,7 +593,7 @@
             "features": []
           },
           {
-            "component": "systemres",
+            "component": "system_resources",
             "features": []
           }
         ]
