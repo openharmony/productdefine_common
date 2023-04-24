@@ -538,7 +538,7 @@
             "features": []
           },
           {
-            "component": "multimedia_audio_framework",
+            "component": "audio_framework",
             "features": []
           },
           {
