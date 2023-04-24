@@ -340,8 +340,8 @@
             {
               "component": "drivers_peripheral_audio",
               "features": [
-                "drivers_peripheral_audio_hal_notsupport_pathselect=false",
-                "drivers_peripheral_audio_full_test_suite=true"
+                "drivers_peripheral_audio_feature_hal_notsupport_pathselect=false",
+                "drivers_peripheral_audio_feature_full_test_suite=true"
               ]
             },
             {
