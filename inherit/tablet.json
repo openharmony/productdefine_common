@@ -690,10 +690,10 @@
         ]
       },
       {
-        "subsystem": "arkXtest",
+        "subsystem": "testfwk",
         "components": [
           {
-            "component": "arkXtest",
+            "component": "arkxtest",
             "features": []
           }
         ]
