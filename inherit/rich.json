@@ -1022,6 +1022,10 @@
           "features": []
         },
         {
+          "component": "drivers_interface_distributed_audio",
+          "features": []
+        },
+        {
           "component": "drivers_interface_ril",
           "features": []
         },
