@@ -77,6 +77,12 @@
       "components": [
         { "component": "syscap_codec" }
       ]
+    },
+    {
+      "subsystem": "customization",
+      "components": [
+        { "component": "config_policy" }
+      ]
     }
   ]
 } 
