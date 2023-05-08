@@ -238,6 +238,7 @@
       "components": [
         { "component": "multimedia_histreamer" },
         { "component": "multimedia_player_framework" },
+        { "component": "multimedia_av_codec" },
         { "component": "audio_framework" },
         { "component": "multimedia_camera_framework" },
         { "component": "multimedia_image_framework" },

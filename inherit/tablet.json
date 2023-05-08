@@ -538,6 +538,10 @@
             "features": []
           },
           {
+            "component": "multimedia_player_framework",
+            "features": []
+          },
+          {
             "component": "audio_framework",
             "features": []
           },
