@@ -988,6 +988,10 @@
             "features": []
           },
           {
+            "component": "drivers_interface_distributed_audio",
+            "features": []
+          },
+          {
             "component": "drivers_interface_partitionslot",
             "features": []
           },

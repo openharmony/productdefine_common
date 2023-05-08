@@ -116,6 +116,10 @@
           "features": []
         },
         {
+          "component": "drivers_peripheral_distributed_audio",
+          "features": []
+        },
+        {
           "component": "drivers_peripheral_partitionslot",
           "features": []
         },
