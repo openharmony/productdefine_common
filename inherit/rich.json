@@ -11,6 +11,10 @@
         {
           "component": "napi",
           "features": []
+        },
+        {
+          "component": "ui_lite",
+          "features": []
         }
       ]
     },
