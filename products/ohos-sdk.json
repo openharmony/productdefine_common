@@ -95,12 +95,6 @@
       "components": [ { "component": "device_manager" } ]
     },
     {
-      "subsystem": "developertest",
-      "components": [
-        { "component": "developertest" }
-      ]
-    },
-    {
       "subsystem": "developtools",
       "components": [
         { "component": "hdc" },
