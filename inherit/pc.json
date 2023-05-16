@@ -580,6 +580,10 @@
             "features": []
           },
           {
+            "component": "av_codec",
+            "features": []
+          },
+          {
             "component": "audio_framework",
             "features": []
           },
