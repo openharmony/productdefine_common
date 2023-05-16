@@ -87,7 +87,8 @@
         { "component": "data_share" },
         { "component": "datamgr_service" },
         { "component": "kv_store" },
-        { "component": "e2fsprogs" }
+        { "component": "e2fsprogs" },
+        { "component": "udmf" }
       ]
     },
     {
