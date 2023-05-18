@@ -939,6 +939,10 @@
           "component": "hdf_core",
           "features": []
         },
+	{
+          "component": "external_device_manager",
+          "features": []
+        },
         {
           "component": "drivers_interface_sensor",
           "features": []
