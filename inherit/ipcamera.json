@@ -194,15 +194,6 @@
           ]
         },
         {
-          "subsystem": "developertest",
-          "components": [
-            {
-              "component": "developertest",
-              "features": []
-            }
-          ]
-        },
-        {
           "subsystem": "bundlemanager",
           "components": [
             {

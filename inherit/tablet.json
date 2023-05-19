@@ -234,15 +234,6 @@
         ]
       },
       {
-        "subsystem": "developertest",
-        "components": [
-          {
-            "component": "developertest",
-            "features": []
-          }
-        ]
-      },
-      {
         "subsystem": "bundlemanager",
         "components": [
           {
@@ -694,10 +685,10 @@
         ]
       },
       {
-        "subsystem": "arkXtest",
+        "subsystem": "testfwk",
         "components": [
           {
-            "component": "arkXtest",
+            "component": "arkxtest",
             "features": []
           }
         ]
