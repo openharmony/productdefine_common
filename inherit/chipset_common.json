@@ -95,6 +95,10 @@
           "component": "drivers_peripheral_fingerprint_auth",
           "features": []
         },
+	{
+	  "component": "drivers_peripheral_huks",
+	  "features": []
+        },
         {
           "component": "drivers_peripheral_memorytracker",
           "features": []

@@ -982,6 +982,10 @@
           "component": "drivers_interface_fingerprint_auth",
           "features": []
         },
+	{
+          "component": "drivers_interface_huks",
+	  "feature":[]
+	},
         {
           "component": "drivers_interface_input",
           "features": [
