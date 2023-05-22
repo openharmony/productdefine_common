@@ -133,8 +133,6 @@
       {
         "subsystem": "distributeddatamgr",
         "components": [
-          { "component": "kv_store", "features":[] },
-          { "component": "datamgr_service", "features":[] },
           { "component": "relational_store", "features":[] },
           { "component": "preferences", "features":[] },
           { "component": "data_share", "features":[] },
