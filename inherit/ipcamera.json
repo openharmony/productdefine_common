@@ -39,14 +39,6 @@
               "features": []
             },
             {
-              "component": "datamgr_service",
-              "features": []
-            },
-            {
-              "component": "kv_store",
-              "features": []
-            },
-            {
               "component": "data_object",
               "features": []
             },
