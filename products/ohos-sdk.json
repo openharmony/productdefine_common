@@ -87,18 +87,13 @@
         { "component": "data_share" },
         { "component": "datamgr_service" },
         { "component": "kv_store" },
-        { "component": "e2fsprogs" }
+        { "component": "e2fsprogs" },
+        { "component": "udmf" }
       ]
     },
     {
       "subsystem": "distributedhardware",
       "components": [ { "component": "device_manager" } ]
-    },
-    {
-      "subsystem": "developertest",
-      "components": [
-        { "component": "developertest" }
-      ]
     },
     {
       "subsystem": "developtools",
@@ -238,6 +233,7 @@
       "components": [
         { "component": "multimedia_histreamer" },
         { "component": "player_framework" },
+        { "component": "av_codec" },
         { "component": "audio_framework" },
         { "component": "multimedia_camera_framework" },
         { "component": "multimedia_image_framework" },

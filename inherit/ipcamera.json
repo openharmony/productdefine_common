@@ -194,15 +194,6 @@
           ]
         },
         {
-          "subsystem": "developertest",
-          "components": [
-            {
-              "component": "developertest",
-              "features": []
-            }
-          ]
-        },
-        {
           "subsystem": "bundlemanager",
           "components": [
             {
@@ -551,6 +542,10 @@
             },
             {
               "component": "player_framework",
+              "features": []
+            },
+            {
+              "component": "av_codec",
               "features": []
             },
             {

@@ -234,15 +234,6 @@
         ]
       },
       {
-        "subsystem": "developertest",
-        "components": [
-          {
-            "component": "developertest",
-            "features": []
-          }
-        ]
-      },
-      {
         "subsystem": "bundlemanager",
         "components": [
           {
@@ -571,6 +562,10 @@
             "features": []
           },
           {
+            "component": "av_codec",
+            "features": []
+          },
+          {
             "component": "audio_framework",
             "features": []
           },
@@ -756,10 +751,10 @@
         ]
       },
       {
-        "subsystem": "arkXtest",
+        "subsystem": "testfwk",
         "components": [
           {
-            "component": "arkXtest",
+            "component": "arkxtest",
             "features": []
           }
         ]
