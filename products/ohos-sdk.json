@@ -231,7 +231,7 @@
     {
       "subsystem": "multimedia",
       "components": [
-        { "component": "multimedia_histreamer" },
+        { "component": "histreamer" },
         { "component": "multimedia_player_framework" },
         { "component": "av_codec" },
         { "component": "audio_framework" },
