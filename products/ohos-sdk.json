@@ -232,7 +232,7 @@
       "subsystem": "multimedia",
       "components": [
         { "component": "histreamer" },
-        { "component": "multimedia_player_framework" },
+        { "component": "player_framework" },
         { "component": "av_codec" },
         { "component": "audio_framework" },
         { "component": "multimedia_camera_framework" },
