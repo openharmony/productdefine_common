@@ -235,7 +235,7 @@
         { "component": "player_framework" },
         { "component": "av_codec" },
         { "component": "audio_framework" },
-        { "component": "multimedia_camera_framework" },
+        { "component": "camera_framework" },
         { "component": "multimedia_image_framework" },
         { "component": "media_library" }
       ]
