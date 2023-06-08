@@ -570,7 +570,7 @@
             "features": []
           },
           {
-            "component": "multimedia_camera_framework",
+            "component": "camera_framework",
             "features": []
           },
           {
