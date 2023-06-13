@@ -187,6 +187,10 @@
           "features": []
         },
         {
+          "component": "hilog",
+          "features": []
+        },
+        {
           "component": "hisysevent_native",
           "features": []
         },

@@ -155,6 +155,10 @@
               "features": []
             },
             {
+              "component": "hilog",
+              "features": []
+            },
+            {
               "component": "hiappevent",
               "features": []
             },
