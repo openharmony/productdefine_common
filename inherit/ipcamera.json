@@ -159,12 +159,8 @@
               "features": []
             },
             {
-              "component": "hichecker_native",
+              "component": "hichecker",
               "features": ["hichecker_support_asan=false"]
-            },
-            {
-              "component": "hichecker_js",
-              "features": []
             },
             {
               "component": "hidumper",
