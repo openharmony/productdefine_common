@@ -39,6 +39,7 @@
       "components": [
         { "component": "hilog_native" },
         { "component": "hilog_service" },
+        { "component": "hilog" },
         { "component": "hitrace_native" },
         { "component": "hisysevent_native" },
         { "component": "hicollie_native" },

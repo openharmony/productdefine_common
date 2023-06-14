@@ -21,6 +21,7 @@
           { "component": "hiviewdfx_hilog_native", "features":[] },
           { "component": "hilog_native", "features":[] },
           { "component": "hilog_service", "features":[] },
+          { "component": "hilog", "features":[] },
           { "component": "hitrace_native", "features":[] },
           { "component": "hichecker", "features":[] },
           { "component": "faultloggerd", "features":[] },

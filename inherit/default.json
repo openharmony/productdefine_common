@@ -171,6 +171,10 @@
             "features": []
           },
           {
+            "component": "hilog",
+            "features": []
+          },
+          {
             "component": "hilog_service",
             "features": []
           },
