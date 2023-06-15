@@ -179,6 +179,10 @@
             "features": []
           },
           {
+            "component": "hisysevent",
+            "features": []
+          },
+          {
             "component": "hiappevent",
             "features": []
           },
@@ -200,6 +204,10 @@
           },
           {
             "component": "hitrace_native",
+            "features": []
+          },
+          {
+            "component": "hitrace",
             "features": []
           },
           {
