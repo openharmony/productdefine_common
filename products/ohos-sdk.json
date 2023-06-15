@@ -185,6 +185,7 @@
         { "component": "access_token" },
         { "component": "huks" },
         { "component": "certificate_manager" },
+        { "component": "certificate_framework" },
         { "component": "device_auth" },
         { "component": "crypto_framework" },
         { "component": "dataclassification" },
