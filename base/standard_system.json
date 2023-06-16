@@ -41,7 +41,9 @@
         { "component": "hilog_service" },
         { "component": "hilog" },
         { "component": "hitrace_native" },
+        { "component": "hitrace" },
         { "component": "hisysevent_native" },
+        { "component": "hisysevent" },
         { "component": "hicollie_native" },
         { "component": "faultloggerd" }
       ]
