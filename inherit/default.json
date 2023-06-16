@@ -119,6 +119,10 @@
             "features": []
           },
           {
+            "component": "certificate_framework",
+            "features": []
+          },
+          {
             "component": "device_auth",
             "features": []
           },
