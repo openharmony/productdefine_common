@@ -883,6 +883,14 @@
         {
           "component": "device_usage_statistics",
           "features": []
+        },
+        {
+          "component": "ffrt",
+          "features": []
+        },
+        {
+          "component": "qos_manager",
+          "features": []
         }
       ]
     },
