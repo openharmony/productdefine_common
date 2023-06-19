@@ -448,7 +448,7 @@
               "features": []
             },
             {
-              "component": "profiler",
+              "component": "hiprofiler",
               "features": []
             },
             {
