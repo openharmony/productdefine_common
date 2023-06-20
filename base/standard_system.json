@@ -44,7 +44,7 @@
         { "component": "hitrace" },
         { "component": "hisysevent_native" },
         { "component": "hisysevent" },
-        { "component": "hicollie_native" },
+        { "component": "hicollie" },
         { "component": "faultloggerd" }
       ]
     },
