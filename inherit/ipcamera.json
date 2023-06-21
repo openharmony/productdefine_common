@@ -428,15 +428,6 @@
           ]
         },
         {
-          "subsystem": "kernel",
-          "components": [
-            {
-              "component": "linux",
-              "features": []
-            }
-          ]
-        },
-        {
           "subsystem": "developtools",
           "components": [
             {
