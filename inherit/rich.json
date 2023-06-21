@@ -1078,6 +1078,15 @@
           "features": []
         }
       ]
+    },
+    {
+      "subsystem": "print",
+      "components": [
+        {
+          "component": "print_fwk",
+          "features": []
+        }
+      ]
     }
   ]
 }
