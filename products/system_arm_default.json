@@ -17,6 +17,12 @@
           "features": []
         }
       ]
+    },
+    {
+      "subsystem":"updater",
+      "components":[
+        { "component":"updater", "features":["updater_ui_support=false"] }
+      ]
     }
   ]
 }
