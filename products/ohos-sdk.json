@@ -282,7 +282,7 @@
     {
       "subsystem": "ide",
       "components": [
-        { "component": "tools_previewer" }
+        { "component": "previewer" }
       ]
     }
   ]
