@@ -278,6 +278,12 @@
         { "component": "xts_dcts" },
         { "component": "device_attest" }
       ]
+    },
+    {
+      "subsystem": "msdp",
+      "components": [
+        { "component": "device_status" }
+      ]
     }
   ]
 }
