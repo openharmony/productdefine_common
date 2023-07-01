@@ -280,6 +280,12 @@
       ]
     },
     {
+      "subsystem": "msdp",
+      "components": [
+        { "component": "device_status" }
+      ]
+    },
+    {
       "subsystem": "ide",
       "components": [
         { "component": "previewer" }
