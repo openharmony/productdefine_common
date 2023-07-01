@@ -13,7 +13,7 @@
       "subsystem": "security",
       "components": [
         {
-          "component": "selinux",
+          "component": "selinux_adapter",
           "features": []
         }
       ]

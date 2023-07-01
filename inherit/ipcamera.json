@@ -112,7 +112,7 @@
               "features": []
             },
             {
-              "component": "selinux",
+              "component": "selinux_adapter",
               "features": []
             }
           ]
