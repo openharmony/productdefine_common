@@ -53,7 +53,9 @@
         },
         {
           "component": "datamgr_service",
-          "features": []
+          "features": [
+            "datamgr_service_udmf = true"
+          ]
         },
         {
           "component": "kv_store",
@@ -560,7 +562,7 @@
           "features": []
         }
       ]
-    }, 
+    },
     {
       "subsystem": "inputmethod",
       "components": [
