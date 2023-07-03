@@ -1065,6 +1065,10 @@
         {
           "component": "drivers_interface_nnrt",
           "features": []
+        },
+        {
+          "component": "drivers_interface_intelligent_voice",
+          "feature": []
         }
       ]
     },
