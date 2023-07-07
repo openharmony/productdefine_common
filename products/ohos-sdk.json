@@ -155,7 +155,7 @@
     {
       "subsystem": "graphic",
       "components": [
-        { "component": "graphic_standard" },
+        { "component": "graphic_2d" },
         { "component": "graphic_chipsetsdk" }
       ]
     },
