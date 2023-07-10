@@ -792,6 +792,10 @@
           {
             "component": "device_usage_statistics",
             "features": []
+          },
+          {
+            "component": "device_standby",
+            "features": []
           }
         ]
       },
