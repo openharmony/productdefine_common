@@ -155,10 +155,6 @@
           "subsystem": "hiviewdfx",
           "components": [
             {
-              "component": "hiviewdfx_hilog_native",
-              "features": []
-            },
-            {
               "component": "hilog",
               "features": []
             },
