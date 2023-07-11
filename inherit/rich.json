@@ -248,6 +248,14 @@
         {
           "component": "memory_utils",
           "features": []
+        },
+        {
+          "component": "ylong_runtime_mod",
+          "features": []
+        },
+        {
+          "component": "ylong_http",
+          "features": []
         }
       ]
     },
