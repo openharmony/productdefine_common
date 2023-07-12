@@ -1082,6 +1082,10 @@
         {
           "component": "mindspore",
           "features": []
+        },
+        {
+          "component": "intelligent_voice_framework",
+          "features": []
         }
       ]
     },
