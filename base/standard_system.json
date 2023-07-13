@@ -37,12 +37,8 @@
     {
       "subsystem": "hiviewdfx",
       "components": [
-        { "component": "hilog_native" },
-        { "component": "hilog_service" },
         { "component": "hilog" },
-        { "component": "hitrace_native" },
         { "component": "hitrace" },
-        { "component": "hisysevent_native" },
         { "component": "hisysevent" },
         { "component": "hicollie" },
         { "component": "faultloggerd" }

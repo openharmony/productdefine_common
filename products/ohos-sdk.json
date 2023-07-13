@@ -116,18 +116,13 @@
     {
       "subsystem": "hiviewdfx",
       "components": [
-        { "component": "hiviewdfx_hilog_native" },
-        { "component": "hilog_native" },
-        { "component": "hilog_service" },
         { "component": "hilog" },
-        { "component": "hisysevent_native" },
         { "component": "hisysevent" },
         { "component": "hiappevent" },
         { "component": "hichecker" },
         { "component": "hidumper" },
         { "component": "hiview" },
         { "component": "faultloggerd" },
-        { "component": "hitrace_native" },
         { "component": "hitrace" },
         { "component": "hicollie" }
       ]
