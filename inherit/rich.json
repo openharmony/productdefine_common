@@ -310,6 +310,10 @@
           "features": []
         },
         {
+          "component": "bluetooth_service",
+          "features": []
+        },
+        {
           "component": "ipc",
           "features": []
         },
