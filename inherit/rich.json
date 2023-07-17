@@ -885,6 +885,10 @@
         {
           "component": "qos_manager",
           "features": []
+        },
+        {
+          "component": "device_standby",
+          "features": []
         }
       ]
     },
