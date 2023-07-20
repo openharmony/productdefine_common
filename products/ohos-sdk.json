@@ -22,7 +22,7 @@
       "components": [ 
         { "component": "prebuilt_hap" },
         { "component": "calendar_data" }
-	  ]
+      ]
     },
     {
       "subsystem": "arkcompiler",
