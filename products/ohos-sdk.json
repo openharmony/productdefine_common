@@ -20,8 +20,8 @@
     {
       "subsystem": "applications",
       "components": [ 
-	    { "component": "prebuilt_hap" },
-		{ "component": "calendar_data" }
+        { "component": "prebuilt_hap" },
+        { "component": "calendar_data" }
 	  ]
     },
     {
