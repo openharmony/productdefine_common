@@ -270,7 +270,7 @@
       "components": [
         { "component": "xts_acts" },
         { "component": "xts_hats" },
-        { "component": "xts_dcts" },
+        { "component": "dcts" },
         { "component": "device_attest" }
       ]
     },
