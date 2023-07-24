@@ -236,6 +236,10 @@
         {
           "component": "ylong_http",
           "features": []
+        },
+        {
+          "component": "ylong_json",
+          "features": []
         }
       ]
     },
