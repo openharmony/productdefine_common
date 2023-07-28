@@ -406,9 +406,7 @@
             },
             {
               "component": "drivers_interface_input",
-              "features": [
-                "drivers_interface_input_feature_passthrough = true"
-              ]
+              "features": []
             },
             {
               "component": "drivers_interface_wlan",
