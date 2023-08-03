@@ -614,6 +614,10 @@
             {
               "component": "prebuilt_hap",
               "features": []
+            },
+            {
+              "component": "calendar_data",
+              "features": []
             }
           ]
         },
