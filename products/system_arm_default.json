@@ -23,6 +23,19 @@
       "components":[
         { "component":"updater", "features":["updater_ui_support=false"] }
       ]
+    },
+    {
+      "subsystem":"hdf",
+      "components":[
+        {
+          "component": "drivers_peripheral_codec",
+          "features": []
+        },
+        {
+          "component": "drivers_peripheral_display",
+          "features": []
+        }
+      ]
     }
   ]
 }

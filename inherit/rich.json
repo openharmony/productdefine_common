@@ -601,7 +601,7 @@
           "features": []
         },
         {
-          "component": "multimedia_image_framework",
+          "component": "image_framework",
           "features": []
         },
         {
@@ -717,6 +717,10 @@
         {
           "component": "prebuilt_hap",
           "features": []
+        },
+        {
+          "component": "calendar_data",
+          "features": []
         }
       ]
     },
@@ -759,7 +763,7 @@
           "features": []
         },
         {
-          "component": "xts_dcts",
+          "component": "dcts",
           "features": []
         },
         {
@@ -885,6 +889,10 @@
         {
           "component": "qos_manager",
           "features": []
+        },
+        {
+          "component": "device_standby",
+          "features": []
         }
       ]
     },
@@ -1002,9 +1010,7 @@
 	},
         {
           "component": "drivers_interface_input",
-          "features": [
-            "drivers_interface_input_feature_passthrough = true"
-          ]
+          "features": []
         },
         {
           "component": "drivers_interface_memorytracker",

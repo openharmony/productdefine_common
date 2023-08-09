@@ -19,7 +19,10 @@
     },
     {
       "subsystem": "applications",
-      "components": [ { "component": "prebuilt_hap" } ]
+      "components": [ 
+        { "component": "prebuilt_hap" },
+        { "component": "calendar_data" }
+      ]
     },
     {
       "subsystem": "arkcompiler",
@@ -233,7 +236,7 @@
         { "component": "av_codec" },
         { "component": "audio_framework" },
         { "component": "camera_framework" },
-        { "component": "multimedia_image_framework" },
+        { "component": "image_framework" },
         { "component": "media_library" }
       ]
     },
@@ -270,7 +273,7 @@
       "components": [
         { "component": "xts_acts" },
         { "component": "hats" },
-        { "component": "xts_dcts" },
+        { "component": "dcts" },
         { "component": "device_attest" }
       ]
     },
