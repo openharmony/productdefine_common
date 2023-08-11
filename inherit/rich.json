@@ -105,10 +105,10 @@
       ]
     },
     {
-      "subsystem": "common",
+      "subsystem": "build",
       "components": [
         {
-          "component": "common",
+          "component": "build_framework",
           "features": []
         }
       ]

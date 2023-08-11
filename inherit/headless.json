@@ -2,9 +2,9 @@
     "version": "3.0",
     "subsystems": [
       {
-        "subsystem": "common",
+        "subsystem": "build",
         "components": [
-          { "component": "common", "features":[] }
+          { "component": "build_framework", "features":[] }
         ]
       },
       {
