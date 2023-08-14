@@ -61,7 +61,6 @@
         "components": [
           { "component": "ipc", "features":[] },
           { "component": "dsoftbus", "features":[] },
-          { "component": "ipc_js", "features":[] },
           { "component": "dhcp", "features":[] },
           { "component": "netmanager_base", "features":[] }
         ]
