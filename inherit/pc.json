@@ -571,7 +571,7 @@
             "features": []
           },
           {
-            "component": "multimedia_image_framework",
+            "component": "image_framework",
             "features": []
           },
           {
@@ -692,11 +692,11 @@
             "features": []
           },
           {
-            "component": "xts_hats",
+            "component": "hats",
             "features": []
           },
           {
-            "component": "xts_dcts",
+            "component": "dcts",
             "features": []
           },
           {
@@ -814,6 +814,10 @@
           {
             "component": "device_usage_statistics",
             "features": []
+          },
+          {
+            "component": "device_standby",
+            "features": []
           }
         ]
       },
@@ -914,9 +918,7 @@
           },
           {
             "component": "drivers_interface_input",
-            "features": [
-              "drivers_interface_input_feature_passthrough = true"
-            ]
+            "features": []
           },
           {
             "component": "drivers_interface_memorytracker",
