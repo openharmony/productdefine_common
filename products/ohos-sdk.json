@@ -271,7 +271,7 @@
     {
       "subsystem": "xts",
       "components": [
-        { "component": "xts_acts" },
+        { "component": "acts" },
         { "component": "hats" },
         { "component": "dcts" },
         { "component": "device_attest" }
