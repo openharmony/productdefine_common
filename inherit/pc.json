@@ -679,7 +679,7 @@
         "subsystem": "wpa_supplicant-2.9",
         "components": [
           {
-            "component": "wpa_supplicant-2.9",
+            "component": "wpa_supplicant",
             "features": []
           }
         ]
