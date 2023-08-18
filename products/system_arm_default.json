@@ -19,12 +19,6 @@
       ]
     },
     {
-      "subsystem":"updater",
-      "components":[
-        { "component":"updater", "features":["updater_ui_support=false"] }
-      ]
-    },
-    {
       "subsystem":"hdf",
       "components":[
         {
@@ -34,6 +28,12 @@
         {
           "component": "drivers_peripheral_display",
           "features": []
+        },
+        {
+          "component": "drivers_peripheral_input",
+          "features": [
+            "drivers_peripheral_input_feature_model = true"
+          ]
         }
       ]
     }
