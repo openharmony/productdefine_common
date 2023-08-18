@@ -634,15 +634,6 @@
         ]
       },
       {
-        "subsystem": "wpa_supplicant-2.9",
-        "components": [
-          {
-            "component": "wpa_supplicant-2.9",
-            "features": []
-          }
-        ]
-      },
-      {
         "subsystem": "xts",
         "components": [
           {
@@ -811,6 +802,10 @@
         "components": [
           {
             "component": "musl",
+            "features": []
+          },
+          {
+            "component": "wpa_supplicant",
             "features": []
           }
         ]
