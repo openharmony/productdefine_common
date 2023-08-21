@@ -151,7 +151,11 @@
         {
           "component": "dataclassification",
           "features": []
-        }
+        },
+	{
+	  "component": "security_component_manager",
+	  "features": []
+	}
       ]
     },
     {
