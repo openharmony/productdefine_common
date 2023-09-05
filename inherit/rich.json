@@ -151,6 +151,10 @@
         {
           "component": "dataclassification",
           "features": []
+        },
+        {
+          "component": "code_signature",
+          "features": []
         }
       ]
     },
