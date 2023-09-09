@@ -152,10 +152,14 @@
           "component": "dataclassification",
           "features": []
         },
-	{
-	  "component": "security_component_manager",
-	  "features": []
-	}
+	      {
+          "component": "security_component_manager",
+          "features": []
+        },
+        {
+          "component": "code_signature",
+          "features": []
+        }
       ]
     },
     {
@@ -234,7 +238,7 @@
           "features": []
         },
         {
-          "component": "ylong_runtime_mod",
+          "component": "ylong_runtime",
           "features": []
         },
         {
@@ -319,10 +323,6 @@
         },
         {
           "component": "ipc",
-          "features": []
-        },
-        {
-          "component": "ipc_js",
           "features": []
         },
         {
