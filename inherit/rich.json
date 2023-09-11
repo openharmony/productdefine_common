@@ -152,6 +152,10 @@
           "component": "dataclassification",
           "features": []
         },
+	      {
+          "component": "security_component_manager",
+          "features": []
+        },
         {
           "component": "code_signature",
           "features": []
