@@ -250,7 +250,7 @@
           "subsystem": "communication",
           "components": [
             {
-              "component": "ipc_js",
+              "component": "ipc",
               "features": []
             },
             {
