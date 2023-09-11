@@ -157,7 +157,7 @@
           "features": []
         },
         {
-          "component": "security_component",
+          "component": "security_component_manager",
           "features": []
         }
       ]
