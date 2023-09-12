@@ -1090,6 +1090,19 @@
           "features": []
         }
       ]
+    },
+    {
+      "subsystem": "advertising",
+      "components": [
+        {
+          "component": "oaid",
+          "features": []
+        },
+        {
+          "component": "advertising",
+          "features": []
+        }
+      ]
     }
   ]
 }
