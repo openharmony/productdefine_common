@@ -155,10 +155,6 @@
         {
           "component": "code_signature",
           "features": []
-        },
-        {
-          "component": "security_component_manager",
-          "features": []
         }
       ]
     },
