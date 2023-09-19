@@ -157,6 +157,10 @@
           "features": []
         },
         {
+          "component": "dlp_permission_service",
+          "features": []
+        },
+        {
           "component": "security_component_manager",
           "features": []
         }
