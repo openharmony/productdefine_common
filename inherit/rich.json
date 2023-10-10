@@ -273,6 +273,10 @@
         {
           "component": "distributed_bundle_framework",
           "features": []
+        },
+        {
+          "component": "ecological_rule_manager",
+          "features": []
         }
       ]
     },
