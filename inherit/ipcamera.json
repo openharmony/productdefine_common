@@ -182,6 +182,10 @@
               "features": []
             },
             {
+              "component": "ylong_runtime",
+              "features": []
+            },
+            {
               "component": "memory_utils",
               "features": []
             }
