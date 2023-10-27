@@ -61,7 +61,8 @@
     {
       "subsystem": "commonlibrary",
       "components": [
-        { "component": "c_utils" }
+        { "component": "c_utils" },
+        { "component": "ylong_runtime" }
       ]
     },
     {
