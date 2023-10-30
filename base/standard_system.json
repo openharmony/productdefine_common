@@ -38,7 +38,12 @@
       "subsystem": "hiviewdfx",
       "components": [
         { "component": "hilog" },
-        { "component": "hitrace" },
+        {
+          "component": "hitrace",
+          "features": [
+            "support_executable_file = false"
+          ]
+        },
         { "component": "hisysevent" },
         { "component": "hicollie" },
         { "component": "faultloggerd" }
