@@ -199,8 +199,8 @@
       ]
     },
     {
-      "subsystem": "settingsnapi",
-      "components": [ { "component": "settings_standard" } ]
+      "subsystem": "applications",
+      "components": [ { "component": "settings" } ]
     },
     {
       "subsystem": "time",
