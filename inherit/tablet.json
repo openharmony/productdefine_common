@@ -621,10 +621,10 @@
         ]
       },
       {
-        "subsystem": "settingsnapi",
+        "subsystem": "applications",
         "components": [
           {
-            "component": "settings_standard",
+            "component": "settings",
             "features": []
           }
         ]
