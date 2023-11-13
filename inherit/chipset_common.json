@@ -151,6 +151,10 @@
         {
           "component": "graphic_chipsetsdk",
           "features": []
+        },
+        {
+          "component": "graphic_surface",
+          "features": []
         }
       ]
     }
