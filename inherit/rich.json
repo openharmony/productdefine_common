@@ -980,6 +980,10 @@
           "features": []
         },
         {
+          "component": "drivers_interface_drm",
+          "features": []
+        },
+        {
           "component": "drivers_interface_motion",
           "features": []
         },
