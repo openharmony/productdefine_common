@@ -1121,6 +1121,10 @@
         {
           "component": "oaid",
           "features": []
+        },
+        {
+          "component": "advertising",
+          "features": []
         }
       ]
     }
