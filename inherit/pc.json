@@ -714,7 +714,6 @@
  	  "component": "drivers_interface_drm",
  	  "features": []
 	},
-
         {
           "component": "drivers_peripheral_power",
           "features": []
