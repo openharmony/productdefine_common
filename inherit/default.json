@@ -1064,7 +1064,6 @@
 	  "component": "drivers_peripheral_clearplay",
 	  "features": []
 	},
-
         {
           "component": "drivers_peripheral_battery",
           "features": []

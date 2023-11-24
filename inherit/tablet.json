@@ -46,7 +46,6 @@
           {
             "component": "preferences",
             "features": []
-          ,
           {
             "component": "data_share",
             "features": []
