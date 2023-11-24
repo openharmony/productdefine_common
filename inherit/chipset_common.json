@@ -54,6 +54,11 @@
           "component": "drivers_peripheral_camera",
           "features": []
         },
+	{
+ 	  "component": "drivers_peripheral_clearplay",
+ 	  "features": []
+ 	},
+
         {
           "component": "drivers_peripheral_light",
           "features": [

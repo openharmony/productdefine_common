@@ -443,6 +443,10 @@
           "component": "camera_framework",
           "features": []
         },
+	{
+ 	  "component": "drm_framework",
+ 	  "features": []
+	},
         {
           "component": "image_framework",
           "features": []
@@ -967,6 +971,10 @@
           "component": "drivers_interface_camera",
           "features": []
         },
+	{
+ 	  "component": "drivers_interface_drm",
+ 	  "features": []
+ 	},
         {
           "component": "drivers_interface_codec",
           "features": []
@@ -1052,6 +1060,11 @@
           "component": "drivers_peripheral_camera",
           "features": []
         },
+	{
+	  "component": "drivers_peripheral_clearplay",
+	  "features": []
+	},
+
         {
           "component": "drivers_peripheral_battery",
           "features": []

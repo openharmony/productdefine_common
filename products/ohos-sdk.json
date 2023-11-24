@@ -235,6 +235,7 @@
         { "component": "av_codec" },
         { "component": "audio_framework" },
         { "component": "camera_framework" },
+	{ "component": "drm_framework" },
         { "component": "image_framework" },
         { "component": "media_library" }
       ]

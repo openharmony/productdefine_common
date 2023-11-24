@@ -706,6 +706,15 @@
           "component": "drivers_interface_camera",
           "features": []
         },
+	{
+ 	  "component": "drivers_interface_clearplay",
+ 	  "features": []
+ 	},
+	{
+ 	  "component": "drivers_interface_drm",
+ 	  "features": []
+	},
+
         {
           "component": "drivers_peripheral_power",
           "features": []
