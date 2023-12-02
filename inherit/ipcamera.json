@@ -23,38 +23,11 @@
           }
         ]
       }, 
-  {
-        "subsystem": "deviceprofile",
-        "components": [
-          {
-            "component": "device_info_manager",
-            "features": []
-          }
-        ]
-      },      
-      {
-        "subsystem": "distributedhardware",
-        "components": [
-          {
-            "component": "device_manager",
-            "features": []
-          }
-        ]
-      },
       {
         "subsystem": "account",
         "components": [
           {
             "component": "os_account",
-            "features": []
-          }
-        ]
-      },
-      {
-        "subsystem": "useriam",
-        "components": [
-          {
-            "component": "user_auth_framework",
             "features": []
           }
         ]
@@ -123,10 +96,6 @@
           },
           {
             "component": "dataclassification",
-            "features": []
-          },
-          {
-            "component": "device_security_level",
             "features": []
           },
           {
@@ -212,10 +181,6 @@
           {
             "component": "bundle_framework",
             "features": []
-          },
-          {
-            "component": "distributed_bundle_framework",
-            "features": []
           }
         ]
       },
@@ -226,10 +191,6 @@
             "component": "ability_runtime",
             "features": []
           },
-    {
-      "component": "form_fwk",
-      "features": []
-    },
           {
             "component": "idl_tool",
             "features": []
@@ -388,10 +349,6 @@
           {
             "component": "miscdevice",
             "features": []
-          },
-          {
-              "component": "sensor",
-              "features": []
           }
         ]
       },
@@ -530,10 +487,6 @@
         "subsystem": "thirdparty",
         "components": [
           {
-            "component": "wpa_supplicant",
-            "features": []
-          },
-          {
             "component": "curl",
             "features": []
           },
@@ -662,6 +615,10 @@
             "features": []
           },
           {
+            "component": "e2fsprogs",
+            "features": []
+          },
+          {
             "component": "ffmpeg",
             "features": []
           },
@@ -762,10 +719,6 @@
             "features": []
           },
           {
-            "component": "device_usage_statistics",
-            "features": []
-          },
-          {
             "component": "resource_schedule_service",
             "features": []
           },
@@ -802,15 +755,6 @@
         "components": [
           {
             "component": "wukong",
-            "features": []
-          }
-        ]
-      },
-      {
-        "subsystem": "barrierfree",
-        "components": [
-          {
-            "component": "accessibility",
             "features": []
           }
         ]
