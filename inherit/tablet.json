@@ -627,7 +627,7 @@
         "components": []
       },
       {
-        "subsystem": "settingsnapi",
+        "subsystem": "applications",
         "components": []
       },
       {
