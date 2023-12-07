@@ -245,6 +245,10 @@
       "components": [ { "component": "input" } ]
     },
     {
+      "subsystem": "resourceschedule",
+      "components": [ { "component": "ffrt" }]
+    },
+    {
       "subsystem": "telephony",
       "components": [
         { "component": "core_service" },
