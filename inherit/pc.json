@@ -39,7 +39,9 @@
         },
         {
           "component": "dsoftbus",
-          "features": []
+          "features": [
+           
+          ]
         },
         {
           "component": "bluetooth",
@@ -51,7 +53,10 @@
         },
         {
           "component": "wifi",
-          "features": []
+          "features": [
+            "wifi_feature_non_hdf_driver = true",
+            "wifi_feature_non_seperate_p2p = true"
+          ]
         }
       ]
     },
@@ -93,10 +98,6 @@
         },
         {
           "component": "device_auth",
-          "features": []
-        },
-        {
-          "component": "dlp_credential_service",
           "features": []
         },
         {
@@ -146,7 +147,9 @@
         },
         {
           "component": "wpa_supplicant",
-          "features": []
+          "features": [
+            "wpa_supplicant_driver_nl80211 = true"
+          ]
         },
         {
           "component": "toybox",
@@ -210,7 +213,9 @@
         },
         {
           "component": "libuv",
-          "features": []
+          "features": [
+            "use_ffrt = true"
+          ]
         },
         {
           "component": "libunwind",
@@ -352,10 +357,6 @@
           "features": []
         },
         {
-          "component": "rust_basic_crates",
-          "features": []
-        },
-        {
           "component": "ylong_json",
           "features": []
         }
@@ -378,10 +379,6 @@
         },
         {
           "component": "ets_frontend",
-          "features": []
-        },
-        {
-          "component": "rust_compiler_runtimer",
           "features": []
         }
       ]
@@ -477,7 +474,9 @@
         },
         {
           "component": "memmgr",
-          "features": []
+          "features": [
+            "memmgr_purgeable_memory = true"
+          ]
         },
         {
           "component": "soc_perf",
@@ -490,7 +489,10 @@
       "components": [
         {
           "component": "ace_engine",
-          "features": []
+          "features": [
+            "ace_engine_feature_enable_accessibility = true",
+            "ace_engine_feature_enable_web = true"
+          ]
         },
         {
           "component": "ui_appearance",
@@ -510,54 +512,18 @@
           "features": []
         },
         {
-          "component": "screenlock",
-          "features": []
-        },
-        {
-          "component": "settings_data",
-          "features": []
-        },
-        {
           "component": "settings",
-          "features": []
-        },
-        {
-          "component": "camera",
-          "features": []
-        },
-        {
-          "component": "launcher",
-          "features": []
-        },
-        {
-          "component": "filepicker",
-          "features": []
-        },
-        {
-          "component": "notes",
-          "features": []
-        },
-        {
-          "component": "photos",
-          "features": []
-        },
-        {
-          "component": "systemui",
           "features": []
         },
         {
           "component": "dlp_manager",
           "features": []
-        }
+        } 
       ]
     },
     {
       "subsystem": "filemanagement",
       "components": [
-        {
-          "component": "local_file_system",
-          "features": []
-        },
         {
           "component": "app_file_service",
           "features": []
@@ -584,12 +550,11 @@
       "subsystem": "multimedia",
       "components": [
         {
-          "component": "openh264",
-          "features": []
-        },
-        {
           "component": "audio_framework",
-          "features": []
+          "features": [
+            "audio_framework_feature_dtmf_tone = true",
+            "audio_framework_feature_opensl_es = true"
+          ]
         },
         {
           "component": "player_framework",
@@ -672,7 +637,12 @@
       "components": [
         {
           "component": "drivers_peripheral_audio",
-          "features": []
+          "features": [
+            "drivers_peripheral_audio_feature_alsa_lib = false",
+            "drivers_peripheral_audio_feature_mono_to_stereo = true",
+            "drivers_peripheral_audio_feature_full_test_suite = true",
+            "drivers_peripheral_audio_feature_effect = true"
+          ]
         },
         {
           "component": "drivers_interface_audio",
@@ -680,7 +650,9 @@
         },
         {
           "component": "drivers_peripheral_input",
-          "features": []
+          "features": [
+            "drivers_peripheral_input_feature_model = true"
+          ]
         },
         {
           "component": "drivers_interface_input",
@@ -692,7 +664,10 @@
         },
         {
           "component": "drivers_peripheral_codec",
-          "features": []
+          "features": [
+            "drivers_peripheral_codec_feature_support_omx_extend_test = true",
+            "drivers_peripheral_codec_feature_support_hdi_v1 = true"
+          ]
         },
         {
           "component": "drivers_interface_codec",
@@ -706,14 +681,6 @@
           "component": "drivers_interface_camera",
           "features": []
         },
-	{
- 	  "component": "drivers_interface_clearplay",
- 	  "features": []
- 	},
-	{
- 	  "component": "drivers_interface_drm",
- 	  "features": []
-	},
         {
           "component": "drivers_peripheral_power",
           "features": []
@@ -748,7 +715,9 @@
         },
         {
           "component": "drivers_peripheral_light",
-          "features": []
+          "features": [
+            "drivers_peripheral_light_feature_model = true"
+          ]
         },
         {
           "component": "drivers_interface_light",
@@ -756,7 +725,10 @@
         },
         {
           "component": "drivers_peripheral_display",
-          "features": []
+          "features": [
+            "drivers_peripheral_display_vdi_default = true",
+            "drivers_peripheral_display_community = true"
+          ]
         },
         {
           "component": "drivers_interface_display",
@@ -764,7 +736,9 @@
         },
         {
           "component": "drivers_peripheral_vibrator",
-          "features": []
+          "features": [
+            "drivers_peripheral_vibrator_feature_model = true"
+          ]
         },
         {
           "component": "drivers_interface_vibrator",
@@ -788,7 +762,9 @@
         },
         {
           "component": "drivers_peripheral_sensor",
-          "features": []
+          "features": [
+            "drivers_peripheral_sensor_feature_model = true"
+          ]
         },
         {
           "component": "drivers_interface_sensor",
@@ -796,7 +772,10 @@
         },
         {
           "component": "drivers_peripheral_wlan",
-          "features": []
+          "features": [
+            "drivers_peripheral_wlan_feature_enable_HDF_UT = false",
+            "drivers_peripheral_wlan_feature_enable_HDF_NL80211 = true"
+          ]
         },
         {
           "component": "drivers_interface_wlan",
@@ -812,7 +791,9 @@
         },
         {
           "component": "hdf_core",
-          "features": []
+          "features": [
+            "hdf_core_platform_test_support = true"
+          ]
         },
         {
           "component": "drivers_peripheral_huks",
@@ -838,7 +819,16 @@
       "components": [
         {
           "component": "input",
-          "features": []
+          "features": [
+            "input_feature_monitor = true",
+            "input_feature_pointer_drawing = true",
+            "input_feature_input_device = true",
+            "input_feature_mouse = true",
+            "input_feature_touchscreen = true",
+            "input_feature_combination_key = true",
+            "input_feature_interceptor = true",
+            "input_feature_keyboard = true"
+          ]
         }
       ]
     },
@@ -970,21 +960,10 @@
           "features": []
         },
         {
-          "component": "hvb",
-          "features": []
-        },
-        {
           "component": "init",
-          "features": []
-        }
-      ]
-    },
-    {
-      "subsystem": "appsecurityprivacy",
-      "components": [
-        {
-          "component": "security_privacy_center",
-          "features": []
+          "features": [
+            "enable_ohos_startup_init_feature_loader = true"
+          ]
         }
       ]
     },
@@ -1010,15 +989,6 @@
       ]
     },
     {
-      "subsystem": "update",
-      "components": [
-        {
-          "component": "update_app",
-          "features": []
-        }
-      ]
-    },
-    {
       "subsystem": "bundlemanager",
       "components": [
         {
@@ -1031,15 +1001,6 @@
         },
         {
           "component": "distributed_bundle_framework",
-          "features": []
-        }
-      ]
-    },
-    {
-      "subsystem": "kernel",
-      "components": [
-        {
-          "component": "linux",
           "features": []
         }
       ]
@@ -1058,9 +1019,120 @@
       "components": [
         {
           "component": "graphic_2d",
+          "features": [
+            "graphic_2d_feature_ace_enable_gpu = true",
+            "graphic_2d_feature_rs_enable_eglimage = true",
+            "graphic_2d_feature_use_texgine = true"
+          ]
+        }
+      ]
+    },
+    {
+      "subsystem": "distributedhardware",
+	  "info":"第一轮新增",
+      "components": [
+        {
+          "component": "drivers_peripheral_distributed_audio",
+          "features": []
+        },
+		 {
+          "component": "drivers_interface_distributed_audio",
+          "features": []
+        }
+      ]
+    },
+	{
+      "subsystem": "hiviewdfx",
+	  "info":"第一轮新增",
+      "components": [
+        { "component": "hitrace" },
+		{ "component": "hidumper" }
+      ]
+    },
+	
+	{
+      "subsystem": "build",
+	  "info":"第一轮新增",
+      "components": [
+        {
+          "component": "build_framework",
+          "features": []
+        }
+      ]
+    },
+	{
+      "subsystem": "graphic",
+	  "info":"第一轮新增",
+      "components": [
+        {
+          "component": "graphic_chipsetsdk",
+          "features": []
+        }
+      ]
+    },
+	
+	{
+      "subsystem": "graphic",
+	  "info":"第一轮新增",
+      "components": [
+        {
+          "component": "graphic_surface",
+          "features": []
+        }
+	  ]
+	},
+	{
+      "subsystem": "deviceprofile",
+	  "info":"第一轮新增",
+      "components": [
+        {
+          "component": "device_info_manager",
+          "features": []
+        }
+	  ]
+	},
+	 {
+      "subsystem": "multimedia",
+	  "info":"第一轮新增",
+      "components": [
+        {
+          "component": "histreamer",
+          "features": []
+        }
+	  ]
+	}, 
+	 {
+      "subsystem": "customization",
+	  "info":"第二轮新增",
+      "components": [
+        {
+          "component": "config_policy",
+          "features": []
+        }
+      
+      ]
+    },
+	{
+      "subsystem": "applications",
+      "components": [
+        {
+          "component": "notes",
+          "features": []
+        },
+	{
+          "component": "camera",
+          "features": []
+        },
+
+	{
+          "component": "notes",
+          "features": []
+        },		{
+          "component": "photos",
           "features": []
         }
       ]
     }
   ]
 }
+
