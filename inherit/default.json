@@ -578,7 +578,6 @@
             "component": "settings",
             "features": []
           },
-
           {
             "component": "camera",
             "features": []
@@ -589,6 +588,10 @@
           },
           {
             "component": "photos",
+            "features": []
+          },
+          {
+            "component": "contacts",
             "features": []
           }
         ]
