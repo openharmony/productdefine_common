@@ -2,11 +2,20 @@
     "version": "3.0",
     "subsystems": [
       {
+        "subsystem": "graphic",
+        "components": [
+            {
+                "component": "graphic_chipsetsdk",
+                "features": []
+            }
+        ]
+      },
+      {
         "subsystem": "arkui",
         "components": [
           {
             "component": "ace_engine",
-            "features": []
+            "features": ["ace_engine_feature_enable_accessibility = true"]
           },
           {
             "component": "napi",
@@ -81,10 +90,6 @@
             "features": []
           },
           {
-            "component": "local_file_system",
-            "features": []
-          },
-          {
             "component": "file_api",
             "features": []
           },
@@ -111,10 +116,6 @@
           },
           {
             "component": "huks",
-            "features": []
-          },
-          {
-            "component": "security_privacy_center",
             "features": []
           },
           {
@@ -155,13 +156,8 @@
             "features": []
           },
           {
-            "component": "hvb",
-            "features": []
-          },
-          {
             "component": "init",
             "features": [
-              "enable_ohos_startup_init_feature_loader = true"
             ]
           }
         ]
@@ -179,10 +175,6 @@
           },
           {
             "component": "hiappevent",
-            "features": []
-          },
-          {
-            "component": "hidumper",
             "features": []
           },
           {
@@ -253,10 +245,6 @@
             "features": []
           },
           {
-            "component": "idl_tool",
-            "features": []
-          },
-          {
             "component": "form_fwk",
             "features": []
           },
@@ -312,13 +300,7 @@
           },
           {
             "component": "dsoftbus",
-            "features": [
-              "dsoftbus_feature_conn_p2p = true",
-              "dsoftbus_feature_disc_ble = true",
-              "dsoftbus_feature_conn_br = true",
-              "dsoftbus_feature_conn_ble = true",
-              "dsoftbus_feature_trans_udp_stream = true"
-            ]
+            "features": []
           },
           {
             "component": "wifi",
@@ -326,15 +308,6 @@
           },
           {
             "component": "dhcp",
-            "features": []
-          }
-        ]
-      },
-      {
-        "subsystem": "customization",
-        "components": [
-          {
-            "component": "enterprise_device_management",
             "features": []
           }
         ]
@@ -360,10 +333,6 @@
             "features": []
           },
           {
-            "component": "update_app",
-            "features": []
-          },
-          {
             "component": "update_service",
             "features": []
           },
@@ -378,10 +347,6 @@
         "components": [
           {
             "component": "hdc",
-            "features": []
-          },
-          {
-            "component": "hiperf",
             "features": []
           },
           {
@@ -413,7 +378,6 @@
           {
             "component": "graphic_2d",
             "features": [
-              "graphic_2d_feature_ace_enable_gpu = true"
             ]
           }
         ]
@@ -499,10 +463,6 @@
             "component": "camera_framework",
             "features": []
           },
-	  {
- 	    "component": "drm_framework",
-	    "features": []
- 	  },
           {
             "component": "image_framework",
             "features": []
@@ -519,14 +479,6 @@
           {
             "component": "input",
             "features": [
-              "input_feature_combination_key = true",
-              "input_feature_pointer_drawing = true",
-              "input_feature_interceptor = true",
-              "input_feature_monitor = true",
-              "input_feature_keyboard = true",
-              "input_feature_mouse = true",
-              "input_feature_touchscreen = true",
-              "input_feature_input_device = true"
             ]
           }
         ]
@@ -577,19 +529,11 @@
         "subsystem": "applications",
         "components": [
           {
-            "component": "launcher",
-            "features": []
-          },
-          {
-            "component": "notes",
-            "features": []
-          },
-          {
             "component": "permission_manager",
             "features": []
           },
           {
-            "component": "photos",
+            "component": "camera",
             "features": []
           },
           {
@@ -597,46 +541,14 @@
             "features": []
           },
           {
-            "component": "prebuilt_hap",
-            "features": []
-          },
-          {
-            "component": "screenlock",
-            "features": []
-          },
-          {
-            "component": "filepicker",
-            "features": []
-          },
-          {
             "component": "settings",
-            "features": []
-          },
-          {
-            "component": "settings_data",
-            "features": []
-          },
-          {
-            "component": "systemui",
             "features": []
           }
         ]
       },
       {
-        "subsystem": "contacts_data",
-        "components": []
-      },
-      {
-        "subsystem": "applications",
-        "components": []
-      },
-      {
         "subsystem": "xts",
         "components": [
-          {
-            "component": "hats",
-            "features": []
-          },
           {
             "component": "device_attest",
             "features": []
@@ -710,10 +622,6 @@
             "features": []
           }
         ]
-      },
-      {
-        "subsystem": "deviceprofile",
-        "components": []
       },
       {
         "subsystem": "resourceschedule",
@@ -920,10 +828,6 @@
             "features": []
           },
           {
-            "component": "openh264",
-            "features": []
-          },
-          {
             "component": "opensles",
             "features": []
           },
@@ -933,10 +837,6 @@
           },
           {
             "component": "pulseaudio",
-            "features": []
-          },
-          {
-            "component": "rust_basic_crates",
             "features": []
           },
           {
@@ -992,10 +892,6 @@
             "component": "drivers_interface_camera",
             "features": []
           },
-	  {
- 	    "component": "drivers_interface_drm",
- 	    "features": []
- 	  },
           {
             "component": "drivers_interface_codec",
             "features": []
@@ -1037,10 +933,6 @@
             "features": []
           },
           {
-            "component": "drivers_interface_location_geofence",
-            "features": []
-          },
-          {
             "component": "drivers_interface_location_gnss",
             "features": []
           },
@@ -1054,10 +946,6 @@
           },
           {
             "component": "drivers_interface_distributed_camera",
-            "features": []
-          },
-          {
-            "component": "drivers_interface_partitionslot",
             "features": []
           },
           {
@@ -1076,10 +964,6 @@
             "component": "drivers_peripheral_camera",
             "features": []
           },
-	  {
-	    "component": "drivers_peripheral_clearplay",
-	    "features": []
-	  },
           {
             "component": "drivers_peripheral_codec",
             "features": []
@@ -1094,10 +978,6 @@
           },
           {
             "component": "drivers_peripheral_huks",
-            "features": []
-          },
-          {
-            "component": "drivers_peripheral_input",
             "features": []
           },
           {
@@ -1138,15 +1018,6 @@
           },
           {
             "component": "drivers_peripheral_wlan",
-            "features": []
-          }
-        ]
-      },
-      {
-        "subsystem": "ai",
-        "components": [
-          {
-            "component": "mindspore",
             "features": []
           }
         ]
