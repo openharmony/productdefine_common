@@ -362,7 +362,7 @@
             ]
           },
           {
-            "component": "graphic_chipsetsdk",
+            "component": "graphic_surface",
             "features": []
           },
           {
