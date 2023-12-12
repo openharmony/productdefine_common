@@ -756,7 +756,9 @@
         "components": [
           {
             "component": "wpa_supplicant",
-            "features": []
+            "features": [
+              "wpa_supplicant_driver_nl80211 = true"
+            ]
           },
           {
             "component": "curl",
