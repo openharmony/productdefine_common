@@ -576,10 +576,6 @@
       "subsystem": "applications",
       "components": [
         {
-          "component": "prebuilt_hap",
-          "features": []
-        },
-        {
           "component": "permission_manager",
           "features": []
         },
