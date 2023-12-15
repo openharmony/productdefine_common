@@ -299,6 +299,9 @@
           {
             "component": "wifi",
             "features": []
+          },
+          { "component": "dsoftbus",
+            "features":[]
           }
         ]
       },
@@ -344,11 +347,7 @@
             "component": "hdc",
             "features": []
           },
-          { "component": "syscap_codec" },
-          {
-            "component": "hiprofiler",
-            "features": []
-          }
+          { "component": "syscap_codec" }
         ]
       },
       {
@@ -756,7 +755,9 @@
         "components": [
           {
             "component": "wpa_supplicant",
-            "features": []
+            "features": [
+              "wpa_supplicant_driver_nl80211 = true"
+            ]
           },
           {
             "component": "curl",
@@ -772,10 +773,6 @@
           },
           {
             "component": "zlib",
-            "features": []
-          },
-          {
-            "component": "wpa_supplicant",
             "features": []
           },
           {
