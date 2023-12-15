@@ -592,10 +592,6 @@
           {
             "component": "contacts",
             "features": []
-          },
-          {
-            "component": "prebuilt_hap",
-            "features": []
           }
         ]
       },
