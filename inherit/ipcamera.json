@@ -6,7 +6,7 @@
         "components": [
           {
             "component": "ace_engine",
-            "features": []
+            "features": ["ace_engine_feature_enable_accessibility = true"]
           },
           {
             "component": "napi",

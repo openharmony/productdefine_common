@@ -63,7 +63,7 @@
         { "component": "jerryscript" },
         { "component": "cJSON" },
         { "component": "bounds_checking_function" },
-        { "component": "FatFs" },
+        { "component": "FatFs" }
       ]
     },
       {
