@@ -23,19 +23,14 @@
     {
       "subsystem": "startup",
       "components": [
-        { "component": "bootstrap_lite" }
+        { "component": "bootstrap_lite" },
+        { "component": "init" }
       ]
     },
     {
       "subsystem": "communication",
       "components": [
         { "component": "dsoftbus" }
-      ]
-    },
-    {
-      "subsystem": "systemabilitymgr",
-      "components": [
-        { "component": "samgr_lite" }
       ]
     },
     {
@@ -48,8 +43,7 @@
     {
       "subsystem": "commonlibrary",
       "components": [
-        { "component": "kv_store" },
-        { "component": "kal_timer" }
+         { "component": "utils_lite" }
       ]
     },
     {
@@ -57,6 +51,26 @@
       "components": [
         { "component": "sys_installer_lite" }
       ]
-    }
+    },
+      {
+      "subsystem": "thirdparty",
+      "components": [
+        { "component": "libcoap" },
+        { "component": "littlefs" },
+        { "component": "optimized_routines" },
+        { "component": "musl" },
+        { "component": "libunwid" },
+        { "component": "jerryscript" },
+        { "component": "cJSON" },
+        { "component": "bounds_checking_function" },
+        { "component": "FatFs" },
+      ]
+    },
+      {
+      "subsystem": "communication",
+      "components": [
+        { "component": "ipc" }
+      ]
+    },
   ]
 }
