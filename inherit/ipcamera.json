@@ -334,10 +334,6 @@
             "features": []
           },
           {
-            "component": "hiprofiler",
-            "features": []
-          },
-          {
             "component": "hiperf",
             "features": []
           }
