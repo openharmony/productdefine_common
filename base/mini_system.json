@@ -71,6 +71,6 @@
       "components": [
         { "component": "ipc" }
       ]
-    },
+    }
   ]
 }
