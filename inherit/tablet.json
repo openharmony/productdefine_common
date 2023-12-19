@@ -10,15 +10,6 @@
       ]
     },
     {
-      "subsystem": "deviceprofile",
-      "components": [
-        {
-          "component": "device_info_manager",
-          "features": []
-        }
-      ]
-    },
-    {
       "subsystem": "graphic",
       "components": [
         {
