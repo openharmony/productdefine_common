@@ -278,10 +278,6 @@
         {
           "component": "ability_base",
           "features": []
-        },
-        {
-          "component": "dmsfwk",
-          "features": []
         }
       ]
     },
