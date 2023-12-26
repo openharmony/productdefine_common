@@ -10,12 +10,16 @@
       ]
     },
     {
-      "subsystem": "graphic",
+      "subsystem": "deviceprofile",
       "components": [
         {
-          "component": "graphic_chipsetsdk",
-          "features": []
-        },
+          "component": "device_info_manager"
+        }
+      ]
+    },
+    {
+      "subsystem": "graphic",
+      "components": [
         {
           "component": "graphic_surface",
           "features": []
@@ -211,10 +215,6 @@
         {
           "component": "hidumper",
           "features": []
-        },
-        {
-          "component": "hichecker",
-          "features": []
         }
       ]
     },
@@ -269,6 +269,10 @@
       "components": [
         {
           "component": "ability_runtime",
+          "features": []
+        },
+        {
+          "component": "dmsfwk",
           "features": []
         },
         {
@@ -901,6 +905,10 @@
         },
         {
           "component": "drivers_interface_audio",
+          "features": []
+        },
+        {
+          "component": "drivers_peripheral_input",
           "features": []
         },
         {
