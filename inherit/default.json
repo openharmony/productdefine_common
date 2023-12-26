@@ -181,10 +181,6 @@
           {
             "component": "hidumper",
             "features": []
-          },
-          {
-            "component": "hichecker",
-            "features": []
           }
         ]
       },
@@ -299,6 +295,9 @@
           {
             "component": "wifi",
             "features": []
+          },
+          { "component": "dsoftbus",
+            "features":[]
           }
         ]
       },
@@ -344,11 +343,7 @@
             "component": "hdc",
             "features": []
           },
-          { "component": "syscap_codec" },
-          {
-            "component": "hiprofiler",
-            "features": []
-          }
+          { "component": "syscap_codec" }
         ]
       },
       {
@@ -376,10 +371,6 @@
             "features": [
               "graphic_2d_feature_ace_enable_gpu = true"
             ]
-          },
-          {
-            "component": "graphic_chipsetsdk",
-            "features": []
           },
           {
             "component": "graphic_surface",
@@ -756,7 +747,9 @@
         "components": [
           {
             "component": "wpa_supplicant",
-            "features": []
+            "features": [
+              "wpa_supplicant_driver_nl80211 = true"
+            ]
           },
           {
             "component": "curl",
@@ -772,10 +765,6 @@
           },
           {
             "component": "zlib",
-            "features": []
-          },
-          {
-            "component": "wpa_supplicant",
             "features": []
           },
           {

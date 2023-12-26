@@ -6,7 +6,7 @@
         "components": [
           {
             "component": "ace_engine",
-            "features": []
+            "features": ["ace_engine_feature_enable_accessibility = true"]
           },
           {
             "component": "napi",
@@ -113,7 +113,7 @@
           {
             "component": "drivers_interface_huks",
             "features": []
-          }
+       }
         ]
       },
       {
@@ -334,10 +334,6 @@
             "features": []
           },
           {
-            "component": "hiprofiler",
-            "features": []
-          },
-          {
             "component": "hiperf",
             "features": []
           }
@@ -349,7 +345,7 @@
           {
             "component": "miscdevice",
             "features": []
-          }
+        }
         ]
       },
       {
@@ -362,7 +358,7 @@
             ]
           },
           {
-            "component": "graphic_chipsetsdk",
+            "component": "graphic_surface",
             "features": []
           },
           {
@@ -475,10 +471,10 @@
         ]
       },
       {
-        "subsystem": "settingsnapi",
+        "subsystem": "applications",
         "components": [
           {
-            "component": "settings_standard",
+            "component": "settings",
             "features": []
           }
         ]
@@ -696,6 +692,10 @@
           {
             "component": "toolchain",
             "features": []
+          },
+          {
+            "component": "c_utils",
+            "features": []
           }
         ]
       },
@@ -729,7 +729,7 @@
           {
             "component": "memmgr",
             "features": []
-          }
+           }
         ]
       },
       {
@@ -767,6 +767,108 @@
             "features": []
           }
         ]
-      }     
-    ]
+      },
+      {
+        "subsystem": "build",
+        "components": [
+          {
+            "component": "build_framework"
+          }
+        ]
+      },
+      {
+        "subsystem": "hdf",
+        "components": [
+          { "component": "hdf_core" }
+        ]
+      },
+      {
+        "subsystem": "startup",
+        "components": [
+          { "component": "init" }
+        ]
+      },
+      {
+        "subsystem": "communication",
+        "components": [
+          { "component": "dsoftbus" },
+          { "component": "ipc" }
+        ]
+      },
+      {
+        "subsystem": "systemabilitymgr",
+        "components": [
+          { "component": "samgr" },
+          { "component": "safwk" }
+        ]
+      },
+      {
+        "subsystem": "hiviewdfx",
+        "components": [
+          { "component": "hilog" },
+          {
+            "component": "hitrace",
+            "features": [
+              "support_executable_file = false"
+            ]
+          },
+          { "component": "hisysevent" },
+          { "component": "hicollie" },
+          { "component": "faultloggerd" }
+        ]
+      },
+      {
+        "subsystem": "security",
+        "components": [
+          { "component": "device_auth" },
+          { "component": "access_token" },
+          { "component": "huks" }
+        ]
+      },
+      {
+        "subsystem": "notification",
+        "components": [
+          { "component": "eventhandler" }
+        ]
+      },
+      {
+        "subsystem": "commonlibrary",
+        "components": [
+          { "component": "c_utils" },
+          { "component": "ylong_runtime" }
+        ]
+      },
+      {
+        "subsystem": "updater",
+        "components": [
+          { "component": "updater" },
+          { "component": "update_service" }
+        ]
+      },
+      {
+        "subsystem": "developtools",
+        "components": [
+          { "component": "syscap_codec" }
+        ]
+      },
+      {
+        "subsystem": "customization",
+        "components": [
+          { "component": "config_policy" }
+        ]
+      },
+      {
+        "subsystem": "resourceschedule",
+        "components": [
+          {
+            "component": "ffrt",
+            "features": []
+          },
+          {
+            "component": "frame_aware_sched",
+            "features": []
+          }  
+        ]
+      }
+  ]
 }    
