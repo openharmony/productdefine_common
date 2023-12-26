@@ -39,9 +39,7 @@
         },
         {
           "component": "dsoftbus",
-          "features": [
-           
-          ]
+          "features": []
         },
         {
           "component": "bluetooth",
@@ -490,8 +488,7 @@
         {
           "component": "ace_engine",
           "features": [
-            "ace_engine_feature_enable_accessibility = true",
-            "ace_engine_feature_enable_web = true"
+            "ace_engine_feature_enable_accessibility = true"
           ]
         },
         {
@@ -518,7 +515,7 @@
         {
           "component": "dlp_manager",
           "features": []
-        } 
+        }
       ]
     },
     {
@@ -1029,30 +1026,30 @@
     },
     {
       "subsystem": "distributedhardware",
-	  "info":"第一轮新增",
       "components": [
         {
           "component": "drivers_peripheral_distributed_audio",
           "features": []
         },
-		 {
+        {
           "component": "drivers_interface_distributed_audio",
           "features": []
         }
       ]
     },
-	{
+    {
       "subsystem": "hiviewdfx",
-	  "info":"第一轮新增",
       "components": [
-        { "component": "hitrace" },
-		{ "component": "hidumper" }
+        {
+          "component": "hitrace"
+        },
+        {
+          "component": "hidumper"
+        }
       ]
     },
-	
-	{
+    {
       "subsystem": "build",
-	  "info":"第一轮新增",
       "components": [
         {
           "component": "build_framework",
@@ -1060,79 +1057,41 @@
         }
       ]
     },
-	{
+    {
       "subsystem": "graphic",
-	  "info":"第一轮新增",
-      "components": [
-        {
-          "component": "graphic_chipsetsdk",
-          "features": []
-        }
-      ]
-    },
-	
-	{
-      "subsystem": "graphic",
-	  "info":"第一轮新增",
       "components": [
         {
           "component": "graphic_surface",
           "features": []
         }
-	  ]
-	},
-	{
+      ]
+    },
+    {
       "subsystem": "deviceprofile",
-	  "info":"第一轮新增",
       "components": [
         {
           "component": "device_info_manager",
           "features": []
         }
-	  ]
-	},
-	 {
+      ]
+    },
+    {
       "subsystem": "multimedia",
-	  "info":"第一轮新增",
       "components": [
         {
           "component": "histreamer",
           "features": []
         }
-	  ]
-	}, 
-	 {
+      ]
+    },
+    {
       "subsystem": "customization",
-	  "info":"第二轮新增",
       "components": [
         {
           "component": "config_policy",
-          "features": []
-        }
-      
-      ]
-    },
-	{
-      "subsystem": "applications",
-      "components": [
-        {
-          "component": "notes",
-          "features": []
-        },
-	{
-          "component": "camera",
-          "features": []
-        },
-
-	{
-          "component": "notes",
-          "features": []
-        },		{
-          "component": "photos",
           "features": []
         }
       ]
     }
   ]
 }
-
