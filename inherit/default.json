@@ -584,6 +584,10 @@
           {
             "component": "contacts",
             "features": []
+          },
+          {
+            "component": "permission_manager",
+            "features": []
           }
         ]
       },
@@ -919,6 +923,10 @@
           {
             "component": "selinux",
             "features": []
+          },
+          {
+            "component": "ntfs-3g",
+            "features": []
           }
         ]
       },
@@ -989,10 +997,6 @@
           },
           {
             "component": "drivers_interface_wlan",
-            "features": []
-          },
-          {
-            "component": "drivers_interface_location_agnss",
             "features": []
           },
           {
@@ -1081,8 +1085,11 @@
             "features": []
           },
           {
-            
             "component": "drivers_peripheral_location_gnss",
+            "features": []
+          },
+          {
+            "component": "drivers_interface_location_gnss",
             "features": []
           },
           {
@@ -1092,10 +1099,13 @@
           {
             "component": "drivers_peripheral_huks",
             "features": []
+          },
+          {
+            "component": "drivers_interface_audio",
+            "features": []
           }
         ]
       },
-
       {
         "subsystem": "deviceprofile",
         "components": [

@@ -11,7 +11,8 @@
     {
       "subsystem": "communication",
       "components": [
-        { "component": "ipc"}
+        { "component": "ipc" },
+        { "component": "dsoftbus" }
       ]
     },
     {
@@ -39,10 +40,10 @@
     {
       "subsystem": "security",
       "components": [
-        { "component": "crypto_framework" },
         { "component": "access_token" },
         { "component": "huks" },
-        { "component": "device_auth" }
+        { "component": "device_auth" },
+        { "component": "selinux_adapter" }
       ]
     },
     {
@@ -58,8 +59,7 @@
         "subsystem": "updater",
         "components": [
           { "component": "updater" },
-          { "component": "update_service" },
-          { "component": "sys_installer" }
+          { "component": "update_service" }
         ]
       },
       {
@@ -96,48 +96,29 @@
         { "component": "config_policy" }
       ]
     },
-      {
-        "subsystem": "resourceschedule",
-        "components": [
-          { "component": "ffrt" }
-        ]
-      },
-        {
-        "subsystem": "build",
-        "components": [
-          { "component": "build_framework" }
-        ]
-      },
-      {
-        "subsystem": "arkui",
-        "components": [
-          { "component": "napi" }
-        ]
-      },
-      {
-        "subsystem": "notification",
-        "components": [
-          { "component": "eventhandler" }
-        ]
-      },
-      {
-        "subsystem": "arkcompiler",
-        "components": [
-          { "component": "ets_runtime" },
-          { "component": "runtime_core" }
-        ]
-      },
-       {
-        "subsystem": "distributedhardware",
-        "components": [
-          { "component": "device_manager" }
-        ]
-      },
-      {
-        "subsystem": "startup",
-        "components": [
-          { "component": "init" }
-        ]
-      }
+    {
+      "subsystem": "resourceschedule",
+      "components": [
+        { "component": "ffrt" }
+      ]
+    },
+    {
+      "subsystem": "build",
+      "components": [
+        { "component": "build_framework" }
+      ]
+    },
+    {
+      "subsystem": "startup",
+      "components": [
+        { "component": "init" }
+      ]
+    },
+    {
+      "subsystem": "notification",
+      "components": [
+        { "component": "eventhandler" }
+      ]
+    }
   ]
 } 
