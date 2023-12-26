@@ -215,10 +215,6 @@
         {
           "component": "hidumper",
           "features": []
-        },
-        {
-          "component": "hichecker",
-          "features": []
         }
       ]
     },
