@@ -137,10 +137,6 @@
             "features": []
           },
           {
-            "component": "hichecker",
-            "features": ["hichecker_support_asan=false"]
-          },
-          {
             "component": "hidumper",
             "features": []
           },
@@ -262,19 +258,11 @@
             "features": []
           },
           {
-            "component": "drivers_peripheral_wlan",
-            "features": []
-          },
-          {
             "component": "drivers_peripheral_audio",
             "features": [
               "drivers_peripheral_audio_feature_hal_notsupport_pathselect=false",
               "drivers_peripheral_audio_feature_full_test_suite=true"
             ]
-          },
-          {
-            "component": "drivers_peripheral_usb",
-            "features": []
           },
           {
             "component": "drivers_peripheral_camera",
@@ -301,14 +289,6 @@
             "features": []
           },
           {
-            "component": "drivers_interface_wlan",
-            "features": []
-          },
-          {
-            "component": "drivers_interface_usb",
-            "features": []
-          },
-          {
             "component": "drivers_interface_display",
             "features": []
           },
@@ -331,10 +311,6 @@
         "components": [
           {
             "component": "hdc",
-            "features": []
-          },
-          {
-            "component": "hiperf",
             "features": []
           }
         ]
@@ -388,10 +364,6 @@
       {
         "subsystem": "multimedia",
         "components": [
-          {
-            "component": "histreamer",
-            "features": []
-          },
           {
             "component": "player_framework",
             "features": []
@@ -643,10 +615,6 @@
             "features": []
           },
           {
-            "component": "bounds_checking_function",
-            "features": []
-          },
-          {
             "component": "selinux",
             "features": []
           }
@@ -656,18 +624,6 @@
       {
         "subsystem": "xts",
         "components": [
-          {
-            "component": "acts",
-            "features": []
-          },
-          {
-            "component": "hats",
-            "features": []
-          },
-          {
-            "component": "dcts",
-            "features": []
-          },
           {
             "component": "device_attest",
             "features": []
@@ -841,8 +797,7 @@
       {
         "subsystem": "updater",
         "components": [
-          { "component": "updater" },
-          { "component": "update_service" }
+          { "component": "updater" }
         ]
       },
       {
