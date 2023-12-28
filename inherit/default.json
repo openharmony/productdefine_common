@@ -468,10 +468,9 @@
             "features": []
           },
           {
-            "component": "histreamer",
+            "component": "media_foundation",
             "features": []
           }
-
         ]
       },
       {

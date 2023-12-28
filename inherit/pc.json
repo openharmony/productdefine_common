@@ -568,6 +568,10 @@
         {
           "component": "av_codec",
           "features": []
+        },
+        {
+          "component": "media_foundation",
+          "features": []
         }
       ]
     },
@@ -1079,7 +1083,7 @@
       "subsystem": "multimedia",
       "components": [
         {
-          "component": "histreamer",
+          "component": "media_foundation",
           "features": []
         }
       ]
