@@ -568,10 +568,6 @@
         {
           "component": "av_codec",
           "features": []
-        },
-        {
-          "component": "media_foundation",
-          "features": []
         }
       ]
     },
