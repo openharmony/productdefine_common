@@ -333,6 +333,10 @@
           {
             "component": "sys_installer",
             "features": []
+          },
+          {
+            "component": "update_service",
+            "features": []
           }
         ]
       },
@@ -926,6 +930,10 @@
           },
           {
             "component": "ntfs-3g",
+            "features": []
+          },
+          {
+            "component": "libjpeg-turbo",
             "features": []
           }
         ]
