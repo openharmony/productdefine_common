@@ -124,6 +124,10 @@
           "features": []
         },
         {
+          "component": "libjpeg-turbo",
+          "features": []
+        },
+        {
           "component": "chromium",
           "features": []
         },
@@ -1021,19 +1025,6 @@
             "graphic_2d_feature_rs_enable_eglimage = true",
             "graphic_2d_feature_use_texgine = true"
           ]
-        }
-      ]
-    },
-    {
-      "subsystem": "distributedhardware",
-      "components": [
-        {
-          "component": "drivers_peripheral_distributed_audio",
-          "features": []
-        },
-        {
-          "component": "drivers_interface_distributed_audio",
-          "features": []
         }
       ]
     },
