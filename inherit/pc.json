@@ -1070,7 +1070,7 @@
       "subsystem": "multimedia",
       "components": [
         {
-          "component": "histreamer",
+          "component": "media_foundation",
           "features": []
         }
       ]
