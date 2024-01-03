@@ -416,6 +416,10 @@
             "features": []
           },
           {
+            "component": "libjpeg-turbo",
+            "features": []
+          },
+          {
             "component": "mbedtls",
             "features": []
           },
