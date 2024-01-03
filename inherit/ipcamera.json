@@ -327,6 +327,10 @@
         "subsystem": "multimedia",
         "components": [
           {
+            "component": "media_foundation",
+            "features": []
+          },
+          {
             "component": "player_framework",
             "features": []
           },
