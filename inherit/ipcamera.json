@@ -15,15 +15,6 @@
         ]
       }, 
       {
-        "subsystem": "theme",
-        "components": [
-          {
-            "component": "screenlock_mgr",
-            "features": []
-          }
-        ]
-      }, 
-      {
         "subsystem": "account",
         "components": [
           {
@@ -69,10 +60,6 @@
             "features": []
           },
           {
-            "component": "dfs_service",
-            "features": []
-          },
-          {
             "component": "app_file_service",
             "features": []
           }
@@ -92,10 +79,6 @@
         "components": [
           {
             "component": "appverify",
-            "features": []
-          },
-          {
-            "component": "dataclassification",
             "features": []
           },
           {
@@ -188,15 +171,7 @@
             "features": []
           },
           {
-            "component": "idl_tool",
-            "features": []
-          },
-          {
             "component": "ability_base",
-            "features": []
-          },
-          {
-            "component": "dmsfwk",
             "features": []
           }
         ]
@@ -316,15 +291,6 @@
         ]
       },
       {
-        "subsystem": "sensors",
-        "components": [
-          {
-            "component": "miscdevice",
-            "features": []
-        }
-        ]
-      },
-      {
         "subsystem": "graphic",
         "components": [
           {
@@ -332,10 +298,6 @@
             "features": [
               "graphic_2d_feature_ace_enable_gpu = true"
             ]
-          },
-          {
-            "component": "graphic_surface",
-            "features": []
           },
           {
             "component": "graphic_surface",
@@ -364,10 +326,6 @@
       {
         "subsystem": "multimedia",
         "components": [
-          {
-            "component": "media_foundation",
-            "features": []
-          },
           {
             "component": "player_framework",
             "features": []
@@ -442,15 +400,6 @@
         "components": [
           {
             "component": "usb_manager",
-            "features": []
-          }
-        ]
-      },
-      {
-        "subsystem": "applications",
-        "components": [
-          {
-            "component": "settings",
             "features": []
           }
         ]
@@ -688,7 +637,7 @@
           },
           {
             "component": "memmgr",
-            "features": []
+            "features": ["memmgr_purgeable_memory = true"]
            }
         ]
       },
@@ -827,6 +776,15 @@
             "component": "frame_aware_sched",
             "features": []
           }  
+        ]
+      },
+      {
+      "subsystem": "barrierfree",
+      "components": [
+          {
+          "component": "accessibility",
+          "features": []
+          }
         ]
       }
   ]
