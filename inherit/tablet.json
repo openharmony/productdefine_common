@@ -2,6 +2,14 @@
   "version": "3.0",
   "subsystems": [
     {
+      "subsystem": "build",
+      "components": [
+        {
+          "component": "build_framework"
+        }
+      ]
+    },
+    {
       "subsystem": "customization",
       "components": [
         {
@@ -175,7 +183,9 @@
         },
         {
           "component": "init",
-          "features": []
+          "features": [
+            "enable_ohos_startup_init_feature_loader = true"
+          ]
         }
       ]
     },
@@ -721,6 +731,10 @@
       "subsystem": "thirdparty",
       "components": [
         {
+          "component": "libjpeg-turbo",
+          "features": []
+        },
+        {
           "component": "bounds_checking_function",
           "features": []
         },
@@ -909,7 +923,9 @@
         },
         {
           "component": "drivers_peripheral_input",
-          "features": []
+          "features": [
+            "drivers_peripheral_input_feature_model = true"
+          ]
         },
         {
           "component": "drivers_interface_huks",
@@ -985,7 +1001,10 @@
         },
         {
           "component": "drivers_peripheral_audio",
-          "features": []
+          "features": [
+            "drivers_peripheral_audio_feature_hal_notsupport_pathselect=false",
+            "drivers_peripheral_audio_feature_full_test_suite=true"
+          ]
         },
         {
           "component": "drivers_peripheral_battery",
@@ -1017,7 +1036,9 @@
         },
         {
           "component": "drivers_peripheral_light",
-          "features": []
+          "features": [
+            "drivers_peripheral_light_feature_model = true"
+          ]
         },
         {
           "component": "drivers_peripheral_location_gnss",
@@ -1033,7 +1054,9 @@
         },
         {
           "component": "drivers_peripheral_sensor",
-          "features": []
+          "features": [
+            "drivers_peripheral_sensor_feature_model = true"
+          ]
         },
         {
           "component": "drivers_peripheral_thermal",
@@ -1049,7 +1072,9 @@
         },
         {
           "component": "drivers_peripheral_vibrator",
-          "features": []
+          "features": [
+            "drivers_peripheral_vibrator_feature_model = true"
+          ]
         },
         {
           "component": "drivers_peripheral_wlan",
