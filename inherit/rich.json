@@ -1043,7 +1043,9 @@
 	},
         {
           "component": "drivers_interface_input",
-          "features": []
+          "features": [
+            "drivers_peripheral_input_feature_support_ddk = true"
+          ]
         },
         {
           "component": "drivers_interface_memorytracker",
