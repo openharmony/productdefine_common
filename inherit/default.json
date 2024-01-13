@@ -936,7 +936,7 @@
             "features": []
           },
           {
-            "component": "libxif",
+            "component": "libexif",
             "features": []
           }
         ]
