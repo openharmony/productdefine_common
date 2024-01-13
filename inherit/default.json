@@ -934,6 +934,10 @@
           {
             "component": "libjpeg-turbo",
             "features": []
+          },
+          {
+            "component": "libxif",
+            "features": []
           }
         ]
       },
