@@ -1,18 +1,6 @@
 {
   "subsystems": [
     {
-      "subsystem": "kernel",
-      "components": [
-        { "component": "liteos_m" }
-      ]
-    },
-    {
-      "subsystem": "hdf",
-      "components": [
-        { "component": "hdf_core" }
-      ]
-    },
-    {
       "subsystem": "hiviewdfx",
       "components": [
         { "component": "hilog_lite" },
@@ -58,8 +46,7 @@
         { "component": "libcoap" },
         { "component": "littlefs" },
         { "component": "optimized_routines" },
-        { "component": "musl" },
-        { "component": "libunwid" },
+        { "component": "libunwind" },
         { "component": "jerryscript" },
         { "component": "cJSON" },
         { "component": "bounds_checking_function" },
