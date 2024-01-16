@@ -347,7 +347,11 @@
             "component": "hdc",
             "features": []
           },
-          { "component": "syscap_codec" }
+          { "component": "syscap_codec" },
+          {
+            "component": "bytrace",
+            "features": []
+          }
         ]
       },
       {
