@@ -144,6 +144,10 @@
           "features": []
         },
         {
+          "component": "libexif",
+          "features": []
+        },
+        {
           "component": "zlib",
           "features": []
         },
