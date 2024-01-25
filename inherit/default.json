@@ -347,7 +347,11 @@
             "component": "hdc",
             "features": []
           },
-          { "component": "syscap_codec" }
+          { "component": "syscap_codec" },
+          {
+            "component": "bytrace",
+            "features": []
+          }
         ]
       },
       {
@@ -933,6 +937,10 @@
           },
           {
             "component": "libjpeg-turbo",
+            "features": []
+          },
+          {
+            "component": "libexif",
             "features": []
           }
         ]
