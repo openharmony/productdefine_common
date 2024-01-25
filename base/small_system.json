@@ -3,7 +3,7 @@
        {
          "subsystem": "hdf",
          "components": [
-           { "component": "hdf_core" }
+           { "component": "hdf_core","features":[ "hdf_core_platform_test_support = true" ]  }
          ]
        },
        {
@@ -74,8 +74,6 @@
            { "component": "optimized_routines" },
            { "component": "musl" },
            { "component": "cJSON" },
-           { "component": "jsoncpp" },
-           { "component": "libxml2" },
            { "component": "mksh" },
            { "component": "FreeBSD" },
            { "component": "bounds_checking_function" },
@@ -103,6 +101,18 @@
            }
            
          ]
-       }
+       },
+        {
+        "subsystem": "multimedia",
+        "components": [
+          { "component": "media_lite", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "applications",
+        "components": [
+          { "component": "camera_sample_app", "features":[] }
+        ]
+      }
      ]
    } 
