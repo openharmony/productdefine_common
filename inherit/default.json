@@ -478,6 +478,10 @@
           {
             "component": "media_foundation",
             "features": []
+          },
+          {
+            "component": "drm_framework",
+            "features": []
           }
         ]
       },
@@ -594,6 +598,10 @@
           },
           {
             "component": "permission_manager",
+            "features": []
+          },
+          {
+            "component": "calendar_data",
             "features": []
           }
         ]
