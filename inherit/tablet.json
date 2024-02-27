@@ -163,6 +163,10 @@
       "subsystem": "security",
       "components": [
         {
+          "component": "certificate_framework",
+          "features": []
+        },
+        {
           "component": "appverify",
           "features": []
         },
