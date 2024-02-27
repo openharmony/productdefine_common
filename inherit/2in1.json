@@ -444,6 +444,10 @@
         {
           "component": "relational_store",
           "features": []
+        },
+        {
+          "component": "udmf",
+          "features": []
         }
       ]
     },
@@ -575,6 +579,10 @@
         },
         {
           "component": "av_codec",
+          "features": []
+        },
+        {
+          "component": "av_session",
           "features": []
         }
       ]
@@ -1084,6 +1092,10 @@
       "components": [
         {
           "component": "config_policy",
+          "features": []
+        },
+        {
+          "component": "enterprise_device_management",
           "features": []
         }
       ]
