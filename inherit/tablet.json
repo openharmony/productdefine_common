@@ -2,6 +2,17 @@
   "version": "3.0",
   "subsystems": [
     {
+      "subsystem": "advertising",
+      "components": [
+        {
+          "component": "advertising"
+        },
+        {
+          "component": "oaid"
+        }
+      ]
+    },
+    {
       "subsystem": "location",
       "components": [
         {
@@ -22,6 +33,9 @@
       "components": [
         {
           "component": "config_policy"
+        },
+        {
+          "component": "enterprise_device_management"
         }
       ]
     },
@@ -84,6 +98,10 @@
       "components": [
         {
           "component": "relational_store",
+          "features": []
+        },
+        {
+          "component": "udmf",
           "features": []
         },
         {
@@ -423,6 +441,10 @@
         {
           "component": "graphic_2d",
           "features": []
+        },
+        {
+          "component": "graphic_3d",
+          "features": []
         }
       ]
     },
@@ -685,6 +707,10 @@
     {
       "subsystem": "resourceschedule",
       "components": [
+        {
+          "component": "device_standby",
+          "features": []
+        },
         {
           "component": "ffrt",
           "features": []
