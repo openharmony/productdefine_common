@@ -113,6 +113,10 @@
         {
           "component": "selinux_adapter",
           "features": []
+        },
+        {
+          "component": "certificate_framework",
+          "features": []
         }
       ]
     },
