@@ -2,6 +2,14 @@
   "version": "3.0",
   "subsystems": [
     {
+      "subsystem": "location",
+      "components": [
+        {
+          "component": "location"
+        }
+      ]
+    },
+    {
       "subsystem": "build",
       "components": [
         {
@@ -497,6 +505,10 @@
         },
         {
           "component": "av_codec",
+          "features": []
+        },
+        {
+          "component": "av_session",
           "features": []
         },
         {
