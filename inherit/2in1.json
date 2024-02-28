@@ -880,6 +880,10 @@
         {
           "component": "syscap_codec",
           "features": []
+        },
+        {
+          "component": "hiprofiler",
+          "features": []
         }
       ]
     },
@@ -930,6 +934,10 @@
         },
         {
           "component": "hiview",
+          "features": []
+        },
+        {
+          "component": "hichecker",
           "features": []
         }
       ]
