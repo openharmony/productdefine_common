@@ -233,6 +233,14 @@
           "features": []
         },
         {
+          "component": "hichecker",
+          "features": []
+        },
+        {
+          "component": "hiprofiler",
+          "features": []
+        },
+        {
           "component": "hisysevent",
           "features": []
         },
