@@ -751,14 +751,6 @@
           "features": []
         },
         {
-          "component": "cef",
-          "features": []
-        },
-        {
-          "component": "chromium",
-          "features": []
-        },
-        {
           "component": "cJSON",
           "features": []
         },
