@@ -526,10 +526,6 @@
       "subsystem": "multimedia",
       "components": [
         {
-          "component": "drm_framework",
-          "features": []
-        },
-        {
           "component": "media_foundation",
           "features": []
         },
@@ -617,6 +613,10 @@
     {
       "subsystem": "applications",
       "components": [
+        {
+          "component": "calendar_data",
+          "features": []
+        },
         {
           "component": "permission_manager",
           "features": []
