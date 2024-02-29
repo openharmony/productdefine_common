@@ -618,10 +618,6 @@
       "subsystem": "applications",
       "components": [
         {
-          "component": "calendar_data",
-          "features": []
-        },
-        {
           "component": "permission_manager",
           "features": []
         },
