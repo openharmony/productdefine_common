@@ -120,15 +120,7 @@
       "subsystem": "thirdparty",
       "components": [
         {
-          "component": "cef",
-          "features": []
-        },
-        {
           "component": "libjpeg-turbo",
-          "features": []
-        },
-        {
-          "component": "chromium",
           "features": []
         },
         {

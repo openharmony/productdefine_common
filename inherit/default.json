@@ -750,14 +750,6 @@
           {
             "component": "webview",
             "features": []
-          },
-          {
-            "component": "cef",
-            "features": []
-          },
-          {
-            "component": "chromium",
-            "features": []
           }
         ]
       },
