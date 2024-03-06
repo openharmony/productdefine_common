@@ -125,6 +125,10 @@
           "features": []
         },
         {
+          "component": "asset",
+          "features": []
+        },
+        {
           "component": "certificate_manager",
           "features": []
         },
