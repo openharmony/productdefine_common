@@ -283,6 +283,10 @@
         {
           "component": "ecological_rule_manager",
           "features": []
+        },
+        {
+          "component": "app_domain_verify",
+          "features": []
         }
       ]
     },
