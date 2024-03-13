@@ -173,6 +173,10 @@
         {
           "component": "security_component_manager",
           "features": []
+        },
+        {
+          "component": "security_guard",
+          "features": []
         }
       ]
     },
