@@ -43,7 +43,11 @@
         { "component": "access_token" },
         { "component": "huks" },
         { "component": "device_auth" },
-        { "component": "selinux_adapter" }
+        { "component": "selinux_adapter" },
+        {
+          "component": "certificate_framework",
+          "features": []
+        }
       ]
     },
     {

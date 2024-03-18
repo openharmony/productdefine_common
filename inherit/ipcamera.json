@@ -739,7 +739,11 @@
         "components": [
           { "component": "device_auth" },
           { "component": "access_token" },
-          { "component": "huks" }
+          { "component": "huks" },
+          {
+            "component": "certificate_framework",
+            "features": []
+          }
         ]
       },
       {

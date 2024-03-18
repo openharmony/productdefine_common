@@ -66,6 +66,10 @@
           {
             "component": "pasteboard",
             "features": []
+          },
+          {
+            "component": "udmf",
+            "features": []
           }
         ]
       },
@@ -132,8 +136,11 @@
           {
             "component": "selinux_adapter",
             "features": []
+          },
+          {
+            "component": "certificate_framework",
+            "features": []
           }
-
         ]
       },
       {
@@ -180,6 +187,10 @@
           },
           {
             "component": "hidumper",
+            "features": []
+          },
+          {
+            "component": "hichecker",
             "features": []
           }
         ]
@@ -351,6 +362,10 @@
           {
             "component": "bytrace",
             "features": []
+          },
+          {
+            "component": "hiprofiler",
+            "features": []
           }
         ]
       },
@@ -382,6 +397,10 @@
           },
           {
             "component": "graphic_surface",
+            "features": []
+          },
+          {
+            "component": "graphic_3d",
             "features": []
           }
         ]
@@ -481,6 +500,10 @@
           },
           {
             "component": "drm_framework",
+            "features": []
+          },
+          {
+            "component": "av_session",
             "features": []
           }
         ]
@@ -731,6 +754,10 @@
           },
           {
             "component": "ffrt",
+            "features": []
+          },
+          {
+            "component": "device_standby",
             "features": []
           }
         ]
@@ -1133,7 +1160,11 @@
       {
         "subsystem": "customization",
         "components": [
-          { "component": "config_policy" }
+          { "component": "config_policy" },
+          {
+            "component": "enterprise_device_management",
+            "features": []
+          }
         ]
       },
       {
@@ -1141,6 +1172,19 @@
         "components": [
           {
             "component": "build_framework"
+          }
+        ]
+      },
+      {
+        "subsystem": "advertising",
+        "components": [
+          {
+            "component": "oaid",
+            "features": []
+          },
+          {
+            "component": "advertising",
+            "features": []
           }
         ]
       }
