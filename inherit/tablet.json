@@ -2,6 +2,25 @@
   "version": "3.0",
   "subsystems": [
     {
+      "subsystem": "advertising",
+      "components": [
+        {
+          "component": "advertising"
+        },
+        {
+          "component": "oaid"
+        }
+      ]
+    },
+    {
+      "subsystem": "location",
+      "components": [
+        {
+          "component": "location"
+        }
+      ]
+    },
+    {
       "subsystem": "build",
       "components": [
         {
@@ -14,6 +33,9 @@
       "components": [
         {
           "component": "config_policy"
+        },
+        {
+          "component": "enterprise_device_management"
         }
       ]
     },
@@ -79,6 +101,10 @@
           "features": []
         },
         {
+          "component": "udmf",
+          "features": []
+        },
+        {
           "component": "preferences",
           "features": []
         },
@@ -136,6 +162,10 @@
     {
       "subsystem": "security",
       "components": [
+        {
+          "component": "certificate_framework",
+          "features": []
+        },
         {
           "component": "appverify",
           "features": []
@@ -200,6 +230,14 @@
         },
         {
           "component": "hilog",
+          "features": []
+        },
+        {
+          "component": "hichecker",
+          "features": []
+        },
+        {
+          "component": "hiprofiler",
           "features": []
         },
         {
@@ -415,6 +453,10 @@
         {
           "component": "graphic_2d",
           "features": []
+        },
+        {
+          "component": "graphic_3d",
+          "features": []
         }
       ]
     },
@@ -484,10 +526,6 @@
       "subsystem": "multimedia",
       "components": [
         {
-          "component": "drm_framework",
-          "features": []
-        },
-        {
           "component": "media_foundation",
           "features": []
         },
@@ -497,6 +535,10 @@
         },
         {
           "component": "av_codec",
+          "features": []
+        },
+        {
+          "component": "av_session",
           "features": []
         },
         {
@@ -673,6 +715,10 @@
     {
       "subsystem": "resourceschedule",
       "components": [
+        {
+          "component": "device_standby",
+          "features": []
+        },
         {
           "component": "ffrt",
           "features": []
