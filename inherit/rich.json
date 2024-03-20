@@ -935,10 +935,10 @@
       ]
     },
     {
-      "subsystem": "securec",
+      "subsystem": "thirdparty",
       "components": [
         {
-          "component": "thirdparty_bounds_checking_function",
+          "component": "bounds_checking_function",
           "features": []
         }
       ]
