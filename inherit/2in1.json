@@ -124,6 +124,10 @@
       "subsystem": "thirdparty",
       "components": [
         {
+          "component": "libfuse",
+          "features": []
+        },
+        {
           "component": "libjpeg-turbo",
           "features": []
         },
