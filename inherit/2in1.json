@@ -39,7 +39,13 @@
         },
         {
           "component": "dsoftbus",
-          "features": []
+          "features": [
+            "dsoftbus_feature_conn_ble = true",
+            "dsoftbus_feature_disc_ble = true",
+            "dsoftbus_feature_conn_p2p = true",
+            "dsoftbus_feature_trans_udp_stream = true",
+            "dsoftbus_feature_conn_br = true"
+          ]
         },
         {
           "component": "bluetooth",
@@ -52,8 +58,9 @@
         {
           "component": "wifi",
           "features": [
+            "wifi_feature_non_seperate_p2p = true",
             "wifi_feature_non_hdf_driver = true",
-            "wifi_feature_non_seperate_p2p = true"
+            "wifi_feature_p2p_random_mac_addr = false"
           ]
         }
       ]
@@ -431,7 +438,9 @@
         },
         {
           "component": "datamgr_service",
-          "features": []
+          "features": [
+            "datamgr_service_udmf = true"
+          ]
         },
         {
           "component": "pasteboard",
@@ -500,7 +509,8 @@
         {
           "component": "ace_engine",
           "features": [
-            "ace_engine_feature_enable_accessibility = true"
+            "ace_engine_feature_enable_accessibility = true",
+            "ace_engine_feature_enable_web = true"
           ]
         },
         {
@@ -669,7 +679,9 @@
         },
         {
           "component": "drivers_interface_input",
-          "features": []
+          "features": [
+            "drivers_peripheral_input_feature_support_ddk = true"
+          ]
         },
         {
           "component": "drivers_peripheral_bluetooth",
@@ -983,6 +995,7 @@
         {
           "component": "init",
           "features": [
+            "enable_ohos_startup_init_feature_ab_partition = true",
             "enable_ohos_startup_init_feature_loader = true"
           ]
         }
