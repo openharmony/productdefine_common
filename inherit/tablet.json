@@ -62,6 +62,7 @@
         {
           "component": "ace_engine",
           "features": [
+            "ace_engine_feature_enable_web = true",
             "ace_engine_feature_enable_accessibility = true"
           ]
         },
@@ -114,7 +115,9 @@
         },
         {
           "component": "datamgr_service",
-          "features": []
+          "features": [
+            "datamgr_service_udmf = true"
+          ]
         },
         {
           "component": "kv_store",
@@ -214,6 +217,7 @@
         {
           "component": "init",
           "features": [
+            "enable_ohos_startup_init_feature_ab_partition = true",
             "enable_ohos_startup_init_feature_loader = true"
           ]
         }
@@ -224,9 +228,7 @@
       "components": [
         {
           "component": "hitrace",
-          "features": [
-            "support_executable_file = false"
-          ]
+          "features": []
         },
         {
           "component": "hilog",
@@ -375,11 +377,21 @@
         },
         {
           "component": "dsoftbus",
-          "features": []
+          "features": [
+            "dsoftbus_feature_conn_br = true",
+            "dsoftbus_feature_trans_udp_stream = true",
+            "dsoftbus_feature_disc_ble = true",
+            "dsoftbus_feature_conn_p2p = true",
+            "dsoftbus_feature_conn_ble = true"
+          ]
         },
         {
           "component": "wifi",
-          "features": []
+          "features": [
+            "wifi_feature_non_seperate_p2p = true",
+            "wifi_feature_p2p_random_mac_addr = false",
+            "wifi_feature_non_hdf_driver = true"
+          ]
         },
         {
           "component": "dhcp",
@@ -452,7 +464,11 @@
       "components": [
         {
           "component": "graphic_2d",
-          "features": []
+          "features": [
+            "graphic_2d_feature_use_texgine = true",
+            "graphic_2d_feature_ace_enable_gpu = true",
+            "graphic_2d_feature_rs_enable_eglimage = true"
+          ]
         },
         {
           "component": "graphic_3d",
@@ -543,7 +559,10 @@
         },
         {
           "component": "audio_framework",
-          "features": []
+          "features": [
+            "audio_framework_feature_opensl_es = true",
+            "audio_framework_feature_dtmf_tone = true"
+          ]
         },
         {
           "component": "camera_framework",
@@ -564,7 +583,16 @@
       "components": [
         {
           "component": "input",
-          "features": []
+          "features": [
+            "input_feature_combination_key = true",
+            "input_feature_monitor = true",
+            "input_feature_pointer_drawing = true",
+            "input_feature_mouse = true",
+            "input_feature_keyboard = true",
+            "input_feature_touchscreen = true",
+            "input_feature_input_device = true",
+            "input_feature_interceptor = true"
+          ]
         }
       ]
     },
@@ -878,7 +906,9 @@
         },
         {
           "component": "libuv",
-          "features": []
+          "features": [
+            "use_ffrt = true"
+          ]
         },
         {
           "component": "libwebsockets",
@@ -961,7 +991,9 @@
       "components": [
         {
           "component": "hdf_core",
-          "features": []
+          "features": [
+            "hdf_core_platform_test_support = true"
+          ]
         },
         {
           "component": "drivers_interface_audio",
@@ -1023,7 +1055,9 @@
         },
         {
           "component": "drivers_interface_input",
-          "features": []
+          "features": [
+            "drivers_peripheral_input_feature_support_ddk = true"
+          ]
         },
         {
           "component": "drivers_interface_wlan",
@@ -1048,8 +1082,10 @@
         {
           "component": "drivers_peripheral_audio",
           "features": [
-            "drivers_peripheral_audio_feature_hal_notsupport_pathselect=false",
-            "drivers_peripheral_audio_feature_full_test_suite=true"
+            "drivers_peripheral_audio_feature_mono_to_stereo = true",
+            "drivers_peripheral_audio_feature_alsa_lib = false",
+            "drivers_peripheral_audio_feature_effect = true",
+            "drivers_peripheral_audio_feature_full_test_suite = true"
           ]
         },
         {
@@ -1066,11 +1102,17 @@
         },
         {
           "component": "drivers_peripheral_codec",
-          "features": []
+          "features": [
+            "drivers_peripheral_codec_feature_support_omx_extend_test = true",
+            "drivers_peripheral_codec_feature_support_hdi_v1 = true"
+          ]
         },
         {
           "component": "drivers_peripheral_display",
-          "features": []
+          "features": [
+            "drivers_peripheral_display_vdi_default = true",
+            "drivers_peripheral_display_community = true"
+          ]
         },
         {
           "component": "drivers_peripheral_distributed_camera",
@@ -1124,7 +1166,10 @@
         },
         {
           "component": "drivers_peripheral_wlan",
-          "features": []
+          "features": [
+            "drivers_peripheral_wlan_feature_enable_HDF_UT = false",
+            "drivers_peripheral_wlan_feature_enable_HDF_NL80211 = true"
+          ]
         }
       ]
     }
