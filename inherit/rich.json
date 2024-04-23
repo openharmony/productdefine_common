@@ -810,7 +810,7 @@
       ]
     },
     {
-      "subsystem": "wukong",
+      "subsystem": "ostest",
       "components": [
         {
           "component": "wukong",
