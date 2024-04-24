@@ -974,6 +974,10 @@
           "features": []
         },
         {
+          "component": "tzdata",
+          "features": []
+        },
+        {
           "component": "wpa_supplicant",
           "features": [
             "wpa_supplicant_driver_nl80211 = true"

@@ -977,6 +977,10 @@
           "features": []
         },
         {
+          "component": "tzdata",
+          "features": []
+        },
+        {
           "component": "wpa_supplicant",
           "features": []
         }

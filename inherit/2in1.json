@@ -317,6 +317,10 @@
         {
           "component": "selinux",
           "features": []
+        },
+        {
+          "component": "tzdata",
+          "features": []
         }
       ]
     },

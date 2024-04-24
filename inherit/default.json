@@ -1007,6 +1007,10 @@
         {
           "component": "libexif",
           "features": []
+        },
+        {
+          "component": "tzdata",
+          "features": []
         }
       ]
     },
