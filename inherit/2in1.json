@@ -135,6 +135,10 @@
           "features": []
         },
         {
+          "component": "libevdev",
+          "features": []
+        },
+        {
           "component": "libjpeg-turbo",
           "features": []
         },

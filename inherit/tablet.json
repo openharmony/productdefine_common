@@ -816,6 +816,10 @@
           "features": []
         },
         {
+          "component": "libevdev",
+          "features": []
+        },
+        {
           "component": "bounds_checking_function",
           "features": []
         },
