@@ -831,6 +831,10 @@
           "features": []
         },
         {
+          "component": "libfuse",
+          "features": []
+        },
+        {
           "component": "curl",
           "features": []
         },
