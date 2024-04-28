@@ -827,6 +827,14 @@
           ]
         },
         {
+          "component": "libevdev",
+          "features": []
+        },
+        {
+          "component": "libfuse",
+          "features": []
+        },
+        {
           "component": "curl",
           "features": []
         },

@@ -816,6 +816,14 @@
           "features": []
         },
         {
+          "component": "libevdev",
+          "features": []
+        },
+        {
+          "component": "libfuse",
+          "features": []
+        },
+        {
           "component": "bounds_checking_function",
           "features": []
         },
