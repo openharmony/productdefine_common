@@ -417,6 +417,10 @@
             "features": []
           },
           {
+            "component": "libusb",
+            "features": []
+          },
+          {
             "component": "libjpeg-turbo",
             "features": []
           },

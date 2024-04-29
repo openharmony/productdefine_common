@@ -135,6 +135,10 @@
           "features": []
         },
         {
+          "component": "libusb",
+          "features": []
+        },
+        {
           "component": "libevdev",
           "features": []
         },
