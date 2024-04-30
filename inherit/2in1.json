@@ -135,6 +135,10 @@
           "features": []
         },
         {
+          "component": "libbpf",
+          "features": []
+        },
+        {
           "component": "libusb",
           "features": []
         },
