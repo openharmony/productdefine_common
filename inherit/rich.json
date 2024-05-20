@@ -657,10 +657,6 @@
         {
           "component": "media_library",
           "features": []
-        },
-        {
-          "component": "ringtone_library",
-          "features": []
         }
       ]
     },
