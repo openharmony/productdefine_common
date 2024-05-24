@@ -816,6 +816,10 @@
           "features": []
         },
         {
+          "component": "protobuf",
+          "features": []
+        },
+        {
           "component": "libbpf",
           "features": []
         },
