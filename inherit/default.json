@@ -1125,8 +1125,7 @@
         {
           "component": "drivers_peripheral_input",
           "features": [
-            "drivers_peripheral_input_feature_model = true",
-            "drivers_peripheral_input_feature_support_ddk = true"
+            "drivers_peripheral_input_feature_model = true"
           ]
         },
         {
