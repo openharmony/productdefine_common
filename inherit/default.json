@@ -1099,9 +1099,7 @@
         },
         {
           "component": "drivers_interface_input",
-          "features": [
-            "drivers_peripheral_input_feature_support_ddk = true"
-          ]
+          "features": []
         },
         {
           "component": "drivers_interface_wlan",
