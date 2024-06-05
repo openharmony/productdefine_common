@@ -502,7 +502,9 @@
           },
           {
             "component": "libuv",
-            "features": []
+            "features": [
+              "libuv_use_ffrt = true"
+            ]
           },
           {
             "component": "libunwind",
