@@ -82,7 +82,7 @@
             { "component": "musl" },
             { "component": "lz4" },
             { "component": "libxml2" },
-            { "component": "libuv" },
+            { "component": "libuv"},
             { "component": "libunwind" },
             { "component": "jsoncpp" },
             { "component": "json" },
