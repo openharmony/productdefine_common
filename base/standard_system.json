@@ -29,7 +29,7 @@
         {
           "component": "hitrace",
           "features": [
-            "support_executable_file = false"
+            "hitrace_support_executable_file = false"
           ]
         },
         { "component": "hisysevent" },
@@ -125,4 +125,4 @@
       ]
     }
   ]
-} 
+}
