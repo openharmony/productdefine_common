@@ -766,7 +766,7 @@
       "subsystem": "contacts_data",
       "components": [
         {
-          "component": "contacts_data_hap",
+          "component": "contacts_data",
           "features": []
         }
       ]
