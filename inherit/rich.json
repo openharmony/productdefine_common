@@ -585,15 +585,6 @@
       ]
     },
     {
-      "subsystem": "print",
-      "components": [
-        {
-          "component": "print_fwk",
-          "features": []
-        }
-      ]
-    },
-    {
       "subsystem": "inputmethod",
       "components": [
         {
