@@ -303,10 +303,6 @@
           "features": []
         },
         {
-          "component": "ability_tools",
-          "features": []
-        },
-        {
           "component": "idl_tool",
           "features": []
         },
