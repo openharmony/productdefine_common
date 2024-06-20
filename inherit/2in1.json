@@ -1139,6 +1139,15 @@
           "features": []
         }
       ]
+    },
+    {
+      "subsystem":"accesscontrol",
+      "components": [
+        {
+          "component": "sandbox_manager",
+          "features": []
+        }
+      ]
     }
   ]
 }
