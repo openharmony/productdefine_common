@@ -827,6 +827,10 @@
           ]
         },
         {
+          "component": "pcre2",
+          "features": []
+        },
+        {
           "component": "protobuf",
           "features": []
         },
