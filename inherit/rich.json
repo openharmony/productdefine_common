@@ -900,7 +900,8 @@
         {
           "component": "memmgr",
           "features": [
-			"memmgr_purgeable_memory = true"
+			"memmgr_purgeable_memory = true",
+      "memmgr_hyperhold_memory = true"
 		  ]
         },
         {
