@@ -900,8 +900,9 @@
         {
           "component": "memmgr",
           "features": [
-			"memmgr_purgeable_memory = true"
-		  ]
+              "memmgr_purgeable_memory = true",
+              "memmgr_hyperhold_memory = true"
+          ]
         },
         {
           "component": "frame_aware_sched",
