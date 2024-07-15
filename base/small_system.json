@@ -97,7 +97,7 @@
          "subsystem": "arkui",
          "components": [
            { "component": "ace_engine_lite" ,
-             "features":[ "enable_ohos_appexecfwk_feature_ability = true"]
+             "features":[ "ability_lite_enable_ohos_appexecfwk_feature_ability = true"]
            }
            
          ]
