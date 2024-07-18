@@ -1135,7 +1135,7 @@
           "features": []
         },
         {
-          "component": "drivers_peripheral_drm",
+          "component": "drivers_peripheral_clearplay",
           "features": []
         },
         {
