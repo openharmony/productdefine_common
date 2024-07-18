@@ -626,10 +626,10 @@
           "component": "camera_framework",
           "features": []
         },
-    {
- 	    "component": "drm_framework",
- 	    "features": []
-    },
+        {
+          "component": "drm_framework",
+          "features": []
+        },
         {
           "component": "image_framework",
           "features": []
