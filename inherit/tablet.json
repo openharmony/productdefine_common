@@ -1053,10 +1053,10 @@
           "component": "drivers_interface_camera",
           "features": []
         },
-    {
- 	  "component": "drivers_interface_drm",
- 	  "features": []
-    },
+        {
+          "component": "drivers_interface_drm",
+          "features": []
+        },
         {
           "component": "drivers_interface_codec",
           "features": []
