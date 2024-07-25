@@ -867,6 +867,9 @@
                     "component": "drivers_interface_drm"
                 },
                 {
+                    "component": "drivers_peripheral_clearplay"
+                },
+                {
                     "component": "drivers_interface_usb"
                 }
             ]
@@ -967,9 +970,6 @@
                 },
                 {
                     "component": "drivers_interface_distributed_audio"
-                },
-                {
-                    "component": "drivers_interface_drm"
                 },
                 {
                     "component": "drivers_interface_intelligent_voice"

@@ -604,6 +604,10 @@
           "features": []
         },
         {
+          "component": "drm_framework",
+          "features": []
+        },
+        {
           "component": "media_library",
           "features": []
         },
@@ -727,6 +731,14 @@
         },
         {
           "component": "drivers_interface_camera",
+          "features": []
+        },
+        {
+          "component": "drivers_peripheral_clearplay",
+          "features": []
+        },
+        {
+          "component": "drivers_interface_drm",
           "features": []
         },
         {

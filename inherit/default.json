@@ -1070,6 +1070,10 @@
           "features": []
         },
         {
+          "component": "drivers_interface_drm",
+          "features": []
+        },
+        {
           "component": "drivers_interface_codec",
           "features": []
         },
@@ -1149,6 +1153,10 @@
         },
         {
           "component": "drivers_peripheral_camera",
+          "features": []
+        },
+        {
+          "component": "drivers_peripheral_clearplay",
           "features": []
         },
         {
