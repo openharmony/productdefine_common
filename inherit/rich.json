@@ -517,11 +517,7 @@
           "features": [
             "graphic_2d_feature_ace_enable_gpu = true"
           ]
-        },
-        {
-          "component": "graphic_surface",
-          "features": []
-        },
+        },        
         {
           "component": "graphic_surface",
           "features": []
