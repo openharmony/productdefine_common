@@ -969,10 +969,6 @@
           "features": []
         },
         {
-          "component": "gstreamer",
-          "features": []
-        },
-        {
           "component": "gptfdisk",
           "features": []
         },
@@ -986,10 +982,6 @@
         },
         {
           "component": "f2fs-tools",
-          "features": []
-        },
-        {
-          "component": "expat",
           "features": []
         },
         {
