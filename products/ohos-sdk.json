@@ -140,7 +140,8 @@
     {
       "subsystem": "hdf",
       "components": [
-        { "component": "hdf" }
+        { "component": "hdf" },
+        { "component": "drivers_interface_display" }
       ]
     },
     {
@@ -249,7 +250,11 @@
     },
     {
       "subsystem": "resourceschedule",
-      "components": [ { "component": "ffrt" }]
+      "components": [ 
+        { "component": "ffrt" },
+        { "component": "resource_schedule_service" },
+        { "component": "qos_manager" }
+      ]
     },
     {
       "subsystem": "telephony",
@@ -294,6 +299,12 @@
       "subsystem": "ide",
       "components": [
         { "component": "previewer" }
+      ]
+    },
+    {
+      "subsystem": "customization",
+      "components": [
+        { "component": "config_policy" }
       ]
     }
   ]
