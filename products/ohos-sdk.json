@@ -189,7 +189,9 @@
         { "component": "device_auth" },
         { "component": "crypto_framework" },
         { "component": "dataclassification" },
-        { "component": "device_security_level" }
+        { "component": "device_security_level" },
+        { "component": "code_signature"},
+        { "component": "selinux_adapter"}
       ]
     },
     {
