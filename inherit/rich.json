@@ -23,7 +23,7 @@
       "components": [
         {
           "component": "os_account",
-          "features": []
+          "features": [ "os_account_multiple_active_accounts=false" ]
         }
       ]
     },
