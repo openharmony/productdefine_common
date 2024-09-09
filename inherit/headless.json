@@ -47,7 +47,7 @@
       {
         "subsystem": "account",
         "components": [
-          { "component": "os_account", "features": [] }
+          { "component": "os_account", "features": [ "os_account_multiple_active_accounts=false" ] }
         ]
       },
       {
