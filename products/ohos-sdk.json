@@ -43,10 +43,7 @@
     {
       "subsystem": "account",
       "components": [
-        {
-          "component": "os_account",
-          "features": [ "os_account_multiple_active_accounts=false" ]
-        }
+        { "component": "os_account" }
       ]
     },
     {
@@ -255,9 +252,7 @@
     {
       "subsystem": "resourceschedule",
       "components": [ 
-        { "component": "ffrt" },
-        { "component": "resource_schedule_service" },
-        { "component": "qos_manager" }
+        { "component": "ffrt" }
       ]
     },
     {
