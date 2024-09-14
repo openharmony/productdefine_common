@@ -972,10 +972,6 @@
         {
           "component": "wpa_supplicant",
           "features": []
-        },
-        {
-          "component": "backends",
-          "features": []
         }
       ]
     },
