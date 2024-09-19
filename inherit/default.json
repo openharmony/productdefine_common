@@ -845,6 +845,10 @@
           "features": []
         },
         {
+          "component": "eudev",
+          "features": []
+        },
+        {
           "component": "libfuse",
           "features": []
         },
