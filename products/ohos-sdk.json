@@ -143,7 +143,9 @@
     {
       "subsystem": "hdf",
       "components": [
-        { "component": "hdf" }
+        { "component": "hdf" },
+        { "component": "drivers_interface_display" },
+        { "component": "hdf_core" }
       ]
     },
     {
@@ -192,7 +194,9 @@
         { "component": "device_auth" },
         { "component": "crypto_framework" },
         { "component": "dataclassification" },
-        { "component": "device_security_level" }
+        { "component": "device_security_level" },
+        { "component": "code_signature"},
+        { "component": "selinux_adapter"}
       ]
     },
     {
@@ -250,7 +254,10 @@
     },
     {
       "subsystem": "resourceschedule",
-      "components": [ { "component": "ffrt" }]
+      "components": [ 
+        { "component": "ffrt" },
+        { "component": "qos_manager" }
+      ]
     },
     {
       "subsystem": "telephony",
@@ -274,7 +281,11 @@
     },
     {
       "subsystem": "thirdparty",
-      "components": [ { "component": "wpa_supplicant" } ]
+      "components": [ 
+        { "component": "wpa_supplicant" },
+        { "component": "typescript" },
+        { "component": "tzdata" }
+      ]
     },
     {
       "subsystem": "xts",
@@ -295,6 +306,12 @@
       "subsystem": "ide",
       "components": [
         { "component": "previewer" }
+      ]
+    },
+    {
+      "subsystem": "customization",
+      "components": [
+        { "component": "config_policy" }
       ]
     }
   ]
