@@ -733,7 +733,9 @@
         },
         {
           "component": "battery_manager",
-          "features": []
+          "features": [
+            "battery_manager_feature_enable_charger = true"
+          ]
         },
         {
           "component": "battery_statistics",
