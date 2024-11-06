@@ -974,6 +974,10 @@
           "component": "wpa_supplicant",
           "features": []
         },
+	{
+          "component": "liburing",
+          "features": []
+        },
         {
           "component": "backends",
           "features": []
