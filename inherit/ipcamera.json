@@ -358,6 +358,15 @@
         ]
       },
       {
+        "subsystem": "request",
+        "components": [
+          {
+            "component": "request",
+            "features": []
+          }
+        ]
+      },
+      {
         "subsystem": "multimodalinput",
         "components": [
           {
