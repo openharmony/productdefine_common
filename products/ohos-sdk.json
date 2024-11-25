@@ -37,6 +37,7 @@
       "subsystem": "arkui",
       "components": [
         { "component": "ace_engine" },
+        { "component": "advanced_ui_component" },
         { "component": "napi" }
       ]
     },
