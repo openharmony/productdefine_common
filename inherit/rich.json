@@ -9,6 +9,10 @@
           "features": []
         },
         {
+          "component": "advanced_ui_component",
+          "features": []
+        },
+        {
           "component": "napi",
           "features": []
         },
