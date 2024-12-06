@@ -782,6 +782,15 @@
       ]
     },
     {
+      "subsystem": "applications",
+      "components": [
+        {
+          "component": "permission_manager",
+          "features": []
+        }
+      ]
+    },
+    {
       "subsystem": "xts",
       "components": [
         {
