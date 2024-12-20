@@ -760,6 +760,10 @@
         {
           "component": "calendar_data",
           "features": []
+        },
+        {
+          "component": "dlp_manager",
+          "features": []
         }
       ]
     },

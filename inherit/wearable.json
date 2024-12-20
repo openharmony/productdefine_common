@@ -897,6 +897,9 @@
                 },
                 { 
                     "component": "permission_manager" 
+                },
+                { 
+                    "component": "dlp_manager" 
                 }
             ]
         },
