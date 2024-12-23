@@ -326,7 +326,19 @@
             "dsoftbus_feature_conn_ble = true",
             "dsoftbus_feature_conn_br = true",
             "dsoftbus_feature_trans_udp_stream = true",
-            "dsoftbus_feature_disc_ble = true"
+            "dsoftbus_feature_disc_ble = true",
+            "dsoftbus_feature_lnn_ble = true",
+            "dsoftbus_feature_lnn_wifi = true",
+            "dsoftbus_feature_lnn_ccmp = true",
+            "dsoftbus_feature_lnn_time_sync = true",
+            "dsoftbus_feature_lnn_sh = true",
+            "dsoftbus_feature_lnn_cloud_sync = true",
+            "dsoftbus_feature_lnn_channel_rating = true",
+            "dsoftbus_feature_lnn_lane_mgr = true",
+            "dsoftbus_feature_lnn_power_ctrl = true",
+            "dsoftbus_feature_lnn_lane_qos = true",
+            "dsoftbus_feature_lnn_meta_node = true",
+            "dsoftbus_feature_lnn_frame = true"
           ]
         }
       ]
