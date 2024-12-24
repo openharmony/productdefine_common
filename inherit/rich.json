@@ -374,6 +374,9 @@
         {
           "component": "dsoftbus",
           "features": [
+            "dsoftbus_feature_coap = true",
+            "dsoftbus_feature_vtp = true",
+            "dsoftbus_feature_dfile = true",
             "dsoftbus_feature_conn_p2p = true",
             "dsoftbus_feature_disc_ble = true",
             "dsoftbus_feature_conn_br = true",
