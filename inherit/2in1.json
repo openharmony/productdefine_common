@@ -40,6 +40,9 @@
         {
           "component": "dsoftbus",
           "features": [
+            "dsoftbus_feature_coap = true",
+            "dsoftbus_feature_vtp = true",
+            "dsoftbus_feature_dfile = true",
             "dsoftbus_feature_disc_ble = true",
             "dsoftbus_feature_disc_coap = true",
             "dsoftbus_feature_disc_lnn_coap = true",
