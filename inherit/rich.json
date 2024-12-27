@@ -657,7 +657,10 @@
         },
         {
           "component": "av_session",
-          "features": []
+          "features": [],
+          "syscap": [
+            "SystemCapability.Multimedia.AVSession.ExtendedDisplayCast = false"
+          ]
         },
         {
           "component": "media_library",
