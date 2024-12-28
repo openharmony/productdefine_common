@@ -332,6 +332,8 @@
             "dsoftbus_feature_disc_usb = false",
             "dsoftbus_feature_conn_ble = true",
             "dsoftbus_feature_conn_br = true",
+            "dsoftbus_feature_conn_tcp_proxy = true",
+            "dsoftbus_feature_conn_tcp_comm = true",
             "dsoftbus_feature_trans_udp_stream = true",
             "dsoftbus_feature_lnn_ble = true",
             "dsoftbus_feature_lnn_wifi = true",
