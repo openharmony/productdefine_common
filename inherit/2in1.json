@@ -635,7 +635,10 @@
         },
         {
           "component": "av_session",
-          "features": []
+          "features": [],
+          "syscap": [
+            "SystemCapability.Multimedia.AVSession.AVInputCast = true"
+          ]
         }
       ]
     },
