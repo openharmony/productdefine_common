@@ -285,7 +285,11 @@
       "components": [ 
         { "component": "wpa_supplicant" },
         { "component": "typescript" },
-        { "component": "tzdata" }
+        { "component": "tzdata" },
+        {
+          "component": "qrcodegen",
+          "features": [ "qrcodegen_feature_ace_engine_qrcode_able=true" ]
+        }
       ]
     },
     {
