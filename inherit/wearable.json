@@ -153,9 +153,6 @@
                     "component": "hiperf"
                 },
                 {
-                    "component": "bytrace"
-                },
-                {
                     "component": "hdc"
                 },
                 {

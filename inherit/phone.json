@@ -405,10 +405,6 @@
           "component": "syscap_codec"
         },
         {
-          "component": "bytrace",
-          "features": []
-        },
-        {
           "component": "hiprofiler",
           "features": []
         }
