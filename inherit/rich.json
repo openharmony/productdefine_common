@@ -499,6 +499,10 @@
       "subsystem": "developtools",
       "components": [
         {
+          "component": "bytrace",
+          "features": []
+        },
+        {
           "component": "hdc",
           "features": []
         },
@@ -1012,6 +1016,214 @@
         },
         {
           "component": "wpa_supplicant",
+          "features": []
+        },
+        {
+          "component": "skia",
+          "features": []
+        },
+        {
+          "component": "jsoncpp",
+          "features": []
+        },
+        {
+          "component": "icu",
+          "features": []
+        },
+        {
+          "component": "cJSON",
+          "features": []
+        },
+        {
+          "component": "openssl",
+          "features": []
+        },
+        {
+          "component": "libxml2",
+          "features": []
+        },
+        {
+          "component": "cups",
+          "features": []
+        },
+        {
+          "component": "cups-filters",
+          "features": []
+        },
+        {
+          "component": "libphonenumber",
+          "features": []
+        },
+        {
+          "component": "libpng",
+          "features": []
+        },
+        {
+          "component": "glib",
+          "features": []
+        },
+        {
+          "component": "zlib",
+          "features": []
+        },
+        {
+          "component": "protobuf",
+          "features": []
+        },
+        {
+          "component": "libjpeg-turbo",
+          "features": []
+        },
+        {
+          "component": "libdrm",
+          "features": []
+        },
+        {
+          "component": "ffmpeg",
+          "features": []
+        },
+        {
+          "component": "freetype",
+          "features": []
+        },
+        {
+          "component": "libwebsockets",
+          "features": []
+        },
+        {
+          "component": "sqlite",
+          "features": []
+        },
+        {
+          "component": "mbedtls",
+          "features": []
+        },
+        {
+          "component": "abseil-cpp",
+          "features": []
+        },
+        {
+          "component": "astc-encoder",
+          "features": []
+        },
+        {
+          "component": "brotli",
+          "features": []
+        },
+        {
+          "component": "bzip2",
+          "features": []
+        },
+        {
+          "component": "cares",
+          "features": []
+        },
+        {
+          "component": "curl",
+          "features": []
+        },
+        {
+          "component": "decimal.js",
+          "features": []
+        },
+        {
+          "component": "exfatprogs",
+          "features": []
+        },
+        {
+          "component": "f2fs-tools",
+          "features": []
+        },
+        {
+          "component": "flatbuffers",
+          "features": []
+        },
+        {
+          "component": "popt",
+          "features": []
+        },
+        {
+          "component": "grpc",
+          "features": []
+        },
+        {
+          "component": "iptables",
+          "features": []
+        },
+        {
+          "component": "elfio",
+          "features": []
+        },
+        {
+          "component": "libexif",
+          "features": []
+        },
+        {
+          "component": "libffi",
+          "features": []
+        },
+        {
+          "component": "libinput",
+          "features": []
+        },
+        {
+          "component": "libnl",
+          "features": []
+        },
+        {
+          "component": "libunwind",
+          "features": []
+        },
+        {
+          "component": "lzma",
+          "features": []
+        },
+        {
+          "component": "mtdev",
+          "features": []
+        },
+        {
+          "component": "ntfs-3g",
+          "features": []
+        },
+        {
+          "component": "pulseaudio",
+          "features": []
+        },
+        {
+          "component": "selinux",
+          "features": []
+        },
+        {
+          "component": "e2fsprogs",
+          "features": []
+        },
+        {
+          "component": "libuv",
+          "features": []
+        },
+        {
+          "component": "glslang",
+          "features": []
+        },
+        {
+          "component": "vk-gl-cts",
+          "features": []
+        },
+        {
+          "component": "spirv-tools",
+          "features": []
+        },
+        {
+          "component": "harfbuzz",
+          "features": []
+        },
+        {
+          "component": "qrcodegen",
+          "features": []
+        },
+        {
+          "component": "jerryscript",
           "features": []
         },
 	{
