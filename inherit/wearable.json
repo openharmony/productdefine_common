@@ -710,10 +710,16 @@
             "subsystem": "useriam",
             "components": [
                 {
-                    "component": "user_auth_framework"
+                    "component": "user_auth_framework",
+                    "features": [
+                        "user_auth_framework_enable_dynamic_load = true"
+                    ]
                 },
                 {
-                    "component": "pin_auth"
+                    "component": "pin_auth",
+                    "features": [
+                        "pin_auth_enable_dynamic_load = true"
+                    ]
                 }
             ]
         },
