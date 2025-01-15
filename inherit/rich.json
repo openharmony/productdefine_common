@@ -1199,10 +1199,6 @@
           "features": []
         },
         {
-          "component": "glslang",
-          "features": []
-        },
-        {
           "component": "vk-gl-cts",
           "features": []
         },
