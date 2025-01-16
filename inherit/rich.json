@@ -1143,10 +1143,6 @@
           "features": []
         },
         {
-          "component": "iptables",
-          "features": []
-        },
-        {
           "component": "elfio",
           "features": []
         },
