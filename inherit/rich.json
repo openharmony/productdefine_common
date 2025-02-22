@@ -787,6 +787,10 @@
         {
           "component": "dlp_manager",
           "features": []
+        },
+        {
+          "component": "user_certificate_manager",
+          "features": []
         }
       ]
     },
