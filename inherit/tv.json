@@ -12,8 +12,8 @@
                     ]
                 },
                 {
-                    "component": "css-what"
-                },
+                    "component": "libuv"
+                },   
                 {
                     "component": "jsframework"
                 }
@@ -76,9 +76,6 @@
         {
             "subsystem": "accesscontrol",
             "components": [
-                {
-                    "component": "access_token"
-                },
                 {
                     "component": "code_signature"
                 },
@@ -170,6 +167,15 @@
                 },
                 {
                     "component": "dhcp"
+                },
+                {
+                    "component": "netmanager_ext"
+                },
+                {
+                    "component": "netmanager_base"
+                },
+                {
+                    "component": "bluetooth"
                 }
             ]
         },
@@ -232,9 +238,6 @@
         {
             "subsystem": "developtools",
             "components": [
-                {
-                    "component": "libuv"
-                },
                 {
                     "component": "syscap_codec"
                 }
@@ -325,6 +328,9 @@
                 },
                 {
                     "component": "user_file_service"
+                },
+                {
+                    "component": "media_library"
                 }
             ]
         },
@@ -404,7 +410,6 @@
                 {
                     "component": "hdc"
                 },
-              
                 {
                     "component": "hiperf"
                 },
@@ -503,9 +508,6 @@
                 },
                 {
                     "component": "lame"
-                },
-                {
-                    "component": "media_library"
                 },
                 {
                     "component": "opensles"
@@ -629,7 +631,7 @@
                     "component": "appverify"
                 },
                 {
-                    "component": "certificate_manager"
+                    "component": "certificate_framework"
                 },
                 {
                     "component": "crypto_framework"
@@ -648,6 +650,12 @@
                 },
                 {
                     "component": "openssl"
+                },
+                {
+                    "component": "access_token"
+                },
+                {
+                    "component": "asset"
                 }
             ]
         },
@@ -727,6 +735,14 @@
                 },
                 {
                     "component": "pin_auth"
+                }
+            ]
+        },
+        {
+            "subsystem": "update",
+            "components": [
+                {
+                    "component": "update_service"
                 }
             ]
         },

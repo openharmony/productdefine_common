@@ -5,10 +5,13 @@
             "subsystem": "arkui",
             "components": [
                 {
-                    "component": "napi"
+                    "component": "ui_appearance"
                 },
                 {
-                    "component": "ui_appearance"
+                    "component": "graphic_3d"
+                },
+                {
+                    "component": "libuv"
                 }
             ]
         },
@@ -23,6 +26,9 @@
                 },
                 {
                     "component": "dmsfwk"
+                },
+                {
+                    "component": "form_fwk"
                 }
             ]
         },
@@ -49,6 +55,9 @@
                 },
                 {
                     "component": "runtime_core"
+                },
+                {
+                    "component": "napi"
                 }
             ]
         },
@@ -97,7 +106,14 @@
                 },
                 {
                     "component": "dhcp"
+                },
+                {
+                    "component": "nfc"
+                },
+                {
+                    "component": "wifi"
                 }
+                
             ]
         },
         {
@@ -226,6 +242,9 @@
                     "component": "graphic_3d"
                 },
                 {
+                    "component": "graphic_2d"
+                },
+                {
                     "component": "graphic_surface"
                 }
             ]
@@ -259,6 +278,9 @@
                 },
                 {
                     "component": "hichecker"
+                },
+                {
+                    "component": "hiprofiler"
                 }
             ]
         },
@@ -296,7 +318,6 @@
                 {
                     "component": "av_session"
                 },
-
                 {
                     "component": "audio_framework"
                 },
@@ -511,7 +532,7 @@
             "subsystem": "developtools",
             "components": [
                 {
-                    "component": "hiprofiler"
+                    "component": "syscap_codec"
                 }
             ]
         },
@@ -618,9 +639,6 @@
                     "component": "libusb"
                 },
                 {
-                    "component": "libuv"
-                },
-                {
                     "component": "libwebsockets"
                 },
                 {
@@ -724,7 +742,7 @@
             ]
         },
         {
-            "subsystem": "updater",
+            "subsystem": "update",
             "components": [
                 {
                     "component": "update_service"
@@ -902,13 +920,16 @@
                     "component": "calendar_data" 
                 },
                 { 
-                    "component": "contacts_data_hap" 
+                    "component": "contacts_data" 
                 },
                 { 
                     "component": "permission_manager" 
                 },
                 { 
                     "component": "dlp_manager" 
+                },
+                { 
+                    "component": "call_manager" 
                 }
             ]
         },
@@ -1024,6 +1045,14 @@
                 },
                 {
                     "component": "idl_tool"
+                }
+            ]
+        },
+        {
+            "subsystem": "base",
+            "components": [
+                {
+                    "component": "location"
                 }
             ]
         },
