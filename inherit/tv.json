@@ -41,6 +41,15 @@
                 },
                 { 
                     "component": "settings" 
+                },
+                { 
+                    "component": "launcher" 
+                },
+                { 
+                    "component": "systemui" 
+                },
+                { 
+                    "component": "settings_data" 
                 }
             ]
         },
@@ -70,6 +79,9 @@
                 },
                 {
                     "component": "vixl"
+                },
+                {
+                    "component": "rust"
                 }
             ]
         },
@@ -115,9 +127,6 @@
                     "component": "bundle_framework"
                 },
                 {
-                    "component": "distributed_bundle_framework"
-                },
-                {
                     "component": "zlib"
                 }
             ]
@@ -150,20 +159,23 @@
                 },
                 {
                     "component": "ylong_runtime"
+                },
+                {
+                    "component": "rust_libc"
                 }
             ]
         },
-        {
-            "subsystem": "communication",
+		{
+            "subsystem": "connectivity",
             "components": [
                 {
-                    "component": "dsoftbus"
+                    "component": "bluetooth"
                 },
                 {
-                    "component": "ipc"
+                    "component": "bluetooth_service"
                 },
                 {
-                    "component": "netstack"
+                    "component": "drivers_interface_bluetooth"
                 },
                 {
                     "component": "wifi"
@@ -173,7 +185,7 @@
                 }
             ]
         },
-        {
+		{
             "subsystem": "customization",
             "components": [
                 {
@@ -203,9 +215,6 @@
                 },
                 {
                     "component": "kv_store"
-                },
-                {
-                    "component": "pasteboard"
                 },
                 {
                     "component": "preferences"
@@ -241,7 +250,7 @@
             ]
         },
         {
-            "subsystem": "hdf",
+            "subsystem": "drivers",
             "components": [
                 {
                     "component": "drivers_interface_display"
@@ -249,13 +258,7 @@
                 {
                     "component": "drivers_peripheral_display"
                 },
-                {
-                    "component": "drivers_peripheral_usb"
-                },
-                {
-                    "component": "drivers_peripheral_camera"
-                },
-                {
+				{
                     "component": "drivers_interface_codec"
                 },
                 {
@@ -264,7 +267,7 @@
                 {
                     "component": "drivers_peripheral_bluetooth"
                 },
-                {
+				{
                     "component": "drivers_interface_wlan"
                 },
                 {
@@ -371,6 +374,12 @@
                 },
                 {
                     "component": "vulkan-loader"
+                },
+                {
+                    "component": "astc-encoder"
+                },
+                {
+                    "component": "egl"
                 }
             ]
         },
@@ -404,7 +413,6 @@
                 {
                     "component": "hdc"
                 },
-              
                 {
                     "component": "hiperf"
                 },
@@ -456,6 +464,14 @@
                 }
             ]
         },
+		{
+            "subsystem": "liteos",
+            "components": [
+                {
+                    "component": "FreeBSD"
+                }
+            ]
+        },
         {
             "subsystem": "multimedia",
             "components": [
@@ -463,16 +479,10 @@
                     "component": "av_session"
                 },
                 {
-                    "component": "cast_engine"
-                },
-                {
                     "component": "av_codec"
                 },
                 {
                     "component": "audio_framework"
-                },
-                {
-                    "component": "camera_framework"
                 },
                 {
                     "component": "drm_framework"
@@ -515,9 +525,6 @@
                 },
                 {
                     "component": "pulseaudio"
-                },
-                {
-                    "component": "ringtone_library"
                 }
             ]
         },
@@ -552,6 +559,38 @@
                 },
                 {
                     "component": "eventhandler"
+                }
+            ]
+        },
+		{
+            "subsystem": "netmanager",
+            "components": [
+                {
+                    "component": "curl"
+                },
+                {
+                    "component": "elfio"
+                },
+                {
+                    "component": "iptables"
+                },
+                {
+                    "component": "libwebsockets"
+                },
+                {
+                    "component": "netstack"
+                },
+                {
+                    "component": "netmanager_base"
+                },
+                {
+                    "component": "netmanager_ext"
+                },
+                {
+                    "component": "wpa_supplicant"
+                },
+                {
+                    "component": "ylong_http"
                 }
             ]
         },
@@ -626,16 +665,10 @@
             "subsystem": "security",
             "components": [
                 {
-                    "component": "appverify"
-                },
-                {
-                    "component": "certificate_manager"
+                    "component": "certificate_framework"
                 },
                 {
                     "component": "crypto_framework"
-                },
-                {
-                    "component": "device_auth"
                 },
                 {
                     "component": "drivers_peripheral_huks"
@@ -644,10 +677,10 @@
                     "component": "drivers_interface_huks"
                 },
                 {
-                    "component": "huks"
+                    "component": "openssl"
                 },
                 {
-                    "component": "openssl"
+                    "component": "asset"
                 }
             ]
         },
@@ -677,29 +710,10 @@
             ]
         },
         {
-            "subsystem": "tee",
-            "components": [
-                {
-                    "component": "tee_client"
-                }
-            ]
-        },
-        {
             "subsystem": "time",
             "components": [
                 {
                     "component": "time_service"
-                }
-            ]
-        },
-        {
-            "subsystem": "telephony",
-            "components": [
-                {
-                    "component": "state_registry"
-                },
-                {
-                    "component": "sharing_framework"
                 }
             ]
         },
@@ -712,21 +726,25 @@
             ]
         },
         {
-            "subsystem": "usb",
+            "subsystem": "update",
             "components": [
                 {
-                    "component": "usb_manager"
-                }
-            ]
-        },
-        {
-            "subsystem": "useriam",
-            "components": [
-                {
-                    "component": "user_auth_framework"
+                    "component": "bzip"
                 },
-                {
-                    "component": "pin_auth"
+				{
+                    "component": "lz4"
+                },
+				{
+                    "component": "sys_installer"
+                },
+				{
+                    "component": "updater"
+                },
+				{
+                    "component": "update_app"
+                },
+				{
+                    "component": "update_service"
                 }
             ]
         },
@@ -735,14 +753,9 @@
             "components": [
                 {
                     "component": "window_manager"
-                }
-            ]
-        },
-        {
-            "subsystem": "web",
-            "components": [
-                {
-                    "component": "webview"
+                },
+				{
+                    "component": "scene_session_manager"
                 }
             ]
         },

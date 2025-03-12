@@ -5,10 +5,20 @@
             "subsystem": "arkui",
             "components": [
                 {
-                    "component": "napi"
+                    "component": "css-what"
                 },
                 {
                     "component": "ui_appearance"
+                },
+				{
+                    "component": "ace_engine",
+                    "features": [
+                        "ace_engine_feature_enable_accessibility = true",
+                        "ace_engine_feature_enable_web = true"
+                    ]
+                },
+                {
+                    "component": "jsframework"
                 }
             ]
         },
@@ -26,16 +36,42 @@
                 }
             ]
         },
-        {
-            "subsystem": "account",
+		{
+            "subsystem": "applications",
             "components": [
-                {
-                    "component": "os_account",
-                    "features": [ "os_account_multiple_active_accounts=false" ]
+                { 
+                    "component": "settings" 
+                },
+                { 
+                    "component": "calendar_data" 
+                },
+                { 
+                    "component": "contacts_data" 
+                },
+                { 
+                    "component": "clock" 
+                },
+                { 
+                    "component": "call" 
+                },
+                { 
+                    "component": "launcher" 
+                },
+                { 
+                    "component": "mms" 
+                },
+                { 
+                    "component": "systemui" 
+                },
+                { 
+                    "component": "settings_data" 
+                },
+                { 
+                    "component": "screenlock_mgr" 
                 }
             ]
         },
-        {
+		{
             "subsystem": "arkcompiler",
             "components": [
                 {
@@ -49,6 +85,62 @@
                 },
                 {
                     "component": "runtime_core"
+                },
+                {
+                    "component": "musl"
+                },
+                {
+                    "component": "napi"
+                },
+                {
+                    "component": "node"
+                },
+                {
+                    "component": "rust"
+                },
+                {
+                    "component": "runtime_core"
+                },
+                {
+                    "component": "vixl"
+                }
+            ]
+        },
+		{
+            "subsystem": "accesscontrol",
+            "components": [
+                {
+                    "component": "access_token"
+                },
+				{
+                    "component": "code_signature"
+                },
+				{
+                    "component": "fsverity-utils"
+                },
+				{
+                    "component": "pcre2"
+                },
+				{
+                    "component": "permission_manager"
+                },
+				{
+                    "component": "selinux"
+                },
+				{
+                    "component": "security_component_manager"
+                },
+				{
+                    "component": "selinux_adapter"
+                }
+            ]
+        },
+        {
+            "subsystem": "account",
+            "components": [
+                {
+                    "component": "os_account",
+                    "features": [ "os_account_multiple_active_accounts=false" ]
                 }
             ]
         },
@@ -63,6 +155,9 @@
                 },
                 {
                     "component": "bundle_tool"
+                },
+                {
+                    "component": "zlib"
                 }
             ]
         },
@@ -74,33 +169,7 @@
                 }
             ]
         },
-        {
-            "subsystem": "communication",
-            "components": [
-                {
-                    "component": "ipc"
-                },
-                {
-                    "component": "netstack"
-                },
-                {
-                    "component": "bluetooth"
-                },
-                {
-                    "component": "dsoftbus"
-                },
-                {
-                    "component": "netmanager_base"
-                },
-                {
-                    "component": "netmanager_ext"
-                },
-                {
-                    "component": "dhcp"
-                }
-            ]
-        },
-        {
+		{
             "subsystem": "commonlibrary",
             "components": [
                 {
@@ -110,10 +179,67 @@
                     "component": "ets_utils"
                 },
                 {
-                    "component": "ylong_http"
+                    "component": "memory_utils"
                 },
                 {
-                    "component": "memory_utils"
+                    "component": "decimal.js"
+                },
+                {
+                    "component": "rust_rust-openssl"
+                },
+                {
+                    "component": "rust_libc"
+                },
+                {
+                    "component": "rust_basic_crates"
+                },
+                {
+                    "component": "ylong_json"
+                },
+                {
+                    "component": "ylong_runtime"
+                }
+            ]
+        },
+		{
+            "subsystem": "connectivity",
+            "components": [
+                {
+                    "component": "bluetooth"
+                },
+                {
+                    "component": "bluetooth_service"
+                },
+                {
+                    "component": "drivers_interface_bluetooth"
+                },
+                {
+                    "component": "libnl"
+                },
+                {
+                    "component": "nfc"
+                },
+                {
+                    "component": "wifi"
+                },
+                {
+                    "component": "dhcp"
+                }
+            ]
+        },
+        {
+            "subsystem": "customization",
+            "components": [
+                {
+                    "component": "config_policy"
+                }
+            ]
+        },        
+		{
+            "subsystem": "deviceprofile",
+            "components": [
+                {
+                    "component": "device_info_manager"
                 }
             ]
         },
@@ -143,24 +269,13 @@
                 },
                 {
                     "component": "udmf"
+                },
+                {
+                    "component": "sqlite"
                 }
             ]
         },
-        {
-            "subsystem": "developtools",
-            "components": [
-                {
-                    "component": "hiperf"
-                },
-                {
-                    "component": "hdc"
-                },
-                {
-                    "component": "syscap_codec"
-                }
-            ]
-        },
-        {
+		{
             "subsystem": "distributedhardware",
             "components": [
                 {
@@ -168,17 +283,133 @@
                 },
                 {
                     "component": "distributed_hardware_fwk"
-                },
-                {
-                    "component": "distributed_input"
                 }
             ]
         },
         {
-            "subsystem": "deviceprofile",
+            "subsystem": "developtools",
             "components": [
                 {
-                    "component": "device_info_manager"
+                    "component": "libuv"
+                },
+                {
+                    "component": "syscap_codec"
+                }
+            ]
+        },
+		{
+            "subsystem": "drivers",
+            "components": [
+                {
+                    "component": "drivers_peripheral_ril"
+                },
+                {
+                    "component": "drivers_peripheral_vibrator"
+                },
+                {
+                    "component": "drivers_interface_vibrator"
+                },
+                {
+                    "component": "drivers_interface_ril"
+                },
+                {
+                    "component": "drivers_interface_display"
+                },
+                {
+                    "component": "drivers_peripheral_display"
+                },
+                {
+                    "component": "drivers_interface_thermal"
+                },
+                {
+                    "component": "drivers_peripheral_thermal"
+                },
+                {
+                    "component": "drivers_interface_user_auth"
+                },
+                {
+                    "component": "drivers_peripheral_user_auth"
+                },
+                {
+                    "component": "drivers_interface_battery"
+                },
+                {
+                    "component": "drivers_peripheral_battery"
+                },
+                {
+                    "component": "drivers_interface_power"
+                },
+                {
+                    "component": "drivers_peripheral_power"
+                },
+                {
+                    "component": "drivers_interface_codec"
+                },
+                {
+                    "component": "drivers_peripheral_codec"
+                },
+                {
+                    "component": "drivers_peripheral_bluetooth"
+                },
+                {
+                    "component": "drivers_interface_location_gnss"
+                },
+                {
+                    "component": "drivers_peripheral_location_gnss"
+                },
+                {
+                    "component": "drivers_interface_nfc"
+                },
+                {
+                    "component": "drivers_peripheral_nfc"
+                },
+                {
+                    "component": "drivers_interface_usb"
+                },
+                {
+                    "component": "drivers_peripheral_usb"
+                },
+                {
+                    "component": "drivers_interface_wlan"
+                },
+                {
+                    "component": "drivers_peripheral_wlan"
+                },
+                {
+                    "component": "drivers_interface_input"
+                },
+                {
+                    "component": "drivers_peripheral_input"
+                },
+                {
+                    "component": "drivers_interface_audio"
+                },
+                {
+                    "component": "drivers_peripheral_audio"
+                },
+                {
+                    "component": "drivers_interface_sensor"
+                },
+                {
+                    "component": "drivers_peripheral_sensor"
+                },
+                {
+                    "component": "drivers_interface_memorytracker"
+                },
+                {
+                    "component": "drivers_peripheral_memorytracker"
+                },
+                {
+                    "component": "drivers_peripheral_pin_auth"
+                },
+                {
+                    "component": "drivers_interface_pin_auth"
+                },
+                {
+                    "component": "libdrm"
+                },
+                {
+                    "component": "openmax"
                 }
             ]
         },
@@ -198,7 +429,33 @@
                     "component": "user_file_service"
                 },
                 {
-                    "component": "file_api"
+                    "component": "gptfdisk"
+                },
+                {
+                    "component": "e2fsprogs"
+                },
+                {
+                    "component": "exfatprogs"
+                },
+                {
+                    "component": "f2fs-tools"
+                },
+                {
+                    "component": "libfuse"
+                },
+                {
+                    "component": "ntfs-3g"
+                },
+                {
+                    "component": "popt"
+                }
+            ]
+        },
+		{
+            "subsystem": "form_fwk",
+            "components": [
+                {
+                    "component": "form_fwk"
                 }
             ]
         },
@@ -216,6 +473,12 @@
                 },
                 {
                     "component": "resource_management"
+                },
+                {
+                    "component": "libphonenumber"
+                },
+                {
+                    "component": "tzdata"
                 }
             ]
         },
@@ -223,18 +486,57 @@
             "subsystem": "graphic",
             "components": [
                 {
-                    "component": "graphic_3d"
+                    "component": "astc-encoder"
+                },
+                {
+                    "component": "egl"
+                },
+                {
+                    "component": "giflib"
                 },
                 {
                     "component": "graphic_surface"
+                },
+                {
+                    "component": "graphic_2d"
+                },
+                {
+                    "component": "graphic_3d"
+                },
+                {
+                    "component": "libjpeg-turbo"
+                },
+                {
+                    "component": "libjpeg"
+                },
+                {
+                    "component": "opencl-headers"
+                },
+                {
+                    "component": "opengles"
+                },
+                {
+                    "component": "skia"
+                },
+                {
+                    "component": "vulkan-headers"
+                },
+                {
+                    "component": "vulkan-loader"
                 }
             ]
         },
         {
             "subsystem": "hiviewdfx",
             "components": [
+				{
+                    "component": "abseil-cpp"
+                },
                 {
                     "component": "faultloggerd"
+                },
+				{
+                    "component": "grpc"
                 },
                 {
                     "component": "hisysevent"
@@ -259,6 +561,33 @@
                 },
                 {
                     "component": "hichecker"
+                },
+                {
+                    "component": "hdc"
+                },
+                {
+                    "component": "hiperf"
+                },
+                {
+                    "component": "hiprofiler"
+                },
+                {
+                    "component": "libunwind"
+                },
+                {
+                    "component": "libusb"
+                },
+                {
+                    "component": "libbpf"
+                },
+                {
+                    "component": "lzma"
+                },
+                {
+                    "component": "protobuf"
+                },
+                {
+                    "component": "re2"
                 }
             ]
         },
@@ -270,11 +599,30 @@
                 }
             ]
         },
-        {
-            "subsystem": "multimodalinput",
+		{
+            "subsystem": "kernel",
             "components": [
                 {
-                    "component": "input"
+                    "component": "frame_aware_sched"
+                },
+				{
+                    "component": "linux"
+                }
+            ]
+        },
+		{
+            "subsystem": "location",
+            "components": [
+                {
+                    "component": "location"
+                }
+            ]
+        },
+		{
+            "subsystem": "liteos",
+            "components": [
+                {
+                    "component": "FreeBSD"
                 }
             ]
         },
@@ -285,18 +633,11 @@
                     "component": "drm_framework"
                 },
                 {
-                    "component": "media_foundation"
-                },
-                {
                     "component": "image_framework"
-                },
-                {
-                    "component": "media_library"
                 },
                 {
                     "component": "av_session"
                 },
-
                 {
                     "component": "audio_framework"
                 },
@@ -305,18 +646,63 @@
                 },
                 {
                     "component": "player_framework"
+                },
+                {
+                    "component": "drivers_interface_drm"
+                },
+                {
+                    "component": "drivers_peripheral_clearplay"
+                },
+                {
+                    "component": "ffmpeg"
+                },
+                {
+                    "component": "glib"
+                },
+                {
+                    "component": "libexif"
+                },
+                {
+                    "component": "libffi"
+                },
+                {
+                    "component": "libsnd"
+                },
+                {
+                    "component": "lame"
+                },
+                {
+                    "component": "opensles"
+                },
+                {
+                    "component": "pulseaudio"
+                },
+                {
+                    "component": "ringtone_library"
                 }
             ]
         },
-        {
-            "subsystem": "msdp",
+		{
+            "subsystem": "multimodalinput",
             "components": [
                 {
-                    "component": "device_status"
+                    "component": "input"
+                },
+				{
+                    "component": "json"
+                },
+				{
+                    "component": "libevdev"
+                },
+				{
+                    "component": "libinput"
+                },
+				{
+                    "component": "mtdev"
                 }
             ]
         },
-        {
+		{
             "subsystem": "notification",
             "components": [
                 {
@@ -327,6 +713,49 @@
                 },
                 {
                     "component": "distributed_notification_service"
+                }
+            ]
+        },
+		{
+            "subsystem": "netmanager",
+            "components": [
+                {
+                    "component": "curl"
+                },
+                {
+                    "component": "elfio"
+                },
+                {
+                    "component": "iptables"
+                },
+                {
+                    "component": "libwebsockets"
+                },
+                {
+                    "component": "netstack"
+                },
+                {
+                    "component": "nghttp2"
+                },
+                {
+                    "component": "netmanager_base"
+                },
+                {
+                    "component": "netmanager_ext"
+                },
+                {
+                    "component": "wpa_supplicant"
+                },
+                {
+                    "component": "ylong_http"
+                }
+            ]
+        },
+        {
+            "subsystem": "ostest",
+            "components": [
+                {
+                    "component": "wukong"
                 }
             ]
         },
@@ -350,6 +779,14 @@
                 }
             ]
         },
+		{
+            "subsystem": "request",
+            "components": [
+                {
+                    "component": "request"
+                }
+            ]
+        },
         {
             "subsystem": "resourceschedule",
             "components": [
@@ -366,9 +803,6 @@
                     "component": "resource_schedule_service"
                 },
                 {
-                    "component": "frame_aware_sched"
-                },
-                {
                     "component": "device_standby"
                 },
                 {
@@ -379,14 +813,23 @@
                 },
                 {
                     "component": "soc_perf"
+                },
+                {
+                    "component": "memmgr"
                 }
             ]
         },
         {
-            "subsystem": "request",
+            "subsystem": "startup",
             "components": [
                 {
-                    "component": "request"
+                    "component": "hvb"
+                },
+                {
+                    "component": "appspawn"
+                },
+                {
+                    "component": "toybox"
                 }
             ]
         },
@@ -394,40 +837,22 @@
             "subsystem": "security",
             "components": [
                 {
-                    "component": "selinux_adapter"
+                    "component": "asset"
+                },
+				{
+                    "component": "certificate_framework"
                 },
                 {
                     "component": "crypto_framework"
                 },
-                {
-                    "component": "access_token"
+				{
+                    "component": "drivers_interface_huks"
                 },
-                {
-                    "component": "dataclassification"
+				{
+                    "component": "drivers_peripheral_huks"
                 },
-                {
-                    "component": "certificate_manager"
-                },
-                {
-                    "component": "huks"
-                },
-                {
-                    "component": "device_auth"
-                },
-                {
-                    "component": "device_security_level"
-                },
-                {
-                    "component": "appverify"
-                },
-                {
-                    "component": "security_component_manager"
-                },
-                {
-                    "component": "certificate_framework"
-                },
-                {
-                    "component": "code_signature"
+				{
+                    "component": "openssl"
                 }
             ]
         },
@@ -457,45 +882,10 @@
             ]
         },
         {
-            "subsystem": "startup",
+            "subsystem": "securitycloudgovernance",
             "components": [
                 {
-                    "component": "init"
-                },
-                {
-                    "component": "appspawn"
-                },
-                {
-                    "component": "hvb"
-                }
-            ]
-        },
-        {
-            "subsystem": "telephony",
-            "components": [
-                {
-                    "component": "state_registry"
-                },
-                {
-                    "component": "sms_mms"
-                },
-                {
-                    "component": "cellular_call"
-                },
-                {
-                    "component": "call_manager"
-                },
-                {
-                    "component": "cellular_data"
-                },
-                {
-                    "component": "core_service"
-                },
-                {
-                    "component": "ril_adapter"
-                },
-                {
-                    "component": "telephony_data"
+                    "component": "security_guard"
                 }
             ]
         },
@@ -507,182 +897,7 @@
                 }
             ]
         },
-        {
-            "subsystem": "developtools",
-            "components": [
-                {
-                    "component": "hiprofiler"
-                }
-            ]
-        },
-        {
-            "subsystem": "thirdparty",
-            "components": [
-                {
-                    "component": "vulkan-headers"
-                },
-                {
-                    "component": "zlib"
-                },
-                {
-                    "component": "ffmpeg"
-                },
-                {
-                    "component": "glib"
-                },
-                {
-                    "component": "libexif"
-                },
-                {
-                    "component": "libffi"
-                },
-                {
-                    "component": "libsnd"
-                },
-                {
-                    "component": "pulseaudio"
-                },
-                {
-                    "component": "abseil-cpp"
-                },
-                {
-                    "component": "alsa-lib"
-                },
-                {
-                    "component": "bounds_checking_function"
-                },
-                {
-                    "component": "bzip2"
-                },
-                {
-                    "component": "cJSON"
-                },
-                {
-                    "component": "css-what"
-                },
-                {
-                    "component": "curl"
-                },
-                {
-                    "component": "e2fsprogs"
-                },
-                {
-                    "component": "egl"
-                },
-                {
-                    "component": "elfio"
-                },
-                {
-                    "component": "freetype"
-                },
-                {
-                    "component": "libfuse"
-                },
-                {
-                    "component": "icu"
-                },
-                {
-                    "component": "jerryscript"
-                },
-                {
-                    "component": "jsframework"
-                },
-                {
-                    "component": "json"
-                },
-                {
-                    "component": "jsoncpp"
-                },
-                {
-                    "component": "libevdev"
-                },
-                {
-                    "component": "libinput"
-                },
-                {
-                    "component": "libjpeg-turbo"
-                },
-                {
-                    "component": "libnl"
-                },
-                {
-                    "component": "libphonenumber"
-                },
-                {
-                    "component": "libpng"
-                },
-                {
-                    "component": "libunwind"
-                },
-                {
-                    "component": "libusb"
-                },
-                {
-                    "component": "libuv"
-                },
-                {
-                    "component": "libwebsockets"
-                },
-                {
-                    "component": "libxml2"
-                },
-                {
-                    "component": "lz4"
-                },
-                {
-                    "component": "mbedtls"
-                },
-                {
-                    "component": "mtdev"
-                },
-                {
-                    "component": "musl"
-                },
-                {
-                    "component": "node"
-                },
-                {
-                    "component": "opengles"
-                },
-                {
-                    "component": "openssl"
-                },
-                {
-                    "component": "pcre2"
-                },
-                {
-                    "component": "qrcodegen"
-                },
-                {
-                    "component": "re2"
-                },
-                {
-                    "component": "skia"
-                },
-                {
-                    "component": "sqlite"
-                },
-                {
-                    "component": "weex-loader"
-                },
-                {
-                    "component": "libbpf"
-                },
-                {
-                    "component": "opencl-headers"
-                },
-                {
-                    "component": "libbpf"
-                },
-                {
-                    "component": "qrcodegen",
-                    "features": [
-                      "qrcodegen_feature_ace_engine_qrcode_able = true"
-                    ]
-                }
-            ]
-        },
-        {
+		{
             "subsystem": "time",
             "components": [
                 {
@@ -691,10 +906,39 @@
             ]
         },
         {
-            "subsystem": "theme",
+            "subsystem": "testfwk",
             "components": [
                 {
-                    "component": "screenlock_mgr"
+                    "component": "arkxtest"
+                }
+            ]
+        },
+        {
+            "subsystem": "telephony",
+            "components": [
+                {
+                    "component": "core_service"
+                },
+                {
+                    "component": "cellular_data"
+                },
+                {
+                    "component": "cellular_call"
+                },
+                {
+                    "component": "call_manager"
+                },
+                {
+                    "component": "ril_adapter"
+                },
+                {
+                    "component": "sms_mms"
+                },
+                {
+                    "component": "state_registry"
+                },
+                {
+                    "component": "telephony_data"
                 }
             ]
         },
@@ -707,413 +951,36 @@
             ]
         },
         {
-            "subsystem": "useriam",
+            "subsystem": "update",
             "components": [
                 {
-                    "component": "user_auth_framework",
-                    "features": [
-                        "user_auth_framework_enable_dynamic_load = true"
-                    ]
+                    "component": "bzip2"
                 },
-                {
-                    "component": "pin_auth",
-                    "features": [
-                        "pin_auth_enable_dynamic_load = true"
-                    ]
-                }
-            ]
-        },
-        {
-            "subsystem": "updater",
-            "components": [
-                {
+				{
+                    "component": "lz4"
+                },
+				{
+                    "component": "sys_installer"
+                },
+				{
+                    "component": "updater"
+                },
+				{
+                    "component": "update_app"
+                },
+				{
                     "component": "update_service"
                 }
             ]
         },
-        {
-            "subsystem": "web",
+		{
+            "subsystem": "useriam",
             "components": [
                 {
-                    "component": "webview"
-                }
-            ]
-        },
-        {
-            "subsystem": "xts",
-            "components": [
-                {
-                    "component": "device_attest"
-                }
-            ]
-        },
-        {
-            "subsystem": "hdf",
-            "components": [
-                {
-                    "component": "hdf_core"
+                    "component": "pin_auth"
                 },
-                {
-                    "component": "drivers_peripheral_usb"
-                },
-                {
-                    "component": "drivers_peripheral_wlan"
-                },
-                {
-                    "component": "drivers_peripheral_thermal"
-                },
-                {
-                    "component": "drivers_interface_location_gnss"
-                },
-                {
-                    "component": "drivers_interface_nfc"
-                },
-                {
-                    "component": "drivers_interface_wlan"
-                },
-                {
-                    "component": "drivers_interface_memorytracker"
-                },
-                {
-                    "component": "drivers_interface_motion"
-                },
-                {
-                    "component": "drivers_interface_vibrator"
-                },
-                {
-                    "component": "drivers_interface_battery"
-                },
-                {
-                    "component": "drivers_interface_location_agnss"
-                },
-                {
-                    "component": "drivers_interface_input"
-                },
-                {
-                    "component": "drivers_peripheral_location_gnss"
-                },
-                {
-                    "component": "drivers_peripheral_nfc"
-                },
-                {
-                    "component": "drivers_interface_sensor"
-                },
-                {
-                    "component": "drivers_peripheral_sensor"
-                },
-                {
-                    "component": "drivers_peripheral_memorytracker"
-                },
-                {
-                    "component": "drivers_interface_pin_auth"
-                },
-                {
-                    "component": "drivers_peripheral_motion"
-                },
-                {
-                    "component": "drivers_peripheral_vibrator"
-                },
-                {
-                    "component": "drivers_interface_ril"
-                },
-                {
-                    "component": "drivers_interface_display"
-                },
-                {
-                    "component": "drivers_peripheral_display"
-                },
-                {
-                    "component": "drivers_interface_thermal"
-                },
-                {
-                    "component": "drivers_interface_user_auth"
-                },
-                {
-                    "component": "drivers_peripheral_battery"
-                },
-                {
-                    "component": "drivers_interface_power"
-                },
-                {
-                    "component": "drivers_interface_codec"
-                },
-                {
-                    "component": "drivers_peripheral_codec"
-                },
-                {
-                    "component": "drivers_peripheral_bluetooth"
-                },
-                {
-                    "component": "drivers_interface_act_recg"
-                },
-                {
-                    "component": "drivers_interface_partitionslot"
-                },
-                {
-                    "component": "drivers_peripheral_partitionslot"
-                },
-                {
-                    "component": "drivers_peripheral_location_agnss"
-                },
-                {
-                    "component": "drivers_interface_audio"
-                },
-                {
-                    "component": "drivers_peripheral_audio"
-                },
-                {
-                    "component": "drivers_interface_huks"
-                },
-                {
-                    "component": "drivers_peripheral_huks"
-                },
-                {
-                    "component": "drivers_interface_secure_element"
-                },
-                {
-                    "component": "drivers_peripheral_ril"
-                },
-                {
-                    "component": "drivers_interface_drm"
-                },
-                {
-                    "component": "drivers_peripheral_clearplay"
-                },
-                {
-                    "component": "drivers_interface_usb"
-                }
-            ]
-        },
-        {
-            "subsystem": "build",
-            "components": [
-                { 
-                    "component": "build_framework" 
-                }
-            ]
-        },
-        {
-            "subsystem": "applications",
-            "components": [
-                { 
-                    "component": "settings" 
-                },
-                { 
-                    "component": "calendar_data" 
-                },
-                { 
-                    "component": "contacts_data_hap" 
-                },
-                { 
-                    "component": "permission_manager" 
-                },
-                { 
-                    "component": "dlp_manager" 
-                }
-            ]
-        },
-        {
-            "subsystem": "hdf",
-            "components": [
-                {
-                    "component": "drivers_peripheral_audio",
-                    "features": [
-                        "drivers_peripheral_audio_feature_mono_to_stereo = true",
-                        "drivers_peripheral_audio_feature_full_test_suite = true",
-                        "drivers_peripheral_audio_feature_alsa_lib = false",
-                        "drivers_peripheral_audio_feature_effect = true"
-                    ]
-                },
-                {
-                    "component": "drivers_peripheral_clearplay"
-                },
-                {
-                    "component": "drivers_peripheral_codec",
-                    "features": [
-                        "drivers_peripheral_codec_feature_support_omx_extend_test = true",
-                        "drivers_peripheral_codec_feature_support_hdi_v1 = true"
-                    ]
-                },
-                {
-                    "component": "drivers_peripheral_display",
-                    "features": [
-                        "drivers_peripheral_display_community = true",
-                        "drivers_peripheral_display_vdi_default = true"
-                    ]
-                },
-                {
-                    "component": "drivers_peripheral_distributed_audio"
-                },
-                {
-                    "component": "drivers_peripheral_input",
-                    "features": [
-                        "drivers_peripheral_input_feature_model = true"
-                    ]
-                },
-                {
-                    "component": "drivers_peripheral_intelligent_voice"
-                },
-                {
-                    "component": "drivers_peripheral_light",
-                    "features": [
-                        "drivers_peripheral_light_feature_model = true"
-                    ]
-                },
-                {
-                    "component": "drivers_peripheral_location_geofence"
-                },
-                {
-                    "component": "drivers_peripheral_pin_auth"
-                },
-                {
-                    "component": "drivers_peripheral_power"
-                },
-                {
-                    "component": "drivers_peripheral_ril"
-                },
-                {
-                    "component": "drivers_peripheral_user_auth"
-                },
-                {
-                    "component": "drivers_peripheral_wlan",
-                    "features": [
-                        "drivers_peripheral_wlan_feature_enable_HDF_NL80211 = true",
-                        "drivers_peripheral_wlan_feature_enable_HDF_UT = false"
-                    ]
-                },
-                {
-                    "component": "drivers_interface_distributed_audio"
-                },
-                {
-                    "component": "drivers_interface_intelligent_voice"
-                },
-                {
-                    "component": "drivers_interface_light"
-                },
-                {
-                    "component": "drivers_interface_location_geofence"
-                },
-                {
-                    "component": "drivers_interface_nnrt"
-                },
-                {
-                    "component": "drivers_interface_ril"
-                },
-                {
-                    "component": "ril_device_driver_interface"
-                },
-                {
-                    "component": "external_device_manager"
-                },
-                {
-                    "component": "hdf_core",
-                    "features": [
-                        "hdf_core_platform_test_support = true"
-                    ]
-                }
-            ]
-        },
-        {
-            "subsystem": "ability",
-            "components": [
-                {
-                    "component": "form_fwk"
-                },
-                {
-                    "component": "ability_tools"
-                },
-                {
-                    "component": "idl_tool"
-                }
-            ]
-        },
-        {
-            "subsystem": "graphic",
-            "components": [
-                {
-                    "component": "graphic_2d",
-                    "features": [
-                        "graphic_2d_feature_rs_enable_eglimage = true",
-                        "graphic_2d_feature_use_texgine = true",
-                        "graphic_2d_feature_ace_enable_gpu = true",
-                        "graphic_2d_feature_rs_enable_profiler = false"
-                    ]
-                },
-                {
-                    "component": "graphic_surface"
-                },
-                {
-                    "component": "vulkan-loader"
-                }
-            ]
-        },
-        {
-            "subsystem": "bundlemanager",
-            "components": [
-                {
-                    "component": "ecological_rule_manager"
-                }
-            ]
-        },
-        {
-            "subsystem": "customization",
-            "components": [
-                {
-                    "component": "enterprise_device_management"
-                },
-                {
-                    "component": "config_policy"
-                }
-            ]
-        },
-        {
-            "subsystem": "resourceschedule",
-            "components": [
-                {
-                    "component": "memmgr",
-                    "features": [
-                        "memmgr_purgeable_memory = true"
-                    ]
-                }
-            ]
-        },
-        {
-            "subsystem": "arkui",
-            "components": [
-                {
-                    "component": "ui_lite"
-                },
-                {
-                    "component": "ace_engine",
-                    "features": [
-                        "ace_engine_feature_enable_accessibility = true",
-                        "ace_engine_feature_enable_web = true"
-                    ]
-                }
-            ]
-        },
-        {
-            "subsystem": "security",
-            "components": [
-                {
-                    "component": "dlp_permission_service"
-                },
-                {
-                    "component": "asset"
-                },
-                {
-                    "component": "security_component_manager"
-                },
-                {
-                    "component": "security_guard"
-                }
-            ]
-        },
-        {
-            "subsystem": "theme",
-            "components": [
-                {
-                    "component": "wallpaper_mgr"
+				{
+                    "component": "user_auth_framework"
                 }
             ]
         },
@@ -1126,24 +993,10 @@
             ]
         },
         {
-            "subsystem": "thirdparty",
+            "subsystem": "xts",
             "components": [
                 {
-                    "component": "wpa_supplicant",
-                    "features": [
-                        "wpa_supplicant_driver_nl80211 = true"
-                    ]
-                }
-            ]
-        },
-        {
-            "subsystem": "commonlibrary",
-            "components": [
-                {
-                    "component": "ylong_json"
-                },
-                {
-                    "component": "ylong_runtime"
+                    "component": "device_attest"
                 }
             ]
         }
