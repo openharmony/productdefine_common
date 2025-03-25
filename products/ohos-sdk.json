@@ -159,7 +159,6 @@
       "subsystem": "graphic",
       "components": [
         { "component": "graphic_2d" },
-        { "component": "graphics_effect" },
         { "component": "graphic_surface" },
         { "component": "graphic_3d" }
       ]
