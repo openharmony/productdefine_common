@@ -791,6 +791,10 @@
         {
           "component": "user_certificate_manager",
           "features": []
+        },
+        {
+          "component": "auth_widget",
+          "features": []
         }
       ]
     },
