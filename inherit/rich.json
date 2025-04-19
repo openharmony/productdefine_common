@@ -982,6 +982,10 @@
         {
           "component": "bounds_checking_function",
           "features": []
+        },
+        {
+          "component": "libusb",
+          "features": []
         }
       ]
     },
