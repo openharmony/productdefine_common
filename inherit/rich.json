@@ -1218,10 +1218,6 @@
           "component": "jerryscript",
           "features": []
         },
-	{
-          "component": "liburing",
-          "features": []
-        },
         {
           "component": "backends",
           "features": []
