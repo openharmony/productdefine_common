@@ -70,10 +70,6 @@
           "features": []
         },
         {
-          "component": "e2fsprogs",
-          "features": []
-        },
-        {
           "component": "pasteboard",
           "features": []
         },
