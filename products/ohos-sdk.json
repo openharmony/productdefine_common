@@ -292,7 +292,8 @@
           "features": [ "qrcodegen_feature_ace_engine_qrcode_able=true" ]
         },
         { "component": "libuv" },
-        { "component": "sqlite" }
+        { "component": "sqlite" },
+        { "component": "libusb" }
       ]
     },
     {
