@@ -293,7 +293,8 @@
         },
         { "component": "libuv" },
         { "component": "protobuf" },
-        { "component": "sqlite" }
+        { "component": "sqlite" },
+        { "component": "libusb" }
       ]
     },
     {
