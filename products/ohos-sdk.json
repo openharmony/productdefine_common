@@ -294,7 +294,8 @@
         { "component": "libuv" },
         { "component": "protobuf" },
         { "component": "sqlite" },
-        { "component": "libusb" }
+        { "component": "libusb" },
+		{ "component": "libwebsockets" }	
       ]
     },
     {
