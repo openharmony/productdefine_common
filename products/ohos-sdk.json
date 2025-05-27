@@ -294,6 +294,7 @@
         { "component": "libuv" },
         { "component": "protobuf" },
         { "component": "sqlite" },
+        { "component": "pcre2" },
         { "component": "libusb" }
       ]
     },
