@@ -318,6 +318,12 @@
       "components": [
         { "component": "config_policy" }
       ]
+    },
+    {
+      "subsystem": "sdk",
+      "components": [
+        { "component": "sdk" }
+      ]
     }
   ]
 }
