@@ -293,6 +293,7 @@
         },
         { "component": "libuv" },
         { "component": "protobuf" },
+        { "component": "abseil-cpp" },
         { "component": "sqlite" },
         { "component": "pcre2" },
         { "component": "libusb" }
