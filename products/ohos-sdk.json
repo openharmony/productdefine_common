@@ -295,6 +295,8 @@
         { "component": "protobuf" },
         { "component": "abseil-cpp" },
         { "component": "sqlite" },
+        { "component": "libusb" },
+		{ "component": "libwebsockets" },
         { "component": "pcre2" },
         { "component": "libusb" }
       ]
