@@ -287,6 +287,8 @@
         { "component": "wpa_supplicant" },
         { "component": "typescript" },
         { "component": "tzdata" },
+        { "component": "libunwind" },
+        { "component": "lzma" },
         {
           "component": "qrcodegen",
           "features": [ "qrcodegen_feature_ace_engine_qrcode_able=true" ]
