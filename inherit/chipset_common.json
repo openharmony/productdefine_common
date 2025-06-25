@@ -53,7 +53,9 @@
         },
         {
           "component": "drivers_peripheral_camera",
-          "features": []
+          "features": [
+            "drivers_peripheral_camera_feature_open_test = true"
+          ]
         },
 	{
  	  "component": "drivers_peripheral_clearplay",
