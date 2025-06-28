@@ -36,7 +36,12 @@
     {
       "subsystem": "arkui",
       "components": [
-        { "component": "ace_engine" },
+        {
+          "component": "ace_engine",
+          "features":[
+            "ace_engine_feature_enable_upgrade_skia = true"
+          ]
+        },
         { "component": "advanced_ui_component" },
         { "component": "napi" }
       ]
@@ -158,7 +163,12 @@
     {
       "subsystem": "graphic",
       "components": [
-        { "component": "graphic_2d" },
+        {
+          "component": "graphic_2d",
+          "features":[
+            "graphic_2d_feature_upgrade_skia = true"
+          ]
+        },
         { "component": "graphics_effect" },
         { "component": "graphic_surface" },
         { "component": "graphic_3d" }
@@ -246,7 +256,12 @@
         { "component": "audio_framework" },
         { "component": "camera_framework" },
         { "component": "drm_framework" },
-        { "component": "image_framework" },
+        {
+          "component": "image_framework",
+          "features":[
+            "image_framework_feature_upgrade_skia = true"
+          ]
+        },
         { "component": "media_library" }
       ]
     },
@@ -300,7 +315,19 @@
         { "component": "libusb" },
 		{ "component": "libwebsockets" },
         { "component": "pcre2" },
-        { "component": "libusb" }
+        { "component": "libusb" },
+        {
+          "component": "skia",
+          "features":[
+            "skia_feature_upgrade = true"
+          ]
+        },
+        {
+          "component": "mesa3d",
+          "features":[
+            "mesa3d_feature_upgrade_skia = true"
+          ]
+        }
       ]
     },
     {
