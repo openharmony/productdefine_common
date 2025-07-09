@@ -327,7 +327,8 @@
           "features":[
             "mesa3d_feature_upgrade_skia = true"
           ]
-        }
+        },
+        { "component": "optimized_routines" }
       ]
     },
     {
