@@ -298,11 +298,9 @@
         { "component": "abseil-cpp" },
         { "component": "sqlite" },
         { "component": "libusb" },
-		    { "component": "libwebsockets" },
+        { "component": "libwebsockets" },
         { "component": "pcre2" },
         { "component": "libusb" },
-        { "component": "optimized_routines" },
-        { "component": "rust_libc" }
       ]
     },
     {
