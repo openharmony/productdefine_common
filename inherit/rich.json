@@ -1364,6 +1364,14 @@
           "features": []
         },
         {
+          "component": "drivers_interface_ethernet",
+          "features": []
+        },
+        {
+          "component": "drivers_peripheral_ethernet",
+          "features": []
+        },
+        {
           "component": "drivers_interface_intelligent_voice",
           "feature": []
         }
