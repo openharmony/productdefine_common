@@ -1053,10 +1053,6 @@
           "features": []
         },
         {
-          "component": "glib",
-          "features": []
-        },
-        {
           "component": "zlib",
           "features": []
         },
@@ -1146,10 +1142,6 @@
         },
         {
           "component": "libexif",
-          "features": []
-        },
-        {
-          "component": "libffi",
           "features": []
         },
         {

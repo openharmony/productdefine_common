@@ -534,10 +534,6 @@
             "features": []
           },
           {
-            "component": "libffi",
-            "features": []
-          },
-          {
             "component": "jsoncpp",
             "features": []
           },
@@ -555,10 +551,6 @@
           },
           {
             "component": "gptfdisk",
-            "features": []
-          },
-          {
-            "component": "glib",
             "features": []
           },
           {
