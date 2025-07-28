@@ -335,6 +335,12 @@
       "components": [
         { "component": "sdk" }
       ]
+    },
+    {
+      "subsystem": "developtools",
+      "components": [
+        { "component": "ace_ets2bundle" }
+      ]
     }
   ]
 }
