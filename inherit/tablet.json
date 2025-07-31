@@ -896,10 +896,6 @@
           "features": []
         },
         {
-          "component": "glib",
-          "features": []
-        },
-        {
           "component": "gptfdisk",
           "features": []
         },
@@ -923,10 +919,7 @@
           "component": "libcoap",
           "features": []
         },
-        {
-          "component": "libffi",
-          "features": []
-        },
+
         {
           "component": "libnl",
           "features": []

@@ -657,13 +657,7 @@
                     "component": "ffmpeg"
                 },
                 {
-                    "component": "glib"
-                },
-                {
                     "component": "libexif"
-                },
-                {
-                    "component": "libffi"
                 },
                 {
                     "component": "libsnd"

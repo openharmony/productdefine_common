@@ -497,16 +497,10 @@
                     "component": "ffmpeg"
                 },
                 {
-                    "component": "glib"
-                },
-                {
                     "component": "image_framework"
                 },
                 {
                     "component": "libexif"
-                },
-                {
-                    "component": "libffi"
                 },
                 {
                     "component": "libsnd"
