@@ -732,7 +732,11 @@
                     "component": "sys_installer"
                 },
 				{
-                    "component": "updater"
+                    "component": "updater",
+                    "features": [
+                        "updater_feature_use_ptable = false",
+                        "updater_feature_use_as_executable = true"
+                    ]
                 },
 				{
                     "component": "update_app"
