@@ -473,7 +473,11 @@
       "components": [
         {
           "component": "updater",
-          "features": []
+          "features": [
+            "updater_feature_use_ptable = false",
+            "updater_feature_updater_gen_executable = true",
+            "updater_feature_sign_on_server = false"
+          ]
         },
         {
           "component": "update_service",
