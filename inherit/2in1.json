@@ -6,7 +6,9 @@
       "components": [
         {
           "component": "sys_installer",
-          "features": []
+          "features": [
+            "sys_installer_feature_ohos_cfg = true"
+          ]
         },
         {
           "component": "update_service",
