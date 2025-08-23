@@ -306,6 +306,7 @@
     {
       "subsystem": "thirdparty",
       "components": [ 
+        { "component": "openhitls" },
         { "component": "wpa_supplicant" },
         { "component": "typescript" },
         { "component": "tzdata" },
