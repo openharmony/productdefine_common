@@ -884,6 +884,10 @@
         {
           "component": "distributed_input",
           "features": []
+        },
+        {
+          "component": "mechbody_controller",
+          "features": []
         }
       ]
     },
