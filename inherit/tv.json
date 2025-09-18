@@ -765,15 +765,6 @@
                     "component": "device_attest"
                 }
             ]
-        },
-        {
-            "subsystem":"game",
-            "components": [
-                {
-                    "component": "game_controller_framework",
-                    "features": []
-                }
-            ]
         }
     ]
 }

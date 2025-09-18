@@ -1435,6 +1435,15 @@
           "features": []
         }
       ]
+    },
+    {
+      "subsystem":"game",
+      "components": [
+        {
+          "component": "game_controller_framework",
+          "features": []
+        }
+      ]
     }
   ]
 }
