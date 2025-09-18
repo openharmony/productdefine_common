@@ -43,7 +43,8 @@
           ]
         },
         { "component": "advanced_ui_component" },
-        { "component": "napi" }
+        { "component": "napi" },
+        {"component":"ace_engine_lite"}
       ]
     },
     {
@@ -87,7 +88,8 @@
       "subsystem": "commonlibrary",
       "components": [
         { "component": "c_utils" },
-        { "component": "ets_utils" }
+        { "component": "ets_utils" },
+        { "component": "utils_lite" }
       ]
     },
     {
@@ -247,7 +249,8 @@
         { "component": "power_manager" },
         { "component": "battery_manager" },
         { "component": "battery_statistics" },
-        { "component": "display_manager" }
+        { "component": "display_manager" },
+        { "component": "powermgr_lite" }
       ]
     },
     {
@@ -300,7 +303,9 @@
       "subsystem": "global",
       "components": [
         { "component": "i18n" },
-        { "component": "resource_management" }
+        { "component": "resource_management" },
+        { "component": "i18n_lite" },
+        { "component": "resource_management_lite" }
       ]
     },
     {
