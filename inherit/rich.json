@@ -986,6 +986,102 @@
         {
           "component": "bounds_checking_function",
           "features": []
+        },
+        {
+          "component": "egl",
+          "features": []
+        },
+        {
+          "component": "FreeBSD",
+          "features": []
+        },
+        {
+          "component": "fsverity-utils",
+          "features": []
+        },
+        {
+          "component": "gptfdisk",
+          "features": []
+        },
+        {
+          "component": "jsframework",
+          "features": []
+        },
+        {
+          "component": "json",
+          "features": []
+        },
+        {
+          "component": "lame",
+          "features": []
+        },
+        {
+          "component": "libbpf",
+          "features": []
+        },
+        {
+          "component": "libcoap",
+          "features": []
+        },
+        {
+          "component": "libevdev",
+          "features": []
+        },
+        {
+          "component": "libfuse",
+          "features": []
+        },
+        {
+          "component": "lz4",
+          "features": []
+        },
+        {
+          "component": "mksh",
+          "features": []
+        },
+        {
+          "component": "nghttp2",
+          "features": []
+        },
+        {
+          "component": "node",
+          "features": []
+        },
+        {
+          "component": "opencl-headers",
+          "features": []
+        },
+        {
+          "component": "opengles",
+          "features": []
+        },
+        {
+          "component": "openmax",
+          "features": []
+        },
+        {
+          "component": "opensles",
+          "features": []
+        },
+        {
+          "component": "re2",
+          "features": []
+        },
+        {
+          "component": "rust_cxx",
+          "features": []
+        },
+        {
+          "component": "rust_rust-openssl",
+          "features": []
+        },
+        {
+          "component": "toybox",
+          "features": []
+        },
+        {
+          "component": "vixl",
+          "features": []
         }
       ]
     },
