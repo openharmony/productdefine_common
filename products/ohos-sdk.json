@@ -44,7 +44,8 @@
         },
         { "component": "advanced_ui_component" },
         { "component": "napi" },
-        {"component":"ace_engine_lite"}
+        { "component": "ace_engine_lite" },
+        { "component": "ui_lite" }
       ]
     },
     {
