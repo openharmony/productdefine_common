@@ -1319,6 +1319,10 @@
           "features": []
         },
         {
+          "component": "sane-airscan",
+          "features": []
+        },
+        {
           "component": "openhitls",
           "features": []
         },
