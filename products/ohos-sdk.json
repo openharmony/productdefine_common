@@ -30,7 +30,8 @@
         { "component": "runtime_core" },
         { "component": "ets_runtime" },
         { "component": "ets_frontend" },
-        { "component": "toolchain" }
+        { "component": "toolchain" },
+        { "component": "cangjie_ark_interop" }
       ]
     },
     {
@@ -45,7 +46,8 @@
         { "component": "advanced_ui_component" },
         { "component": "napi" },
         { "component": "ace_engine_lite" },
-        { "component": "ui_lite" }
+        { "component": "ui_lite" },
+        { "component": "arkui_cangjie_wrapper" }
       ]
     },
     {
@@ -138,7 +140,8 @@
         { "component": "hiview" },
         { "component": "faultloggerd" },
         { "component": "hitrace" },
-        { "component": "hicollie" }
+        { "component": "hicollie" },
+        { "component": "hiviewdfx_cangjie_wrapper" }
       ]
     },
     {
@@ -267,6 +270,7 @@
         { "component": "audio_framework" },
         { "component": "camera_framework" },
         { "component": "drm_framework" },
+        { "component": "multimedia_cangjie_wrapper" },
         {
           "component": "image_framework",
           "features":[
@@ -288,6 +292,12 @@
       ]
     },
     {
+      "subsystem": "web",
+      "components": [ 
+        { "component": "arkweb_cangjie_wrapper" }
+      ]
+    },
+    {
       "subsystem": "telephony",
       "components": [
         { "component": "core_service" },
@@ -306,7 +316,8 @@
         { "component": "i18n" },
         { "component": "resource_management" },
         { "component": "i18n_lite" },
-        { "component": "resource_management_lite" }
+        { "component": "resource_management_lite" },
+        { "component": "global_cangjie_wrapper" }
       ]
     },
     {
