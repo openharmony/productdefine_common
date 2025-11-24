@@ -14,14 +14,48 @@
         { "component": "idl_tool" },
         { "component": "form_fwk" },
         { "component": "ability_base" },
-        { "component": "dmsfwk" }
+        { "component": "dmsfwk" },
+        { "component": "ability_cangjie_wrapper" }
+      ]
+    },
+    {
+      "subsystem": "accesscontrol",
+      "components": [
+        {
+          "component": "accesscontrol_cangjie_wrapper"
+        }
+      ]
+    },
+    {
+      "subsystem": "location",
+      "components": [
+        {
+          "component": "location_cangjie_wrapper"
+        }
+      ]
+    },
+    {
+      "subsystem": "testfwk",
+      "components": [
+        {
+          "component": "testfwk_cangjie_wrapper"
+        }
+      ]
+    },
+    {
+      "subsystem": "request",
+      "components": [
+        {
+          "component": "request_cangjie_wrapper"
+        }
       ]
     },
     {
       "subsystem": "applications",
       "components": [ 
         { "component": "prebuilt_hap" },
-        { "component": "calendar_data" }
+        { "component": "calendar_data" },
+        { "component": "applications_cangjie_wrapper" }
       ]
     },
     {
@@ -64,7 +98,8 @@
       "components": [
         { "component": "bundle_framework" },
         { "component": "bundle_tool" },
-        { "component": "distributed_bundle_framework" }
+        { "component": "distributed_bundle_framework" },
+        { "component": "bundlemanager_cangjie_wrapper" }
       ]
     },
     {
@@ -84,7 +119,10 @@
         { "component": "dsoftbus" },
         { "component": "wifi" },
         { "component": "dhcp" },
-        { "component": "bluetooth_native_js" }
+        { "component": "bluetooth_native_js" },
+        { "component": "communication_cangjie_wrapper" },
+        { "component": "connectivity_cangjie_wrapper" },
+        { "component": "netmanager_cangjie_wrapper" }
       ]
     },
     {
@@ -104,7 +142,8 @@
         { "component": "datamgr_service" },
         { "component": "kv_store" },
         { "component": "e2fsprogs" },
-        { "component": "udmf" }
+        { "component": "udmf" },
+        { "component": "distributeddatamgr_cangjie_wrapper" }
       ]
     },
     {
@@ -126,7 +165,8 @@
       "subsystem": "filemanagement",
       "components": [
         { "component": "storage_service" },
-        { "component": "file_api" }
+        { "component": "file_api" },
+        { "component": "filemanagement_cangjie_wrapper" }
       ]
     },
     {
@@ -149,7 +189,8 @@
       "components": [
         { "component": "common_event_service" },
         { "component": "distributed_notification_service" },
-        { "component": "eventhandler" }
+        { "component": "eventhandler" },
+        { "component": "notification_cangjie_wrapper" }
       ]
     },
     {
@@ -184,13 +225,15 @@
         },
         { "component": "graphics_effect" },
         { "component": "graphic_surface" },
-        { "component": "graphic_3d" }
+        { "component": "graphic_3d" },
+        { "component": "graphic_cangjie_wrapper" }
       ]
     },
     {
       "subsystem": "window",
       "components": [
-        { "component": "window_manager" }
+        { "component": "window_manager" },
+        { "component": "window_cangjie_wrapper" }
       ]
     },
     {
@@ -198,7 +241,8 @@
       "components": [
         { "component": "startup_l2" },
         { "component": "appspawn" },
-        { "component": "init" }
+        { "component": "init" },
+        { "component": "startup_cangjie_wrapper" }
       ]
     },
     {
@@ -221,14 +265,16 @@
         { "component": "dataclassification" },
         { "component": "device_security_level" },
         { "component": "code_signature"},
-        { "component": "selinux_adapter"}
+        { "component": "selinux_adapter"},
+        { "component": "security_cangjie_wrapper"}
       ]
     },
     {
       "subsystem": "sensors",
       "components": [
         { "component": "sensor" },
-        { "component": "miscdevice" }
+        { "component": "miscdevice" },
+        { "component": "sensors_cangjie_wrapper" }
       ]
     },
     {
@@ -238,7 +284,8 @@
     {
       "subsystem": "time",
       "components": [
-        { "component": "time_service" }
+        { "component": "time_service" },
+        { "component": "time_cangjie_wrapper" }
       ]
     },
     {
@@ -254,7 +301,8 @@
         { "component": "battery_manager" },
         { "component": "battery_statistics" },
         { "component": "display_manager" },
-        { "component": "powermgr_lite" }
+        { "component": "powermgr_lite" },
+        { "component": "powermgr_cangjie_wrapper" }
       ]
     },
     {
@@ -307,7 +355,8 @@
         { "component": "cellular_call" },
         { "component": "cellular_data" },
         { "component": "sms_mms" },
-        { "component": "call_manager" }
+        { "component": "call_manager" },
+        { "component": "telephony_cangjie_wrapper" }
       ]
     },
     {
