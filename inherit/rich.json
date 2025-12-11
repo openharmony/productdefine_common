@@ -1068,6 +1068,10 @@
           "features": []
         },
         {
+          "component": "rust_bindgen",
+          "features": []
+        },
+        {
           "component": "rust_cxx",
           "features": []
         },
