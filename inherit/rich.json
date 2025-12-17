@@ -465,6 +465,10 @@
         {
           "component": "safwk",
           "features": []
+        },
+        {
+          "component": "selectionfwk",
+          "features": []
         }
       ]
     },
