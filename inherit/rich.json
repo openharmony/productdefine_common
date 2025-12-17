@@ -1444,8 +1444,8 @@
         {
           "component": "drivers_interface_display",
           "features": [
-            "drivers_interface_display_community = false",
-            "drivers_interface_display_vdi_default = false"
+            "drivers_interface_display_community = true",
+            "drivers_interface_display_vdi_default = true"
           ]
         },
         {
