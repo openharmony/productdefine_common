@@ -1123,6 +1123,10 @@
           "features": []
         },
         {
+          "component": "libtiff",
+          "features": []
+        },
+        {
           "component": "jsoncpp",
           "features": []
         },
