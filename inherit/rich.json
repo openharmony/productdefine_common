@@ -575,6 +575,10 @@
         {
           "component": "fingerprint_auth",
           "features": []
+        },
+        {
+          "component": "companion_device_auth",
+          "features": []
         }
       ]
     },
