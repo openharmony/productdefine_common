@@ -368,6 +368,14 @@
           "features": []
         },
         {
+          "component": "t2stack",
+          "features": [
+            "t2stack_feature_vtp = true",
+            "t2stack_feature_coap = true",
+            "t2stack_feature_dfile = true"
+          ]
+        },
+        {
           "component": "dsoftbus",
           "features": [
             "dsoftbus_feature_coap = true",
