@@ -519,6 +519,9 @@
                 },
                 {
                     "component": "pulseaudio"
+                },
+                {
+                    "component": "sonic"
                 }
             ]
         },
