@@ -322,6 +322,14 @@
         {
           "component": "dsoftbus",
           "features": [
+            "t2stack_feature_vtp = true",
+            "t2stack_feature_coap = true",
+            "t2stack_feature_dfile = true"
+          ]
+        },
+        {
+          "component": "dsoftbus",
+          "features": [
             "dsoftbus_feature_conn_pv1 = true",
             "dsoftbus_feature_coap = true",
             "dsoftbus_feature_vtp = true",
