@@ -27,7 +27,9 @@
       "components": [
         {
           "component": "os_account",
-          "features": [ "os_account_multiple_active_accounts=false" ]
+          "features": [
+            "os_account_multiple_active_accounts=false"
+          ]
         }
       ]
     },
@@ -160,7 +162,7 @@
           "component": "dlp_permission_service",
           "features": []
         },
-	      {
+        {
           "component": "security_component_manager",
           "features": []
         },
@@ -518,10 +520,10 @@
           "component": "syscap_codec",
           "features": []
         },
-	{
-	  "component": "packing_tool",
-	  "features": []
-	}
+        {
+          "component": "packing_tool",
+          "features": []
+        }
       ]
     },
     {
@@ -678,6 +680,10 @@
         },
         {
           "component": "ringtone_library",
+          "features": []
+        },
+        {
+          "component": "midi_framework",
           "features": []
         }
       ]
@@ -957,8 +963,8 @@
         {
           "component": "memmgr",
           "features": [
-              "memmgr_purgeable_memory = true",
-              "memmgr_hyperhold_memory = true"
+            "memmgr_purgeable_memory = true",
+            "memmgr_hyperhold_memory = true"
           ]
         },
         {
@@ -1330,7 +1336,7 @@
           "component": "jerryscript",
           "features": []
         },
-	{
+        {
           "component": "liburing",
           "features": []
         },
@@ -1365,7 +1371,7 @@
           "component": "hdf_core",
           "features": []
         },
-	{
+        {
           "component": "external_device_manager",
           "features": []
         },
@@ -1425,10 +1431,10 @@
           "component": "drivers_interface_fingerprint_auth",
           "features": []
         },
-	{
+        {
           "component": "drivers_interface_huks",
-	  "feature":[]
-	},
+          "feature": []
+        },
         {
           "component": "drivers_interface_input",
           "features": []
@@ -1499,6 +1505,14 @@
         {
           "component": "drivers_interface_intelligent_voice",
           "feature": []
+        },
+        {
+          "component": "drivers_interface_midi",
+          "features": []
+        },
+        {
+          "component": "drivers_peripheral_midi",
+          "features": []
         }
       ]
     },
@@ -1542,7 +1556,7 @@
       ]
     },
     {
-      "subsystem":"accesscontrol",
+      "subsystem": "accesscontrol",
       "components": [
         {
           "component": "sandbox_manager",
@@ -1560,7 +1574,7 @@
       ]
     },
     {
-      "subsystem":"game",
+      "subsystem": "game",
       "components": [
         {
           "component": "game_controller_framework",
