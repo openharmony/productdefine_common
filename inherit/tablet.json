@@ -395,6 +395,7 @@
             "dsoftbus_feature_trans_udp = true",
             "dsoftbus_feature_trans_proxy_file = true",
             "dsoftbus_feature_trans_qos = true",
+            "dsoftbus_feature_trans_br_proxy = true",
             "dsoftbus_feature_conn_pv1 = true",
             "dsoftbus_feature_conn_ble = true",
             "dsoftbus_feature_conn_tcp_proxy = true",
