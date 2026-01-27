@@ -65,7 +65,8 @@
         { "component": "ets_runtime" },
         { "component": "ets_frontend" },
         { "component": "toolchain" },
-        { "component": "cangjie_ark_interop" }
+        { "component": "cangjie_ark_interop" },
+        { "component": "taihe_ffi_gen" }
       ]
     },
     {
