@@ -1109,6 +1109,10 @@
         {
           "component": "vixl",
           "features": []
+        },
+        {
+          "component": "meshoptimizer",
+          "features": []
         }
       ]
     },
