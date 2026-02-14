@@ -1370,6 +1370,14 @@
         {
           "component": "optimized_routines",
           "features": []
+        },
+        {
+          "component": "libvpx",
+          "features": []
+        },
+        {
+          "component": "dav1d",
+          "features": []
         }
       ]
     },
