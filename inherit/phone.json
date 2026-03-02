@@ -355,6 +355,12 @@
             "dsoftbus_feature_lnn_lane_qos = true",
             "dsoftbus_feature_lnn_frame = true"
           ]
+        },
+        {
+          "component": "fusion_connectivity",
+          "features": [
+            "fusion_connectivity_partner_agent_feature = true"
+          ]
         }
       ]
     },

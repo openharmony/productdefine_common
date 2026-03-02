@@ -95,6 +95,12 @@
             "wifi_feature_non_hdf_driver = true",
             "wifi_feature_p2p_random_mac_addr = false"
           ]
+        },
+        {
+          "component": "fusion_connectivity",
+          "features": [
+            "fusion_connectivity_partner_agent_feature = true"
+          ]
         }
       ]
     },
