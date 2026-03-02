@@ -417,6 +417,12 @@
         {
           "component": "bluetooth_native_js",
           "features": []
+        },
+        {
+          "component": "fusion_connectivity",
+          "features": [
+            "fusion_connectivity_partner_agent_feature = true"
+          ]
         }
       ]
     },
