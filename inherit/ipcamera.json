@@ -470,6 +470,10 @@
             "features": []
           },
           {
+            "component": "sonic",
+            "features": []
+          },
+          {
             "component": "popt",
             "features": []
           },

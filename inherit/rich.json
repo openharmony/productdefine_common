@@ -1320,6 +1320,10 @@
           "features": []
         },
         {
+          "component": "sonic",
+          "features": []
+        },
+        {
           "component": "selinux",
           "features": []
         },

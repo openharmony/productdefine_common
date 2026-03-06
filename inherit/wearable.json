@@ -672,6 +672,9 @@
                     "component": "pulseaudio"
                 },
                 {
+                    "component": "sonic"
+                },
+                {
                     "component": "ringtone_library"
                 }
             ]
