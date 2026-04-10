@@ -239,6 +239,10 @@
         {
           "component": "hicollie",
           "features": []
+        },
+        {
+          "component": "api_metrics",
+          "features": []
         }
       ]
     },
