@@ -103,6 +103,10 @@
         {
           "component": "app_file_service",
           "features": []
+        },
+        {
+          "component": "disk_manager",
+          "features": []
         }
       ]
     },
