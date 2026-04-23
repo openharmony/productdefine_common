@@ -1168,6 +1168,10 @@
           "features": []
         },
         {
+          "component": "xmp_toolkit_sdk",
+          "features": []
+        },
+        {
           "component": "jsoncpp",
           "features": []
         },
