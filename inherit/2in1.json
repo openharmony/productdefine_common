@@ -134,7 +134,9 @@
         },
         {
           "component": "access_token",
-          "features": []
+          "features": [
+            "access_token_enhance_capability = false"
+          ]
         },
         {
           "component": "device_security_level",
