@@ -757,7 +757,12 @@
         "subsystem": "security",
         "components": [
           { "component": "device_auth" },
-          { "component": "access_token" },
+          {
+            "component": "access_token",
+            "features": [
+              "access_token_enhance_capability = false"
+            ]
+          },
           { "component": "huks" },
           {
             "component": "certificate_framework",
