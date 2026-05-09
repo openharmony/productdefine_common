@@ -395,6 +395,7 @@
 		    { "component": "libwebsockets" },
         { "component": "pcre2" },
         { "component": "libusb" },
+        { "component": "expat" },
         {
           "component": "skia",
           "features":[
