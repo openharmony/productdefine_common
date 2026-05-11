@@ -65,7 +65,9 @@
         { "component": "ets_runtime" },
         { "component": "ets_frontend" },
         { "component": "toolchain" },
-        { "component": "cangjie_ark_interop" }
+        { "component": "cangjie_ark_interop" },
+        { "component": "ace_js2bundle" },
+        { "component": "taihe_ffi_gen" }
       ]
     },
     {
@@ -376,7 +378,9 @@
     },
     {
       "subsystem": "thirdparty",
-      "components": [ 
+      "components": [
+        { "component": "parse5" },
+        { "component": "weex-loader" },
         { "component": "openhitls" },
         { "component": "wpa_supplicant" },
         { "component": "typescript" },
@@ -447,7 +451,8 @@
     {
       "subsystem": "developtools",
       "components": [
-        { "component": "ace_ets2bundle" }
+        { "component": "ace_ets2bundle" },
+        { "component": "packing_tool" }
       ]
     },
     {

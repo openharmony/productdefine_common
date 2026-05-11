@@ -950,6 +950,14 @@
         {
           "component": "toolchain",
           "features": []
+        },
+        {
+          "component": "ace_js2bundle",
+          "features": []
+        },
+        {
+          "component": "taihe_ffi_gen",
+          "features": []
         }
       ]
     },
@@ -1128,6 +1136,14 @@
         },
         {
           "component": "meshoptimizer",
+          "features": []
+        },
+        {
+          "component": "parse5",
+          "features": []
+        },
+        {
+          "component": "weex-loader",
           "features": []
         }
       ]
