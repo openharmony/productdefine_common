@@ -396,6 +396,7 @@
         { "component": "pcre2" },
         { "component": "libusb" },
         { "component": "expat" },
+        { "component": "vma" },
         {
           "component": "skia",
           "features":[
