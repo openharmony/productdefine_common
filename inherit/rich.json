@@ -950,6 +950,10 @@
         {
           "component": "toolchain",
           "features": []
+        },
+        {
+          "component": "taihe_ffi_gen",
+          "features": []
         }
       ]
     },
