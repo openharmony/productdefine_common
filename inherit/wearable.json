@@ -669,13 +669,7 @@
                     "component": "lame"
                 },
                 {
-                    "component": "opencore-amr"
-                },
-                {
                     "component": "opensles"
-                },
-                {
-                    "component": "opus"
                 },
                 {
                     "component": "pulseaudio"
