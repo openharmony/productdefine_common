@@ -513,13 +513,7 @@
                     "component": "media_library"
                 },
                 {
-                    "component": "opencore-amr"
-                },
-                {
                     "component": "opensles"
-                },
-                {
-                    "component": "opus"
                 },
                 {
                     "component": "player_framework"
