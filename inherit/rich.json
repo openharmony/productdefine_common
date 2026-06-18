@@ -1099,6 +1099,10 @@
           "features": []
         },
         {
+          "component": "opencore-amr",
+          "features": []
+        },
+        {
           "component": "opengles",
           "features": []
         },
@@ -1108,6 +1112,10 @@
         },
         {
           "component": "opensles",
+          "features": []
+        },
+        {
+          "component": "opus",
           "features": []
         },
         {
