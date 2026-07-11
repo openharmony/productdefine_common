@@ -19,6 +19,10 @@
         {
           "component": "ui_lite",
           "features": []
+        },
+        {
+          "component": "qrcode_generator",
+          "features": []
         }
       ]
     },
