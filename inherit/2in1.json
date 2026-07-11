@@ -583,6 +583,10 @@
         {
           "component": "napi",
           "features": []
+        },
+        {
+          "component": "qrcode_generator",
+          "features": []
         }
       ]
     },

@@ -73,6 +73,10 @@
         {
           "component": "ui_appearance",
           "features": []
+        },
+        {
+          "component": "qrcode_generator",
+          "features": []
         }
       ]
     },
