@@ -13,6 +13,14 @@
           "features": []
         },
         {
+          "component": "drivers_peripheral_nearlink",
+          "features": []
+        },
+        {
+          "component": "drivers_interface_nearlink",
+          "features": []
+        },
+        {
           "component": "drivers_peripheral_input",
           "features": [
             "drivers_peripheral_input_feature_model = true",
