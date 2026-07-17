@@ -73,10 +73,6 @@
         {
           "component": "ui_appearance",
           "features": []
-        },
-        {
-          "component": "qrcode_generator",
-          "features": []
         }
       ]
     },
@@ -296,6 +292,10 @@
         },
         {
           "component": "ylong_runtime",
+          "features": []
+        },
+        {
+          "component": "qrcode_generator",
           "features": []
         }
       ]
