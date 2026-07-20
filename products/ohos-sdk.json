@@ -132,7 +132,8 @@
       "components": [
         { "component": "c_utils" },
         { "component": "ets_utils" },
-        { "component": "utils_lite" }
+        { "component": "utils_lite" },
+        { "component": "qrcode_generator" }
       ]
     },
     {
@@ -387,7 +388,6 @@
         { "component": "tzdata" },
         { "component": "libunwind" },
         { "component": "lzma" },
-        { "component": "qrcode_generator" },
         {
           "component": "qrcodegen",
           "features": [ "qrcodegen_feature_ace_engine_qrcode_able=true" ]

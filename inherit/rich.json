@@ -19,10 +19,6 @@
         {
           "component": "ui_lite",
           "features": []
-        },
-        {
-          "component": "qrcode_generator",
-          "features": []
         }
       ]
     },
@@ -281,6 +277,10 @@
         },
         {
           "component": "ylong_json",
+          "features": []
+        },
+        {
+          "component": "qrcode_generator",
           "features": []
         }
       ]

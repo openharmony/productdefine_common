@@ -435,6 +435,10 @@
         {
           "component": "ylong_json",
           "features": []
+        },
+        {
+          "component": "qrcode_generator",
+          "features": []
         }
       ]
     },
@@ -582,10 +586,6 @@
         },
         {
           "component": "napi",
-          "features": []
-        },
-        {
-          "component": "qrcode_generator",
           "features": []
         }
       ]
