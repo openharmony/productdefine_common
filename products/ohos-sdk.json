@@ -388,10 +388,6 @@
         { "component": "tzdata" },
         { "component": "libunwind" },
         { "component": "lzma" },
-        {
-          "component": "qrcodegen",
-          "features": [ "qrcodegen_feature_ace_engine_qrcode_able=true" ]
-        },
         { "component": "libuv" },
         { "component": "protobuf" },
         { "component": "abseil-cpp" },
