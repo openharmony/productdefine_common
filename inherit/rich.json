@@ -670,7 +670,9 @@
         },
         {
           "component": "av_codec",
-          "features": []
+          "features": [
+            "av_codec_fcodec_enable_dmabuffer_at_buffermode = false"
+          ]
         },
         {
           "component": "audio_framework",
