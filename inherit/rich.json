@@ -671,7 +671,7 @@
         {
           "component": "av_codec",
           "features": [
-            "av_codec_fcodec_enable_dmabuffer = false"
+            "av_codec_fcodec_enable_dmabuffer_at_buffermode = false"
           ]
         },
         {
